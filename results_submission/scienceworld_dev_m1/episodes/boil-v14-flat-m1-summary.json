@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v1",
+  "task": "boil",
+  "variation": 14,
+  "method": "flat",
+  "duplication": 1,
+  "step_limit": 5,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": -100,
+  "reward": -100,
+  "steps": 2,
+  "charged_tokens": 35562,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": 0.1,
+  "initial_state": {
+    "observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to boil ice cream. For compounds without a boiling point, combusting the substance is also acceptable. First, focus on the substance. Then, take actions that will cause it to change its state of matter.",
+    "score": 0
+  },
+  "terminal": true,
+  "error": null,
+  "runtime_seconds": 13.84090476995334,
+  "trace_file": "results_submission/scienceworld_dev_m1/episodes/boil-v14-flat-m1-trace.jsonl"
+}

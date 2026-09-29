@@ -1,0 +1,15 @@
+{
+  "protocol": "local-qwen-effect-heterogeneity-v1",
+  "source_expansions": [
+    "/home/xhj/JevAttention/results_submission/report/local_qwen_expansion_162_164",
+    "/home/xhj/JevAttention/results_submission/report/local_qwen_expansion_165_167",
+    "/home/xhj/JevAttention/results_submission/report/local_qwen_expansion_170_171_retry",
+    "/home/xhj/JevAttention/results_submission/report/local_qwen_expansion_172_173"
+  ],
+  "rows": 48,
+  "reward_rows": 16,
+  "bootstrap_draws": 20000,
+  "paired_unit": "episode variation",
+  "pooled": false,
+  "interpretation": "effect display only; task-family and expansion strata remain separate"
+}

@@ -1,0 +1,25 @@
+task_type,game_id,method,duplication,success,reward,final_score,steps,unnecessary_actions,charged_tokens,root_confidence_first,root_confidence_last,root_confidence_delta,confidence_steps,errors,trace_file
+1,e96f2b33aa0c,flat,1,0,0.0,0.0,4,1,12832,0.2,0.95,0.75,5,"[{""step"": 4, ""type"": ""ValueError""}]",results_submission/alfworld_interactive_v1/traces/t1-ge96f2b33aa0c-flat-m1.jsonl
+1,e96f2b33aa0c,flat,4,0,0.0,0.0,4,1,18927,0.2,0.95,0.75,5,"[{""step"": 4, ""type"": ""ValueError""}]",results_submission/alfworld_interactive_v1/traces/t1-ge96f2b33aa0c-flat-m4.jsonl
+1,e96f2b33aa0c,provenance_value,1,0,0.0,0.0,8,4,13299,0.2,0.9,0.7,8,[],results_submission/alfworld_interactive_v1/traces/t1-ge96f2b33aa0c-provenance_value-m1.jsonl
+1,e96f2b33aa0c,provenance_value,4,0,0.0,0.0,8,4,13299,0.2,0.9,0.7,8,[],results_submission/alfworld_interactive_v1/traces/t1-ge96f2b33aa0c-provenance_value-m4.jsonl
+2,41ffce5fab56,flat,1,0,0.0,0.0,8,5,26474,0.2,0.5,0.3,8,[],results_submission/alfworld_interactive_v1/traces/t2-g41ffce5fab56-flat-m1.jsonl
+2,41ffce5fab56,flat,4,0,0.0,0.0,8,5,37758,0.2,0.5,0.3,8,[],results_submission/alfworld_interactive_v1/traces/t2-g41ffce5fab56-flat-m4.jsonl
+2,41ffce5fab56,provenance_value,1,0,0.0,0.0,8,2,11646,0.2,0.9,0.7,8,[],results_submission/alfworld_interactive_v1/traces/t2-g41ffce5fab56-provenance_value-m1.jsonl
+2,41ffce5fab56,provenance_value,4,0,0.0,0.0,8,2,11646,0.2,0.9,0.7,8,[],results_submission/alfworld_interactive_v1/traces/t2-g41ffce5fab56-provenance_value-m4.jsonl
+3,4bf4541aaa91,flat,1,0,0.0,0.0,8,0,27252,0.3,0.5,0.2,8,[],results_submission/alfworld_interactive_v1/traces/t3-g4bf4541aaa91-flat-m1.jsonl
+3,4bf4541aaa91,flat,4,0,0.0,0.0,8,0,38656,0.3,1.0,0.7,8,[],results_submission/alfworld_interactive_v1/traces/t3-g4bf4541aaa91-flat-m4.jsonl
+3,4bf4541aaa91,provenance_value,1,0,0.0,0.0,8,0,14201,0.3,1.0,0.7,8,[],results_submission/alfworld_interactive_v1/traces/t3-g4bf4541aaa91-provenance_value-m1.jsonl
+3,4bf4541aaa91,provenance_value,4,0,0.0,0.0,8,0,14201,0.3,1.0,0.7,8,[],results_submission/alfworld_interactive_v1/traces/t3-g4bf4541aaa91-provenance_value-m4.jsonl
+4,1a3e2ee876a8,flat,1,0,0.0,0.0,8,0,32394,0.3,0.5,0.2,8,[],results_submission/alfworld_interactive_v1/traces/t4-g1a3e2ee876a8-flat-m1.jsonl
+4,1a3e2ee876a8,flat,4,0,0.0,0.0,8,0,43887,0.3,1.0,0.7,8,[],results_submission/alfworld_interactive_v1/traces/t4-g1a3e2ee876a8-flat-m4.jsonl
+4,1a3e2ee876a8,provenance_value,1,0,0.0,0.0,8,0,17434,0.3,0.5,0.2,8,[],results_submission/alfworld_interactive_v1/traces/t4-g1a3e2ee876a8-provenance_value-m1.jsonl
+4,1a3e2ee876a8,provenance_value,4,0,0.0,0.0,8,0,17434,0.3,0.5,0.2,8,[],results_submission/alfworld_interactive_v1/traces/t4-g1a3e2ee876a8-provenance_value-m4.jsonl
+5,1fe1f40d92c6,flat,1,0,0.0,0.0,4,1,13952,0.5,0.95,0.44999999999999996,5,"[{""step"": 4, ""type"": ""ValueError""}]",results_submission/alfworld_interactive_v1/traces/t5-g1fe1f40d92c6-flat-m1.jsonl
+5,1fe1f40d92c6,flat,4,0,0.0,0.0,5,2,25056,0.5,1.0,0.5,6,"[{""step"": 5, ""type"": ""ValueError""}]",results_submission/alfworld_interactive_v1/traces/t5-g1fe1f40d92c6-flat-m4.jsonl
+5,1fe1f40d92c6,provenance_value,1,0,0.0,0.0,8,5,15595,0.5,1.0,0.5,8,[],results_submission/alfworld_interactive_v1/traces/t5-g1fe1f40d92c6-provenance_value-m1.jsonl
+5,1fe1f40d92c6,provenance_value,4,0,0.0,0.0,8,5,15595,0.5,1.0,0.5,8,[],results_submission/alfworld_interactive_v1/traces/t5-g1fe1f40d92c6-provenance_value-m4.jsonl
+6,5873882cc901,flat,1,0,0.0,0.0,8,0,24856,0.5,0.5,0.0,8,[],results_submission/alfworld_interactive_v1/traces/t6-g5873882cc901-flat-m1.jsonl
+6,5873882cc901,flat,4,0,0.0,0.0,8,0,35915,0.5,0.5,0.0,8,[],results_submission/alfworld_interactive_v1/traces/t6-g5873882cc901-flat-m4.jsonl
+6,5873882cc901,provenance_value,1,0,0.0,0.0,8,0,12697,0.5,0.5,0.0,8,[],results_submission/alfworld_interactive_v1/traces/t6-g5873882cc901-provenance_value-m1.jsonl
+6,5873882cc901,provenance_value,4,0,0.0,0.0,8,0,12697,0.5,0.5,0.0,8,[],results_submission/alfworld_interactive_v1/traces/t6-g5873882cc901-provenance_value-m4.jsonl

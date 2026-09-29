@@ -1,0 +1,24 @@
+{
+  "protocol": "scienceworld-local-qwen-fair-flat-value-v1",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "valid_rows": 16,
+  "raw_error_rows": 0,
+  "paired_episodes": 4,
+  "task_families": [
+    "find-animal",
+    "find-plant"
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat_value",
+    "provenance_value"
+  ],
+  "step_limit": 8,
+  "gpu_probe": "results_submission/report/local_qwen_gpu_probe.json",
+  "episode_success_claim": false,
+  "flat_value_definition": "same conditional-value estimator with q shifted by (duplication-1)*log(1.5)",
+  "interpretation": "fair algorithmic readout intervention; task-family strata remain separate"
+}

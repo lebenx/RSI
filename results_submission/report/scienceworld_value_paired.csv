@@ -1,0 +1,9 @@
+duplication,metric,n,provenance_minus_flat,ci95_low,ci95_high
+1,success,4,0.25,0.0,0.75
+1,reward,4,6.25,0.0,18.75
+1,final_score,4,6.25,0.0,18.75
+1,steps,4,0.75,-0.5,1.75
+4,success,4,0.0,-0.75,0.75
+4,reward,4,2.0,-12.75,18.75
+4,final_score,4,2.0,-12.75,18.75
+4,steps,4,0.75,-0.5,1.75

@@ -1,0 +1,41 @@
+{
+  "protocol": "local-qwen-full-episode-pilot-v1",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "task": "find-plant",
+  "variations": [
+    152,
+    158,
+    161
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_success"
+  ],
+  "valid_rows": 12,
+  "error_rows": 0,
+  "paired_episodes": 3,
+  "step_limit": 8,
+  "episode_success_claim": false,
+  "planner_claim": false,
+  "calibration_metric": "initial Brier=(initial_success_probability-success)^2",
+  "gpu_probe": {
+    "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+    "inference_device": "cuda:0",
+    "inference_dtype": "torch.float16",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "cuda_version": "13.0",
+    "torch_version": "2.13.0+cu130",
+    "input_tokens": 38,
+    "generated_tokens": 4,
+    "generation_seconds": 1.6226471327245235,
+    "status": "verified"
+  },
+  "interpretation": "small second-model interactive pilot; not pooled with DeepSeek and not a confirmatory success estimate",
+  "cuda_run_policy": "LOCAL_QWEN_DEVICE=cuda for every completed runner invocation; CUDA is required and CPU fallback is disabled",
+  "runner_version": "scienceworld_runner v9 for all included rows"
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+  "specs": [
+    {
+      "task_type": 1,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+      "available_games": 35
+    }
+  ],
+  "task_types": [
+    1
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "data_dir": "external/alfworld_data",
+  "steps": 8
+}

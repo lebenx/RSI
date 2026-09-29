@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v4-fair-provenance-readout",
+  "task": "find-living-thing",
+  "variation": 155,
+  "method": "flat",
+  "duplication": 4,
+  "step_limit": 12,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": -100,
+  "reward": -108,
+  "steps": 1,
+  "charged_tokens": 7016,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": 0.1,
+  "initial_state": {
+    "observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) living thing. First, focus on the thing. Then, move it to the purple box in the kitchen.",
+    "score": 8
+  },
+  "terminal": true,
+  "error": null,
+  "runtime_seconds": 2.714159274008125,
+  "trace_file": "results_submission/scienceworld_v4_living_m4/episodes/find-living-thing-v155-flat-m4-trace.jsonl"
+}

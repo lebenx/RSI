@@ -1,0 +1,71 @@
+{
+  "train_tasks": 3511,
+  "dev_tasks": 723,
+  "test_tasks": 766,
+  "pair_train_rows": 140440,
+  "source_pair_train_rows": 140440,
+  "frozen_threshold": 0.1,
+  "source_frozen_threshold": 0.1,
+  "test_edge_precision": 1.0,
+  "test_edge_recall": 1.0,
+  "test_edge_f1": 1.0,
+  "test_source_edge_precision": 1.0,
+  "test_source_edge_recall": 1.0,
+  "test_source_edge_f1": 1.0,
+  "downstream": {
+    "generated": {
+      "action_correct": 0.4308093994778068,
+      "reward": 0.7562296279373367,
+      "regret": 0.44523983355091384
+    },
+    "learned": {
+      "action_correct": 0.4308093994778068,
+      "reward": 0.7562296279373367,
+      "regret": 0.44523983355091384
+    },
+    "oracle": {
+      "action_correct": 0.4308093994778068,
+      "reward": 0.7562296279373367,
+      "regret": 0.44523983355091384
+    }
+  },
+  "source_downstream": {
+    "learned_source": {
+      "action_correct": 0.4308093994778068,
+      "reward": 0.7562296279373367,
+      "regret": 0.44523983355091384
+    },
+    "oracle_source": {
+      "action_correct": 0.4308093994778068,
+      "reward": 0.7562296279373367,
+      "regret": 0.44523983355091384
+    }
+  },
+  "noisy": {
+    "0.0": {
+      "action_correct": 0.4308093994778068,
+      "reward": 0.7562296279373367,
+      "regret": 0.44523983355091384
+    },
+    "0.05": {
+      "action_correct": 0.4412532637075718,
+      "reward": 0.7492414654046997,
+      "regret": 0.45222799608355096
+    },
+    "0.1": {
+      "action_correct": 0.4464751958224543,
+      "reward": 0.7459703753263707,
+      "regret": 0.4554990861618799
+    },
+    "0.2": {
+      "action_correct": 0.4490861618798956,
+      "reward": 0.7375554144908617,
+      "regret": 0.46391404699738903
+    },
+    "0.4": {
+      "action_correct": 0.4556135770234987,
+      "reward": 0.7463226272845954,
+      "regret": 0.4551468342036553
+    }
+  }
+}

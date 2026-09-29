@@ -1,0 +1,22 @@
+{
+  "protocol": "alfworld-textworld-provenance-v1",
+  "task_type": 4,
+  "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-DiningTable-16/trial_T20190907_201243_698086/game.tw-pddl",
+  "game_id": "1a3e2ee876a8",
+  "method": "flat",
+  "duplication": 1,
+  "step_limit": 8,
+  "success": 0,
+  "reward": 0.0,
+  "final_score": 0.0,
+  "steps": 8,
+  "unnecessary_actions": 0,
+  "charged_tokens": 32394,
+  "root_confidence_first": 0.3,
+  "root_confidence_last": 0.5,
+  "root_confidence_delta": 0.2,
+  "confidence_steps": 8,
+  "errors": [],
+  "trace_file": "results_submission/alfworld_interactive_v1/traces/t4-g1a3e2ee876a8-flat-m1.jsonl",
+  "runtime_seconds": 51.40440146299079
+}

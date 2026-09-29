@@ -1,0 +1,5 @@
+duplication,method,n,errors,success_all,reward_all,valid_n,success_valid,reward_valid
+1,flat,4,0,0.75,73.25,4,0.75,73.25
+1,provenance,4,1,0.5,50.25,3,0.6666666666666666,67.0
+4,flat,4,4,0.0,0.0,0,,
+4,provenance,4,4,0.0,0.0,0,,

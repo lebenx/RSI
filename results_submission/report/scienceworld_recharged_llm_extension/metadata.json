@@ -1,0 +1,30 @@
+{
+  "provider": "DeepSeek",
+  "model": "deepseek-chat",
+  "api_probe_status": 200,
+  "protocol": "sw-llm-v9-public-discovery-fair",
+  "task": "find-plant",
+  "variations": [
+    156,
+    157,
+    158,
+    159,
+    160,
+    161
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance"
+  ],
+  "valid_rows": 24,
+  "error_rows": 0,
+  "new_provenance_episode_rows": 12,
+  "new_api_readout_rows": 12,
+  "request_files_in_reused_and_new_caches": 480,
+  "interpretation": "fresh-key fair LLM-readout extension; separate from success-aware algorithmic extension",
+  "broad_success_claim": false
+}

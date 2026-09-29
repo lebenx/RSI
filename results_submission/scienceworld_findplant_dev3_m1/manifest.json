@@ -1,0 +1,42 @@
+{
+  "output": "results_submission/scienceworld_findplant_dev3_m1",
+  "tasks": [
+    "find-plant"
+  ],
+  "split": "dev",
+  "variations": 1,
+  "steps": 10,
+  "workers": 2,
+  "methods": [
+    "no_imagination",
+    "flat",
+    "provenance"
+  ],
+  "duplication": 1,
+  "simplification": "easy",
+  "variation_ids": "find-plant:161,find-plant:162,find-plant:163",
+  "scienceworld_commit": "e8216d6044e8e39be9fcb185e3b2dfb602584b52",
+  "version": "sw-llm-v2-guided-public-action-shortlist",
+  "episodes": [
+    {
+      "task": "find-plant",
+      "variation": 161,
+      "split": "dev"
+    },
+    {
+      "task": "find-plant",
+      "variation": 162,
+      "split": "dev"
+    },
+    {
+      "task": "find-plant",
+      "variation": 163,
+      "split": "dev"
+    }
+  ],
+  "uses_gold_path": false,
+  "uses_hidden_state": false,
+  "independent_rollout_claim": false,
+  "budget_note": "shared generation budget; flat uses one extra API readout; report native cost",
+  "candidate_policy": "deterministic public task-phase/action shortlist; invalid model action repaired to first unused admissible shortlist entry"
+}

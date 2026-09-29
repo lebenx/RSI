@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v9-public-discovery-fair",
+  "task": "find-plant",
+  "variation": 172,
+  "method": "flat",
+  "duplication": 4,
+  "step_limit": 8,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 8,
+  "reward": 0,
+  "steps": 8,
+  "charged_tokens": 57155,
+  "repeated_no_visible_change": 6,
+  "initial_success_probability": 0.5,
+  "initial_state": {
+    "observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the yellow box in the bedroom.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": null,
+  "runtime_seconds": 17.089107973966748,
+  "trace_file": "results_submission/scienceworld_local_qwen_expansion_172_173_m4/episodes/find-plant-v172-flat-m4-trace.jsonl"
+}

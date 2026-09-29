@@ -1,0 +1,30 @@
+{
+  "output": "results_submission/scienceworld_teleport",
+  "tasks": [
+    "boil"
+  ],
+  "split": "dev",
+  "variations": 1,
+  "steps": 8,
+  "workers": 1,
+  "methods": [
+    "no_imagination",
+    "flat",
+    "provenance"
+  ],
+  "duplication": 1,
+  "simplification": "teleportAction",
+  "scienceworld_commit": "e8216d6044e8e39be9fcb185e3b2dfb602584b52",
+  "version": "sw-llm-v1",
+  "episodes": [
+    {
+      "task": "boil",
+      "variation": 14,
+      "split": "dev"
+    }
+  ],
+  "uses_gold_path": false,
+  "uses_hidden_state": false,
+  "independent_rollout_claim": false,
+  "budget_note": "shared generation budget; flat uses one extra API readout; report native cost"
+}

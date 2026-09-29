@@ -1,0 +1,1 @@
+Prototype only. Rollout values incorrectly depended directly on hidden state, and all samples had one trivial source. This artifact must not be used to prove source recovery, calibration or planning improvement. A corrected generator is required.

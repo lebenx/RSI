@@ -1,0 +1,9 @@
+duplication,metric,n_units,provenance_success_minus_flat,ci95_low,ci95_high,bootstrap_draws
+1,success,6,0.0,0.0,0.0,20000
+1,final_score,6,0.0,0.0,0.0,20000
+1,reward,6,0.0,0.0,0.0,20000
+1,steps,6,0.16666666666666666,0.0,0.5,20000
+4,success,6,0.0,-0.5,0.5,20000
+4,final_score,6,0.0,-12.5,12.5,20000
+4,reward,6,0.0,-12.5,12.5,20000
+4,steps,6,0.6666666666666666,-0.16666666666666666,1.3333333333333333,20000

@@ -1,0 +1,35 @@
+{
+  "protocol": "alfworld-textworld-provenance-v2",
+  "specs": [
+    {
+      "task_type": 1,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-SoapBar-None-Cart-401/trial_T20190907_054906_608944/game.tw-pddl",
+      "available_games": 1
+    },
+    {
+      "task_type": 2,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/game.tw-pddl",
+      "available_games": 1
+    },
+    {
+      "task_type": 3,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Tomato-None-CounterTop-25/trial_T20190909_012550_586494/game.tw-pddl",
+      "available_games": 1
+    }
+  ],
+  "task_types": [
+    1,
+    2,
+    3
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "data_dir": "external/alfworld_data",
+  "steps": 15
+}

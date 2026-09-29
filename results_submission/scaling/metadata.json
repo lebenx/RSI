@@ -1,0 +1,33 @@
+{
+  "methods": [
+    "no_imagination",
+    "flat_rollout",
+    "independent_trajectory",
+    "mean_pooling",
+    "exact_dedup",
+    "semantic_dedup",
+    "source_grouping",
+    "bayesian_mixing",
+    "risk_classifier",
+    "oracle_provenance",
+    "provenance_preserving"
+  ],
+  "conditions": [
+    "pure_duplication",
+    "independent_rollout"
+  ],
+  "budgets": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "train": 332,
+  "test": 78,
+  "rows": 12012,
+  "hidden_labels_used_for": "evaluation_reward_and_audit_only",
+  "flat_note": "stipulated duplicate-count pseudo-likelihood"
+}

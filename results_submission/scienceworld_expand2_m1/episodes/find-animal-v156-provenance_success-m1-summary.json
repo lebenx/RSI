@@ -1,0 +1,30 @@
+{
+  "version": "sw-llm-v8-public-discovery-fair",
+  "task": "find-animal",
+  "variation": 156,
+  "method": "provenance_success",
+  "duplication": 1,
+  "step_limit": 12,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 17,
+  "reward": 9,
+  "steps": 4,
+  "charged_tokens": 14624,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": 0.05,
+  "initial_state": {
+    "observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the red box in the bathroom.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": {
+    "type": "RuntimeError",
+    "message": "API failure 419099aefbb6a843a93a0d8e-candidates: HTTPError"
+  },
+  "runtime_seconds": 20.220897397957742,
+  "trace_file": "results_submission/scienceworld_expand2_m1/episodes/find-animal-v156-provenance_success-m1-trace.jsonl"
+}

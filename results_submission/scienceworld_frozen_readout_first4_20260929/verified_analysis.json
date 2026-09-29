@@ -1,0 +1,31 @@
+{
+  "raw_inputs_verified": true,
+  "requests_verified": 1440,
+  "source_states_verified": 96,
+  "episodes": 24,
+  "candidate_replays_verified": 384,
+  "identical_request_blocks_verified": 288,
+  "total_api_tokens": 5776518,
+  "response_models": {
+    "deepseek-flash": 1440
+  },
+  "first_request_utc": "2026-09-29T01:15:34.468309+00:00",
+  "last_request_utc": "2026-09-29T01:24:43.306664+00:00",
+  "new_api_calls": 0,
+  "analysis_type": "posthoc exploratory audit",
+  "resampling_unit": "task/variation episode",
+  "bootstrap_draws": 20000,
+  "paired_nonbaseline_comparisons": 864,
+  "action_flip_events": 23,
+  "confidence_change_events": 22,
+  "joint_change_events": 0,
+  "harmful_flip_events": 6,
+  "harmful_flips_with_confidence_change": 0,
+  "confidence_mediated_action_claim": false,
+  "episode_success_claim": false,
+  "root_calibration_claim": false,
+  "provenance_superiority_claim": false,
+  "success_objective_posthoc": true,
+  "selection_caveat": "Adaptive expansion after prior null; fixed first-four selection within this collection; no external preregistration.",
+  "cached_dedup_invariance": "Same independent m1_repeat output reused across all budgets."
+}

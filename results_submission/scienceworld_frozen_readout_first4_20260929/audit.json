@@ -1,0 +1,14 @@
+{
+  "planned_api_calls": 1440,
+  "archived_readouts": 1440,
+  "valid_readouts": 1440,
+  "errors": 0,
+  "complete_state_repetition_blocks": 288,
+  "identical_input_request_blocks": 288,
+  "states": 96,
+  "candidate_replays": 384,
+  "all_replays_match_public_state": true,
+  "raw_llm_probabilities_overwritten": false,
+  "episode_success_claim": false,
+  "root_calibration_claim": false
+}

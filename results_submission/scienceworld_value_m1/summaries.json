@@ -1,0 +1,236 @@
+[
+  {
+    "version": "sw-llm-v8-public-discovery-fair",
+    "task": "find-plant",
+    "variation": 152,
+    "method": "flat",
+    "duplication": 1,
+    "step_limit": 6,
+    "simplification": "easy",
+    "success": 1,
+    "final_score": 100,
+    "reward": 92,
+    "steps": 4,
+    "charged_tokens": 27406,
+    "repeated_no_visible_change": 0,
+    "initial_success_probability": 0.9,
+    "initial_state": {
+      "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 7 (containing nothing)\n\ta flower pot 8 (containing nothing)\n\ta flower pot 9 (containing a cherry tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 7 (containing nothing)\n\ta flower pot 8 (containing nothing)\n\ta flower pot 9 (containing a cherry tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the blue box in the kitchen.",
+      "score": 8
+    },
+    "terminal": true,
+    "error": null,
+    "runtime_seconds": 51.184311100281775,
+    "trace_file": "results_submission/scienceworld_value_m1/episodes/find-plant-v152-flat-m1-trace.jsonl"
+  },
+  {
+    "version": "sw-llm-v8-public-discovery-fair",
+    "task": "find-plant",
+    "variation": 152,
+    "method": "provenance_value",
+    "duplication": 1,
+    "step_limit": 6,
+    "simplification": "easy",
+    "success": 1,
+    "final_score": 100,
+    "reward": 92,
+    "steps": 6,
+    "charged_tokens": 29701,
+    "repeated_no_visible_change": 0,
+    "initial_success_probability": 0.834,
+    "initial_state": {
+      "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 7 (containing nothing)\n\ta flower pot 8 (containing nothing)\n\ta flower pot 9 (containing a cherry tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 7 (containing nothing)\n\ta flower pot 8 (containing nothing)\n\ta flower pot 9 (containing a cherry tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the blue box in the kitchen.",
+      "score": 8
+    },
+    "terminal": true,
+    "error": null,
+    "runtime_seconds": 46.693152899388224,
+    "trace_file": "results_submission/scienceworld_value_m1/episodes/find-plant-v152-provenance_value-m1-trace.jsonl"
+  },
+  {
+    "version": "sw-llm-v8-public-discovery-fair",
+    "task": "find-plant",
+    "variation": 158,
+    "method": "flat",
+    "duplication": 1,
+    "step_limit": 6,
+    "simplification": "easy",
+    "success": 0,
+    "final_score": 75,
+    "reward": 67,
+    "steps": 3,
+    "charged_tokens": 18076,
+    "repeated_no_visible_change": 0,
+    "initial_success_probability": 0.9,
+    "initial_state": {
+      "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 4 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 4 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the blue box in the bathroom.",
+      "score": 8
+    },
+    "terminal": false,
+    "error": {
+      "type": "RuntimeError",
+      "message": "API failure 510a38095ebdc240cfde5779-bank: ReadTimeout"
+    },
+    "runtime_seconds": 74.34122243477032,
+    "trace_file": "results_submission/scienceworld_value_m1/episodes/find-plant-v158-flat-m1-trace.jsonl"
+  },
+  {
+    "version": "sw-llm-v8-public-discovery-fair",
+    "task": "find-plant",
+    "variation": 158,
+    "method": "provenance_value",
+    "duplication": 1,
+    "step_limit": 6,
+    "simplification": "easy",
+    "success": 0,
+    "final_score": 75,
+    "reward": 67,
+    "steps": 3,
+    "charged_tokens": 10566,
+    "repeated_no_visible_change": 0,
+    "initial_success_probability": 0.54,
+    "initial_state": {
+      "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 4 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 4 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the blue box in the bathroom.",
+      "score": 8
+    },
+    "terminal": false,
+    "error": {
+      "type": "RuntimeError",
+      "message": "archived request failed: 510a38095ebdc240cfde5779-bank"
+    },
+    "runtime_seconds": 0.29309651302173734,
+    "trace_file": "results_submission/scienceworld_value_m1/episodes/find-plant-v158-provenance_value-m1-trace.jsonl"
+  },
+  {
+    "version": "sw-llm-v8-public-discovery-fair",
+    "task": "find-plant",
+    "variation": 161,
+    "method": "flat",
+    "duplication": 1,
+    "step_limit": 6,
+    "simplification": "easy",
+    "success": 0,
+    "final_score": 8,
+    "reward": 0,
+    "steps": 0,
+    "charged_tokens": 0,
+    "repeated_no_visible_change": 0,
+    "initial_success_probability": null,
+    "initial_state": {
+      "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 9 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 9 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the purple box in the bathroom.",
+      "score": 8
+    },
+    "terminal": false,
+    "error": {
+      "type": "RuntimeError",
+      "message": "API failure 09b4f9793013d87e578c4033-candidates: ReadTimeout"
+    },
+    "runtime_seconds": 15.03955188114196,
+    "trace_file": "results_submission/scienceworld_value_m1/episodes/find-plant-v161-flat-m1-trace.jsonl"
+  },
+  {
+    "version": "sw-llm-v8-public-discovery-fair",
+    "task": "find-plant",
+    "variation": 161,
+    "method": "provenance_value",
+    "duplication": 1,
+    "step_limit": 6,
+    "simplification": "easy",
+    "success": 0,
+    "final_score": 8,
+    "reward": 0,
+    "steps": 0,
+    "charged_tokens": 0,
+    "repeated_no_visible_change": 0,
+    "initial_success_probability": null,
+    "initial_state": {
+      "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 9 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 9 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the purple box in the bathroom.",
+      "score": 8
+    },
+    "terminal": false,
+    "error": {
+      "type": "RuntimeError",
+      "message": "archived request failed: 09b4f9793013d87e578c4033-candidates"
+    },
+    "runtime_seconds": 0.00564192421734333,
+    "trace_file": "results_submission/scienceworld_value_m1/episodes/find-plant-v161-provenance_value-m1-trace.jsonl"
+  },
+  {
+    "version": "sw-llm-v8-public-discovery-fair",
+    "task": "find-plant",
+    "variation": 162,
+    "method": "flat",
+    "duplication": 1,
+    "step_limit": 6,
+    "simplification": "easy",
+    "success": 0,
+    "final_score": 8,
+    "reward": 0,
+    "steps": 0,
+    "charged_tokens": 0,
+    "repeated_no_visible_change": 0,
+    "initial_success_probability": null,
+    "initial_state": {
+      "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the red box in the living room.",
+      "score": 8
+    },
+    "terminal": false,
+    "error": {
+      "type": "RuntimeError",
+      "message": "API failure 90c18d9b247463502cee8848-candidates: ReadTimeout"
+    },
+    "runtime_seconds": 15.031739654019475,
+    "trace_file": "results_submission/scienceworld_value_m1/episodes/find-plant-v162-flat-m1-trace.jsonl"
+  },
+  {
+    "version": "sw-llm-v8-public-discovery-fair",
+    "task": "find-plant",
+    "variation": 162,
+    "method": "provenance_value",
+    "duplication": 1,
+    "step_limit": 6,
+    "simplification": "easy",
+    "success": 0,
+    "final_score": 8,
+    "reward": 0,
+    "steps": 0,
+    "charged_tokens": 0,
+    "repeated_no_visible_change": 0,
+    "initial_success_probability": null,
+    "initial_state": {
+      "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the red box in the living room.",
+      "score": 8
+    },
+    "terminal": false,
+    "error": {
+      "type": "RuntimeError",
+      "message": "archived request failed: 90c18d9b247463502cee8848-candidates"
+    },
+    "runtime_seconds": 0.005341737065464258,
+    "trace_file": "results_submission/scienceworld_value_m1/episodes/find-plant-v162-provenance_value-m1-trace.jsonl"
+  }
+]

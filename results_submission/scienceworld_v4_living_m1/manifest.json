@@ -1,0 +1,57 @@
+{
+  "output": "results_submission/scienceworld_v4_living_m1",
+  "tasks": [
+    "find-living-thing"
+  ],
+  "split": "dev",
+  "variations": 1,
+  "steps": 12,
+  "workers": 3,
+  "methods": [
+    "no_imagination",
+    "flat",
+    "provenance"
+  ],
+  "duplication": 1,
+  "simplification": "easy",
+  "variation_ids": "find-living-thing:150,find-living-thing:151,find-living-thing:152,find-living-thing:153,find-living-thing:154,find-living-thing:155",
+  "scienceworld_commit": "e8216d6044e8e39be9fcb185e3b2dfb602584b52",
+  "version": "sw-llm-v4-fair-provenance-readout",
+  "episodes": [
+    {
+      "task": "find-living-thing",
+      "variation": 150,
+      "split": "dev"
+    },
+    {
+      "task": "find-living-thing",
+      "variation": 151,
+      "split": "dev"
+    },
+    {
+      "task": "find-living-thing",
+      "variation": 152,
+      "split": "dev"
+    },
+    {
+      "task": "find-living-thing",
+      "variation": 153,
+      "split": "dev"
+    },
+    {
+      "task": "find-living-thing",
+      "variation": 154,
+      "split": "dev"
+    },
+    {
+      "task": "find-living-thing",
+      "variation": 155,
+      "split": "dev"
+    }
+  ],
+  "uses_gold_path": false,
+  "uses_hidden_state": false,
+  "independent_rollout_claim": false,
+  "budget_note": "shared generation budget; flat uses one extra API readout; report native cost",
+  "candidate_policy": "deterministic public task-phase/action shortlist; invalid model action repaired to first unused admissible shortlist entry"
+}

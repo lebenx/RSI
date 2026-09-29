@@ -1,0 +1,30 @@
+{
+  "version": "sw-llm-v8-public-discovery-fair",
+  "task": "find-animal",
+  "variation": 160,
+  "method": "flat",
+  "duplication": 1,
+  "step_limit": 12,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 8,
+  "reward": 0,
+  "steps": 0,
+  "charged_tokens": 0,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": null,
+  "initial_state": {
+    "observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+    "look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the yellow box in the bathroom.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": {
+    "type": "RuntimeError",
+    "message": "API failure cbc40073b7a1e7053e1e0e0f-candidates: HTTPError"
+  },
+  "runtime_seconds": 1.6533574489876628,
+  "trace_file": "results_submission/scienceworld_expand2_m1/episodes/find-animal-v160-flat-m1-trace.jsonl"
+}

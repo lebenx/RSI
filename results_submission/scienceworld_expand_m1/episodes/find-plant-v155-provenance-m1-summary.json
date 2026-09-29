@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v8-public-discovery-fair",
+  "task": "find-plant",
+  "variation": 155,
+  "method": "provenance",
+  "duplication": 1,
+  "step_limit": 12,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 75,
+  "reward": 67,
+  "steps": 12,
+  "charged_tokens": 131623,
+  "repeated_no_visible_change": 6,
+  "initial_success_probability": 0.05,
+  "initial_state": {
+    "observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Pride and Prejudice) titled Pride and Prejudice by Jane Austen, A book (Sherlock Holmes) titled Sherlock Holmes by Arthur Conan Doyle)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the purple box in the kitchen.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": null,
+  "runtime_seconds": 127.23126364685595,
+  "trace_file": "results_submission/scienceworld_expand_m1/episodes/find-plant-v155-provenance-m1-trace.jsonl"
+}

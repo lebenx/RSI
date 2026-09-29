@@ -1,0 +1,32 @@
+{
+  "seeds": 30,
+  "scenarios": 3600,
+  "rows": 630000,
+  "seconds": 80.53182435035706,
+  "api_calls": 0,
+  "protocol": "experiments/protocol.md",
+  "source_mode": "oracle_generation_ids",
+  "methods": [
+    "flat",
+    "trajectory_average",
+    "exact_dedup",
+    "semantic_dedup",
+    "source_average",
+    "belief_mixing",
+    "provenance"
+  ],
+  "conditions": [
+    "pure_duplication",
+    "selective_duplication",
+    "paraphrase_duplication",
+    "independent_rollout",
+    "new_real_evidence"
+  ],
+  "multiplicities": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ]
+}

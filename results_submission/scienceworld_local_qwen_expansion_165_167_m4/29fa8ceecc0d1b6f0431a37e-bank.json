@@ -1,0 +1,94 @@
+{
+  "request": {
+    "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You plan actions in ScienceWorld. You only know supplied observations.\nReturn one JSON object. Never invent observations or assume a task has completed.\nUse executable actions exactly as listed. Follow the task description's required\norder: if it says \"First, focus\", choose a focus action before moving or using\nthe object; after focus, perform the stated move/use action. Do not spend a\nstep on look/inventory/opening an unrelated container when a required progress\naction is available. If the requested object category is not visible, use a\npublic navigation action to inspect a plausible room before trying to focus an\nunseen object. Track history and avoid repeating no-change actions.\nOptimize final task score within the remaining action budget.\nReturn exactly 8 JSON rollout rows, one for every pair in requested_conditions.\nDo not use markdown. Do not add prose or extra fields. Keep imagined_actions as\nan empty list and imagined_outcome as a short string. Copy action_id and\nhypothesis_value exactly from requested_conditions. Fill both numeric fields in\n[0,1] (predicted_final_score may be -1 for failure).\nJSON: {\"rollouts\":[{\"action_id\":0,\"hypothesis_value\":false,\n\"imagined_actions\":[],\"imagined_outcome\":\"short\",\n\"predicted_final_score\":0.1,\"success_probability\":0.2}, ...]}."
+      },
+      {
+        "role": "user",
+        "content": "{\"evidence\": {\"task\": \"Task Description:\\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the yellow box in the living room.\", \"observation\": \"a bed. On the bed is: a mattress. On the mattress is: a white pillow..\", \"look\": \"This room is called the bedroom. In it, you see: \\n\\tthe agent\\n\\ta substance called air\\n\\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\\n\\ta book shelf (containing nothing)\\n\\ta closet. The closet door is closed. \\n\\ta finger painting\\n\\ta table. On the table is: nothing.\\nYou also see:\\n\\tA door to the hallway (that is open)\\n\", \"inventory\": \"In your inventory, you see:\\n\\tan orange\\n\", \"observed_score\": 8, \"admissible_actions\": [\"teleport to greenhouse\", \"look around\", \"look at agent\", \"look at air\", \"look at bed\", \"look at bedroom\", \"look at book shelf\", \"look at closet\", \"look at cloth sittable\", \"look at door to hallway\", \"look at finger painting\", \"look at hallway\", \"look at inventory\", \"look at object\", \"look at orange\", \"look at table\", \"look in bed\", \"look in bedroom\", \"look in book shelf\", \"look in cloth sittable\", \"look in hallway\", \"look in inventory\", \"look in table\"], \"admissible_action_count\": 158, \"history\": [{\"step\": 0, \"evidence_id\": \"e1\", \"action\": \"look at bed\", \"observation\": \"a bed. On the bed is: a mattress. On the mattress is: a white pillow..\", \"reward\": 0, \"score\": 8, \"done\": false, \"moves\": 1, \"unchanged_visible_state\": true, \"repeated_no_visible_change\": false, \"before_look\": \"This room is called the bedroom. In it, you see: \\n\\tthe agent\\n\\ta substance called air\\n\\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\\n\\ta book shelf (containing nothing)\\n\\ta closet. The closet door is closed. \\n\\ta finger painting\\n\\ta table. On the table is: nothing.\\nYou also see:\\n\\tA door to the hallway (that is open)\\n\", \"before_inventory\": \"In your inventory, you see:\\n\\tan orange\\n\"}], \"remaining_actions\": 7}, \"premise\": \"The bed is visible.\", \"actions\": [{\"id\": 0, \"action\": \"look at bed\"}, {\"id\": 1, \"action\": \"teleport to greenhouse\"}, {\"id\": 2, \"action\": \"look around\"}, {\"id\": 3, \"action\": \"look at agent\"}], \"requested_conditions\": [{\"action_id\": 0, \"hypothesis_value\": false}, {\"action_id\": 0, \"hypothesis_value\": true}, {\"action_id\": 1, \"hypothesis_value\": false}, {\"action_id\": 1, \"hypothesis_value\": true}, {\"action_id\": 2, \"hypothesis_value\": false}, {\"action_id\": 2, \"hypothesis_value\": true}, {\"action_id\": 3, \"hypothesis_value\": false}, {\"action_id\": 3, \"hypothesis_value\": true}]}"
+      }
+    ],
+    "max_tokens": 2800
+  },
+  "request_id": "29fa8ceecc0d1b6f0431a37e-bank",
+  "utc": "2026-09-29T07:57:10.784476+00:00",
+  "ok": true,
+  "raw": "```json\n{\n  \"rollouts\": [\n    {\n      \"action_id\": 0,\n      \"hypothesis_value\": false,\n      \"imagined_actions\": [],\n      \"imagined_outcome\": \"short\",\n      \"predicted_final_score\": 0.1,\n      \"success_probability\": 0.2\n    },\n    {\n      \"action_id\": 0,\n      \"hypothesis_value\": true,\n      \"imagined_actions\": [],\n      \"imagined_outcome\": \"short\",\n      \"predicted_final_score\": 0.1,\n      \"success_probability\": 0.2\n    },\n    {\n      \"action_id\": 1,\n      \"hypothesis_value\": false,\n      \"imagined_actions\": [],\n      \"imagined_outcome\": \"short\",\n      \"predicted_final_score\": 0.1,\n      \"success_probability\": 0.2\n    },\n    {\n      \"action_id\": 1,\n      \"hypothesis_value\": true,\n      \"imagined_actions\": [],\n      \"imagined_outcome\": \"short\",\n      \"predicted_final_score\": 0.1,\n      \"success_probability\": 0.2\n    },\n    {\n      \"action_id\": 2,\n      \"hypothesis_value\": false,\n      \"imagined_actions\": [],\n      \"imagined_outcome\": \"short\",\n      \"predicted_final_score\": 0.1,\n      \"success_probability\": 0.2\n    },\n    {\n      \"action_id\": 2,\n      \"hypothesis_value\": true,\n      \"imagined_actions\": [],\n      \"imagined_outcome\": \"short\",\n      \"predicted_final_score\": 0.1,\n      \"success_probability\": 0.2\n    },\n    {\n      \"action_id\": 3,\n      \"hypothesis_value\": false,\n      \"imagined_actions\": [],\n      \"imagined_outcome\": \"short\",\n      \"predicted_final_score\": 0.1,\n      \"success_probability\": 0.2\n    },\n    {\n      \"action_id\": 3,\n      \"hypothesis_value\": true,\n      \"imagined_actions\": [],\n      \"imagined_outcome\": \"short\",\n      \"predicted_final_score\": 0.1,\n      \"success_probability\": 0.2\n    }\n  ]\n}\n```",
+  "parsed": {
+    "rollouts": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2
+      }
+    ]
+  },
+  "response": {
+    "usage": {
+      "total_tokens": 1249
+    }
+  },
+  "elapsed_seconds": 14.891012744046748
+}

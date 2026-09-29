@@ -1,0 +1,24 @@
+{
+  "episodes": 46,
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "tasks": [
+    "find-animal",
+    "find-plant"
+  ],
+  "variations": [
+    150,
+    151,
+    152,
+    153,
+    154,
+    155
+  ],
+  "readout": "algorithmic unique-sample conditional-value mixture"
+}

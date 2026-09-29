@@ -1,0 +1,13 @@
+method,variation,aligned_steps,action_flips,action_flip_rate
+flat,156,8,7,0.875
+flat,157,8,2,0.25
+flat,158,8,2,0.25
+flat,159,8,2,0.25
+flat,160,7,6,0.8571428571428571
+flat,161,8,0,0.0
+provenance_success,156,8,2,0.25
+provenance_success,157,8,7,0.875
+provenance_success,158,8,3,0.375
+provenance_success,159,8,3,0.375
+provenance_success,160,8,7,0.875
+provenance_success,161,8,0,0.0

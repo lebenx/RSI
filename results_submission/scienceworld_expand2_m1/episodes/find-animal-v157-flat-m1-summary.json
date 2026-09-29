@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v8-public-discovery-fair",
+  "task": "find-animal",
+  "variation": 157,
+  "method": "flat",
+  "duplication": 1,
+  "step_limit": 12,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 17,
+  "reward": 9,
+  "steps": 12,
+  "charged_tokens": 107556,
+  "repeated_no_visible_change": 4,
+  "initial_success_probability": 0.4,
+  "initial_state": {
+    "observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the green box in the bathroom.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": null,
+  "runtime_seconds": 102.30517066502944,
+  "trace_file": "results_submission/scienceworld_expand2_m1/episodes/find-animal-v157-flat-m1-trace.jsonl"
+}

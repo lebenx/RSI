@@ -1,0 +1,7 @@
+task,variation,flat_success,provenance_success_success,provenance_success_minus_flat_success,flat_final_score,provenance_success_final_score,provenance_success_minus_flat_final_score,flat_reward,provenance_success_reward,provenance_success_minus_flat_reward,flat_steps,provenance_success_steps,provenance_success_minus_flat_steps
+find-plant,156,1,1,0,100,100,0,92,92,0,5,5,0
+find-plant,157,1,1,0,100,100,0,92,92,0,5,5,0
+find-plant,158,1,1,0,100,100,0,92,92,0,4,4,0
+find-plant,159,1,1,0,100,100,0,92,92,0,5,6,1
+find-plant,160,1,1,0,100,100,0,92,92,0,7,7,0
+find-plant,161,1,1,0,100,100,0,92,92,0,4,4,0

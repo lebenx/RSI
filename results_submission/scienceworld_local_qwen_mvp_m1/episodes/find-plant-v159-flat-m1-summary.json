@@ -1,0 +1,30 @@
+{
+  "version": "sw-llm-v9-public-discovery-fair",
+  "task": "find-plant",
+  "variation": 159,
+  "method": "flat",
+  "duplication": 1,
+  "step_limit": 8,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 8,
+  "reward": 0,
+  "steps": 4,
+  "charged_tokens": 15544,
+  "repeated_no_visible_change": 2,
+  "initial_success_probability": 0.5,
+  "initial_state": {
+    "observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the orange box in the bathroom.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": {
+    "type": "Py4JNetworkError",
+    "message": "An error occurred while trying to connect to the Java server (127.0.0.1:32959)"
+  },
+  "runtime_seconds": 103.95033222204074,
+  "trace_file": "results_submission/scienceworld_local_qwen_mvp_m1/episodes/find-plant-v159-flat-m1-trace.jsonl"
+}

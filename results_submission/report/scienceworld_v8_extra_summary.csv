@@ -1,0 +1,5 @@
+duplication,method,n,success,final_score,reward,regret_proxy,steps,tokens,repeated_no_visible_change,calibration_brier
+1,flat,4,0.25,-50.0,-58.0,150.0,1.75,9237.5,0.0,0.24750000000000003
+1,provenance,4,0.25,-50.0,-58.0,150.0,1.75,9375.0,0.0,0.308125
+4,flat,4,0.25,-50.0,-58.0,150.0,1.75,12366.0,0.0,0.17500000000000004
+4,provenance,4,0.25,-50.0,-58.0,150.0,1.75,9329.5,0.0,0.155625

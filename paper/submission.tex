@@ -1,0 +1,254 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.78in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlist{nosep}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\title{More imagination is not more evidence: provenance-preserving planning under shared premises}
+\author{Anonymous Authors}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+Language-model planners often generate many imagined continuations from one uncertain premise. A flat reader can treat the descendants as independent evidence and become increasingly confident without observing the world. We formalize this failure as shared-premise evidence duplication and separate belief over real premises from conditional value estimation. A provenance-preserving aggregator retains premise/source/sample lineage, normalizes repeated descendants, and mixes conditional values with the unchanged real-evidence belief. On a five-family benchmark with 5,000 generated tasks, flat confidence rises from 0.510 to 1.000 as exact copies increase from 1 to 64; action flips reach 0.564 and reward falls from 0.613 to 0.272. Provenance-preserving aggregation is invariant under copies while independent samples retain their variance-reduction benefit. DeepSeek and Qwen diagnostics show that the mechanism is not a universal default property of language models: effects depend on presentation and prompt. In 27 paired CUDA-Qwen ScienceWorld episodes, provenance-value gives positive reward contrasts in both task-family strata and zero duplication action flips across four fresh held-out expansions; the DeepSeek strata remain mixed. A subsequent bank audit finds that all 56 provenance episode rows follow candidate ID 0, with 751/768 decision rows returning constant conditional scores. The positive Qwen reward contrasts are therefore confounded by the readout and tie-breaking policy; a provenance-specific planning benefit is not established.
+\end{abstract}
+
+\section{1. Introduction}
+
+Imagination is useful for planning because conditional rollouts estimate the value of actions that have not yet been executed. The same mechanism creates a subtle failure mode when many rollouts descend from one uncertain premise. If their shared parent is hidden, a flat reader may count repeated consequences as repeated evidence about the parent. The resulting confidence can change the selected action even though the agent has learned nothing new about the physical world.
+
+We call this shared-premise duplication. The central design principle is simple: descendants can refine conditional values, but only real observations should update belief in the premise. Our contribution is a formal separation of these quantities, a provenance-preserving aggregation rule with a duplication-invariance guarantee, and an auditable benchmark that distinguishes exact copies, paraphrases, independent condition samples, and new observations. The guarantee is objective-agnostic for deterministic score, success, or risk readouts, while it does not guarantee that any one objective is a better planner. We also report negative real-model diagnostics rather than generalizing a stipulated analytical effect.
+
+\section{2. Problem formulation}
+
+Let \texttt{\detokenize{E}} be real environment evidence and \texttt{\detokenize{H}} a latent premise. The planner maintains \texttt{\detokenize{q(h)=P(H=h|E)}} and conditional action values \texttt{\detokenize{Q(a,h)}}. Its action score is \texttt{\detokenize{U(a)=sum_h q(h)Q(a,h)}}. A descendant rollout contains a declared premise branch, action, simulated return, sample ID, and parent IDs. A pure duplicate reuses the sample ID and content; an independent rollout has a fresh random draw and ID. A duplicate is a presentation change, not a sensor observation.
+
+The provenance-preserving estimator groups descendants by shared premise/source/sample lineage, computes within-group conditional means, and assigns group weights once. It then forms the explicit belief mixture. Flat aggregation instead treats repeated descendants as pseudo-likelihood terms. The formal propositions and proof sketches are in \texttt{\detokenize{paper/theory.md}}.
+
+The implementation validates lineage, removes repeated \texttt{\detokenize{sample_id}} records within each \texttt{\detokenize{(action, premise, source)}} partition, computes normalized conditional means, mixes them with the evidence-only belief, and applies a fixed action objective. Hashable lineage keys give linear time and memory in the number of rollout records. Proposition 6 bounds downstream score error from learned provenance recovery and gives a sufficient action-margin condition under which recovered grouping agrees with oracle grouping.
+
+\section{3. SharedPremiseBench}
+
+The benchmark contains 5,000 tasks from hidden-state dependency, permission/tool availability, object-property uncertainty, resource constraint, and planning-failure families. Each task has easy/medium/hard difficulty, a deterministic split, a hidden premise, two counterfactual hypothesis banks, a generated provenance DAG, and complete rollout lineage. Public task files omit hidden state and the graph. The frozen 1--64 scaling bank contains 500 tasks and 64 independent draws per action; the held-out test split has 78 tasks.
+
+We evaluate 11 methods using the same bank and budget: no imagination, flat rollout, independent trajectory, mean pooling, exact deduplication, semantic deduplication, source grouping, Bayesian mixing, a train-fit risk classifier, oracle provenance, and provenance-preserving aggregation. Semantic deduplication uses only planner-visible action, hypothesis value, and rounded predicted value, without hidden premise or source IDs. The no-imagination and oracle variants are disclosed exceptions. The flat mechanism is intentionally stipulated as a pseudo-likelihood diagnostic; it is not a claim that every model implements it.
+
+\section{4. Evaluation protocol and uncertainty}
+
+All controlled comparisons reuse the same frozen rollout bank within a task and vary only the declared information condition. Held-out benchmark intervals use 20,000 task-cluster bootstrap draws; interactive paired intervals resample episode or public-state units. API experiments archive complete request bodies and responses. The minimal DeepSeek experiment has three independent task seeds rather than provider-controlled random seeds because the API does not expose a seed parameter; byte-identical request controls quantify residual provider stochasticity. ScienceWorld disallows gold paths and hidden-state access, and simulator outcomes are used only after action selection. These choices make the estimator and input boundary auditable, while they limit external-validity claims to the stated samples.
+
+\section{4. Results}
+
+Under pure duplication, flat confidence rises from 0.510 at multiplicity 1 to 1.000 at multiplicity 64. Its action flip rate relative to multiplicity 1 reaches 0.564, and reward falls to 0.272. Provenance-preserving confidence, action, and reward remain invariant at 0.510, the baseline action, and 0.613. Independent rollout changes value estimates without changing real-evidence belief. A held-out false-premise case changes flat's action from a +1.041 safe route to a -1.940 short route after two copies, while provenance remains unchanged.
+
+Task-cluster bootstrap over the 78 held-out tasks gives, at duplication 8, flat confidence 0.926 (95\% CI 0.912--0.939), action-flip rate 0.551 (0.436--0.667), and reward 0.311 (-0.049--0.664); provenance confidence is 0.510 (0.462--0.555), with zero flips and reward 0.613 (0.398--0.806). The intervals quantify task heterogeneity around the stipulated estimator; the full curves are in \texttt{\detokenize{results_submission/report/controlled_curves_ci.png}}.
+
+The independent-rollout condition is analyzed separately from duplication. Independent trajectory aggregation has reward 0.825 at budget 1 and 0.778 at budget 64, versus 0.613 for the provenance-preserving duplicate baseline at budget 64. Paired reward advantages remain positive across the budget axis, although the curve is noisy rather than monotone. This supports the value-estimation role of fresh conditional samples without claiming that more imagination always improves action selection.
+
+Using the 64-draw conditional mean as an offline target, conditional-value MSE over 624 held-out action/premise groups falls from 0.052357 at one independent sample to 0.000816 at 64 samples. Pure copies remain at 0.051736 at every presentation budget. This directly verifies the variance-reduction mechanism in Proposition 4 while keeping belief unchanged.
+
+Ablations show the same separation: removing provenance reproduces the confidence saturation; belief separation and sample identity controls remain invariant; attention-only and random grouping have different reward/regret profiles. The generated-ID and learned provenance extractors match the oracle on this lexical toy benchmark, while source-label noise produces measurable downstream degradation. Family/difficulty recovery breakdowns and the noise curve are archived in \texttt{\detokenize{results_submission/report/provenance_edge_breakdown.csv}} and \texttt{\detokenize{results_submission/report/provenance_noise_curve.csv}}. The benchmark's lexical labels make these recovery numbers an upper bound; the current opaque multi-root stress falls to premise F1 0.652 and source F1 0.392 with learned downstream reward 0.005 versus oracle 1.238. Its margin-binned table shows that cross-root merge error, rather than the aggregation rule, is the active downstream bottleneck. The opaque stress now includes a fixed-predictor permutation null. Premise F1 0.652 is indistinguishable from its null 0.652, while source F1 0.392 is only modestly above a null mean 0.354 (95\% interval 0.350--0.358). This is an observability boundary: provenance recovery needs an observable cue or external identifier, and aggregation cannot recover lineage that the input does not contain.
+
+\section{5. Real models and interactive validation}
+
+The archived DeepSeek subset has 12 scenarios and 300 calls with pure-copy, paraphrase, and order conditions. A focused 96-call audit adds front/reverse/interleaved placement and neutral/cautious prompts. Duplication-4 confidence changes range from approximately -0.151 to +0.034 across presentation cells, with action flips up to 0.50. A 96-call Qwen2.5-Coder-3B audit shows neutral prompts staying at confidence 0.9, while a cautious prompt moves duplication-4 confidence to 0.55 on average with action flips up to 1.0. These results reject a universal claim and motivate provenance controls as an interface-level safeguard.
+
+A new minimal DeepSeek fixed-bank audit uses exactly three seeds and duplication 1/2/4/8. Across 60 valid method-budget rows, flat mean \texttt{\detokenize{p_true}} is 0.443/0.443/0.507/0.523 and action-flip rate relative to flat m=1 is 0/0/0.333/0.333. Algorithmic provenance-value keeps its evidence-only belief at 0.481 and its action invariant across multiplicity. Simple deduplication and source grouping are also invariant across budgets, but can select a different action from flat at m=1 because they use a different readout prompt. The 12 flat/trajectory-average request bodies are byte-identical while their API outputs sometimes disagree, exposing residual provider stochasticity at temperature zero. Three-seed intervals are wide; this is a model-specific diagnostic rather than a universal LLM claim. See \texttt{\detokenize{results_submission/deepseek_mvp_20260929/summary.csv}}, \texttt{\detokenize{paired.csv}}, \texttt{\detokenize{bootstrap.csv}}, and \texttt{\detokenize{same_body_control.csv}}.
+
+\begin{quote}
+\textbf{Attribution correction (conditional-bank audit).} The Qwen episode results below are archived descriptive comparisons. Across the main 27-pair table, 751/768 decision rows (396/403 unique snapshots) have constant conditional scores. All 56 provenance episode rows follow candidate ID 0 at every step and match the candidate direct policy. Every main-table bank chooses the same conditional-mixture winner for all premise probabilities. Thus these reward contrasts do not identify a provenance-mediated planning improvement. Template values match the local prompt examples; a causal explanation of this collapse still requires a prompt intervention. See \texttt{\detokenize{results_submission/report/qwen_bank_diagnostic/ANALYSIS.md}}.
+\end{quote}
+
+A compact local-Qwen ScienceWorld serialization retry completed one paired \texttt{\detokenize{find-plant}} episode; both flat and provenance failed (final scores 83 and 75). A three-variation compact grid then produced six valid rows: flat success 0.333 and provenance success 0.000. These small local-model runs are retained as schema/feasibility diagnostics and excluded from planner claims.
+
+A compatible CUDA runtime also completed a four-row short-horizon Qwen ScienceWorld smoke on \texttt{\detokenize{find-plant}} variation 159 at duplication 1/4. The model ran on \texttt{\detokenize{cuda:0}} (RTX 4090, FP16). Both methods reached score 8 with zero reward in the two-step horizon; flat used 6,541/9,419 charged tokens and provenance 6,580/6,580. The horizon is too short for episode-success inference, so this is second-model schema/feasibility evidence only.
+
+A separate CUDA Qwen full-episode pilot completes 12 valid rows on \texttt{\detokenize{find-plant}} variations 152, 158, and 161 with flat and success-objective provenance at duplication 1/4. On the two-variation grid (152, 158), flat success is 0.000/0.500 and provenance-success is 1.000/1.000 at m=1/4; variation 161 succeeds for both methods at both budgets. Paired provenance-success minus flat reward is +16.7 at m=1 and +5.7 at m=4 over the three episodes. Initial Brier is 0.25 for flat and 0.64 for success-objective provenance in this tiny sample. This is a small second-model pilot, kept separate from DeepSeek and explicitly excluded from confirmatory success claims.
+
+The same CUDA Qwen v9 runner was then evaluated on five complete paired plant variations (152--154, 158, 161), yielding 20 valid rows and five episodes. Flat success was 0.200/0.400 at m=1/4, compared with 0.800/0.800 for success-aware provenance; paired reward differences were +41.8 (95\% CI 13.4--72.0) and +35.2 (3.4--68.6). Ten candidate-schema error rows (five repeated method/variation failures at each budget) in the raw 150--155 extension are retained and excluded. This is exploratory second-model evidence with an objective-specific readout, not a broad interactive success claim.
+
+To isolate the core aggregator from that objective choice, a cached-request replay reused byte-identical candidate and conditional-bank requests for five variations (152--154, 158, 161) and made zero new model calls. Algorithmic provenance-value achieved success 0.800/0.800 at m=1/4 versus flat 0.200/0.400; paired reward differences were +41.8 (95\% CI 13.4--72.0) and +35.2 (3.4--68.6). Its actions were identical across duplication, so this is direct second-model invariance evidence with five pairs.
+
+As a separate task-family control, one \texttt{\detokenize{find-animal}} variation (153) was run from fresh CUDA Qwen requests. Flat failed at both budgets (reward 67), while provenance-value succeeded at both (reward 92), a paired +25 reward difference. This one-episode result is external-validity evidence only.
+
+An expanded CUDA Qwen \texttt{\detokenize{find-animal}} request over variations 150--155 yielded 17 valid rows, seven schema failures, and three complete paired variations (150, 153, 155). On those pairs, flat success was 0.000/0.000 versus provenance-value 0.667/0.667 at m=1/4; paired reward differences were +36.3 (95\% CI 9--75) and +19.7 (9--25). Incomplete blocks remain excluded, so this is a second-task-family exploratory control rather than a broad success claim.
+
+The CUDA-Qwen interactive table contains 111 valid method-budget rows across 27 complete plant/animal pairs, including fresh expansions on variations 162--164, 165--167, 170--171, and 172--173. It reports success, reward, unnecessary no-change actions, calibration Brier, steps, and charged tokens by task family; the first fresh expansion has zero errors, the second retains one malformed readout outside paired inference, and later expansions archive their original malformed candidates separately. Provenance actions are duplication-invariant across all fresh expansions. The table is deliberately stratified and is not pooled into a confirmatory success estimate.
+
+The accompanying heterogeneity analysis reports 16 expansion-by-family reward strata with episode-level bootstrap intervals and a non-pooled forest plot. Positive reward contrasts persist in the aggregate Qwen strata, but the interval widths and the zero-success 172--173 stress show why the result is a conditional planning signal rather than a universal success claim.
+
+We then audited the Qwen conditional banks before interpreting those reward contrasts. In the main table, 751/768 decision rows have constant conditional scores, and all 56 provenance episode rows select candidate ID 0, matching the direct policy. A frozen semantic-prompt intervention on 12 states reduces exact template-value copying from 1.000 to 0.000 and constant-bank rate to 0.375 among eight valid banks; four calls fail the JSON contract and no valid state has a premise-dependent winner. Accordingly, Qwen interactive reward differences are retained as descriptive diagnostics and are not claimed as provenance-specific planning improvements.
+
+As an independent held-out boundary check, we ran the same CUDA-Qwen algorithmic flat-value/provenance-value protocol on plant variations 174--176. All 12 method-budget rows and three paired episodes were valid; both methods had zero episode successes, identical rewards and final scores at duplication 1 and 4, and zero aligned action flips. This null expansion is retained as negative evidence: provenance preservation removes duplicate sensitivity, but it cannot create a decision margin when candidate generation and conditional values remain uninformative.
+
+A second held-out find-animal control on variations 177--179 produces the same pattern: 12 valid rows, three complete pairs, zero successes, identical reward/final-score means at m=1/4, and zero aligned action flips. The two task-family nulls make the candidate-generation bottleneck explicit rather than hiding it behind the positive Qwen strata.
+
+A fair algorithmic control on four additional CUDA-Qwen pairs compares duplicate-sensitive \texttt{\detokenize{flat_value}} against \texttt{\detokenize{provenance_value}} with the same candidate bank, conditional-value objective, and tie-breaking. All 16 rows are valid and the paired reward/success contrasts are zero in both task families at m=1 and m=4. This null control is useful: provenance preservation prevents an invalid belief update, but cannot improve planning when the conditional action values do not expose a decision margin.
+
+Finally, a non-pooled cross-model table aligns 104 contrast rows by protocol, task family, objective, and duplication, including 32 public-observation ALFWorld rows alongside DeepSeek and Qwen. DeepSeek provenance-minus-flat reward ranges from -13.83 to +2.83 across its strata, while Qwen provenance-value ranges from 0.00 to +51.80. This heterogeneity is evidence against a universal interactive effect and supports treating provenance preservation as an estimator guarantee with model- and objective-dependent planning consequences.
+
+We also ran a stratified ALFWorld TextWorld public-observation comparison. The validated DeepSeek base strata contain 90 method-budget rows over 15 selected episode instances and all six task types; a cached success-objective provenance ablation adds 12 rows, and a CUDA Qwen stratum adds 12 rows. The new six-episode DeepSeek extension is error-free and keeps provenance action flips at zero, while flat remains sensitive in selected task types. Qwen has zero success in the selected ten-step horizon, with 6/28 versus 0/28 aligned flips. These 114 rows verify the second-environment interface and preserve the model/task heterogeneity boundary; they are exploratory and do not establish broad interactive improvement. Invalid early ALFWorld protocol versions are excluded from the report.
+
+The ScienceWorld runner is pinned to a fixed upstream commit, disables gold paths, passes an observation allowlist and deterministic public action shortlist, and archives requests/traces. The fair v7 protocol gives flat and provenance identical candidate generation, conditional rollout generation, and one LLM readout; provenance sees one row per sample lineage and carries the evidence-only belief unchanged. Across eight official dev variations, no-imagination succeeds on 0.625 of episodes and flat/provenance on 0.5 at both budgets. Flat reward is 69.0 at duplication 1 and 77.375 at duplication 4 in this stochastic API run, with 27/64 paired action flips; provenance stays at reward 77.375 with zero flips. Episode-cluster bootstrap gives the flat step-weighted flip rate a 95\% interval of 0.125--0.688 and provenance 0--0. The difficult animal variations fail for all methods, so the interactive evidence supports action consistency and duplication robustness rather than a broad success-rate gain. Legacy fixed-snapshot rows are retained for auditability, but their trace-derived visible histories were later found to contain the post-action mutable history view and are excluded from causal claims; the clean serialized-input intervention below is authoritative.
+
+To obtain a clean fixed-root readout test, we then selected 12 pre-action public states from serialized original API inputs, froze each candidate set and eight conditional rollout samples, and made 180 valid DeepSeek readouts at duplication 1/2/4/8 plus an independent byte-identical m=1 repeat. On find-plant, flat evidence-only \texttt{\detokenize{p_true}} drifted from 0.483 at m=1 to 0.539/0.550 at m=4/8; on find-animal it stayed at 0.417. The m=4/8 action-flip rates were 0.000/0.000 on plant and animal, while the repeat control had zero confidence and action drift. Provenance-value kept the evidence-only belief unchanged and selected the same action across multiplicities. We replayed all four candidate actions in 48 public-state-matched simulator calls, but report only immediate reward/regret and make no episode-success or root-calibration claim. This is a fixed-bank causal readout diagnostic, not a broad planner improvement result. Artifacts are in \texttt{\detokenize{results_submission/scienceworld_frozen_readout_clean_20260929/}}.
+
+We then ran a larger fixed-bank intervention over the first four public decisions of 96 states (12 archived variations per task family). It completed 1,440 valid DeepSeek readouts and 384 public-state-matched candidate replays. On find-plant, flat confidence drift at duplication 4/8 was 0.008/0.019, with action flips 0.021/0.042 and immediate-reward changes -0.11/-0.17 from m=1; the repeat-control excess flip rate at m=8 was 0.017 (95\% CI -0.007--0.052). Provenance-value and success-aware provenance were invariant across duplication. Success-aware provenance had immediate reward 16.35 versus flat 17.73 at m=1 and 17.62 at m=4. No paired comparison had both a reported probability change and an action change, and all six harmful immediate-reward flips occurred without a reported probability change. Thus this supplies state-level evidence that duplication can alter readouts and actions while failing to establish confidence-mediated action changes or a planning advantage. No episode-success claim is made. The complete artifact is \texttt{\detokenize{results_submission/scienceworld_frozen_readout_first4_20260929/}}.
+
+We preregistered a fixed-grid expansion over find-plant and find-animal variations 150--155 (72 method-budget rows, 66 valid episodes, six retained candidate-interface failures). Flat success changes 0.833 to 0.667 on find-plant and 0.600 to 0.800 on find-animal from duplication 1 to 4; provenance remains 0.833 and 0.600, respectively. Flat aligned-step action flips are 0.410 (95\% CI 0.167--0.637), while provenance flips 0. The larger sample strengthens the duplication-robustness result but still does not establish a broad success-rate gain.
+
+A refreshed DeepSeek run over six public \texttt{\detokenize{find-plant}} variations (150--155) completed 60 valid method-budget rows under the same public-discovery protocol. No-imagination succeeds on all episodes. Flat succeeds at 0.833 and 1.000 with mean rewards 84.8 and 89.0 at duplication 1 and 4; LLM-readout provenance succeeds at 0.833 at both budgets with rewards 84.8 and 76.5. Algorithmic conditional-value and success-aware provenance readouts remain at 0.833 success at both budgets and do not exceed flat reward in this sample. This fresh API result is retained as a negative boundary: provenance controls duplicate sensitivity, but broad interactive planning improvement is not established.
+
+A legacy first-step counterfactual replay over six public states is retained for auditability, but its trace-derived evidence is excluded from clean causal claims after the input-integrity audit found post-action mutable history. A separate recharged common-continuation replay over 12 refreshed states uses serialized original API inputs and is retained as a selected diagnostic; its task-cluster intervals span zero, so it does not establish a broad success-rate estimate. A fresh-key v9 extension then adds six contiguous \texttt{\detokenize{find-plant}} variations with 24 valid rows and no transport failures. Flat and success-aware provenance both achieve success 1.000/0.833 and reward 92.0/87.8 at m=1/4; their paired success and reward contrasts are exactly zero at both budgets, while m=1-to-m=4 action-flip rates are 0.100 and 0.655. This null extension strengthens the claim boundary: provenance enforces duplication invariance, but planning quality still depends on candidate and value quality. Using the same archived candidate and conditional-rollout bank, we then added the LLM provenance readout on those six plant variations for a fair direct comparison. It yields 24 valid rows: at m=1 flat and provenance both have success 1.000 and reward 92.0; at m=4 flat has success/reward 0.833/87.8 and provenance 0.667/83.7. The paired reward difference is -4.17 (95\% CI -16.67--8.33), and action-flip rates are 0.100 and 0.196. This is a negative fair-readout extension, not evidence against the invariance guarantee and not a broad planner claim. The matched fair LLM-readout extension on six additional \texttt{\detokenize{find-animal}} variations also has 24 valid rows. At m=1 flat/provenance rewards are 14.2/17.0 with both success rates zero; at m=4 rewards are 30.8/17.0 with success 0.167/0.000. The paired m=4 reward difference is -13.83 (95\% CI -46.00--4.50), reinforcing that the effect is task- and planner-quality dependent. The same fresh-key extension on six \texttt{\detokenize{find-animal}} variations is a negative external-validity control: flat success is 0.000/0.167 with reward 14.2/30.8, while success-aware provenance is 0.000/0.000 with reward 6.0/17.0. At m=4 the paired provenance-minus-flat reward contrast is -13.8 (95\% CI -36.3 to +1.7), so the method is not presented as universally beneficial.
+
+For auditability, we provide a read-only ledger joining these two fresh protocols: 96 valid episode-method-budget rows over 12 public variations per task family. The primary refreshed stratum compares flat with LLM-readout provenance; the fresh-key stratum compares flat with the algorithmic success-aware readout and is kept separate. At duplication 4, the paired reward contrasts are -12.5 (95\% CI -37.5--0.0) and +1.3 (0.0--4.0) for the refreshed plant and animal families, and 0.0 (-12.5--12.5) and -13.8 (-36.3--1.7) for the fresh-key plant and animal extensions. This consolidated table improves reproducibility without changing the conclusion that broad interactive success improvement is unestablished. The machine-generated interactive main table adds the two fair LLM extensions as a third labeled stratum, producing 32 summary rows and 56 paired contrasts with aligned reward, success, token, confidence, and action-consistency fields. It is the numerical source for the interactive text and leaves incompatible readouts unpooled. Closed-loop root-confidence deltas in this table are trace diagnostics: each step can regenerate the visible state and candidate set, so they are not fixed-root causal estimates.
+
+As a held-out CUDA check, variations 170--171 add four complete paired episodes after one explicit local-only candidate-schema retry. Provenance-value exceeds flat by 46 reward points and 0.5 success in the two find-plant pairs, while both find-animal pairs are tied at -108 reward and zero success. The original malformed completions remain archived, so this result separates interface failure from planning failure and remains exploratory.
+
+For submission assembly, \texttt{\detokenize{paper/tables.md}} regenerates the controlled main table, component ablation endpoint, paired CUDA-Qwen contrasts, fair flat-value control, and three-seed DeepSeek table directly from frozen CSVs. \texttt{\detokenize{paper/figure_manifest.md}} records the corresponding plots and the qualitative counterexample artifact.
+
+As a second task-family control, the same v9 public-action protocol on six \texttt{\detokenize{find-animal}} variations yields six valid rows per method and budget after retrying one transient transport failure. Flat success is 0.500 at both budgets with rewards 59.8 and 47.5; provenance success is also 0.500 with rewards 58.5 and 48.8. This negative external-validity result argues against presenting the interactive effect as a universal planner improvement.
+
+An earlier v8 common-continuation replay over the same 12 initial states is retained as a nonpositive stress case: unique-sample grouped readout success is 0.750, equal to flat duplication 1 and below flat duplication 4 at 0.833, with lower mean reward. This shows that provenance normalization alone cannot fix a weak candidate/value bank.
+
+The algorithmic grouped-value planner is also exactly duplication-invariant on this grid (success 0.667 and reward 71.0 at both budgets), but it is not better than flat: the paired reward difference is 0.00 at m=1 and -4.55 at m=4. We therefore treat provenance preservation as a correctness and calibration property, not a guarantee of planning improvement without a stronger candidate/value model.
+
+An objective ablation that selects the highest conditional success probability retains the same provenance normalization and is duplication-invariant (success 0.750, reward 77.92 at both budgets). On 11 matched valid episodes it improves point-estimate reward over flat by +7.55 at m=1 and +3.00 at m=4, but bootstrap intervals include zero. We report this as exploratory evidence that provenance preservation can support planning when paired with a suitable risk objective.
+
+An attempted contiguous extension over variations 156--161 produced 20 valid cached rows and 10 retained HTTP 402 insufficient-balance failures. The raw summaries and API status are archived, but every failed row is excluded from method and success comparisons; no paper claim depends on this extension.
+
+The four-state \texttt{\detokenize{scienceworld_interactive_counterfactual.csv}} artifact is a legacy trace-derived replay and is excluded from clean causal claims by the serialized-input audit. The clean 12-state fixed-bank intervention is the replacement and reports immediate outcomes only. An additional full-episode exploratory run on those four find-plant variations uses the algorithmic unique-sample conditional-value readout. Flat succeeds on 0.75 of episodes at both duplication 1 and 4; grouped provenance succeeds on 1.00 and 0.75, with mean rewards 92.00 and 87.75 versus flat's 85.75. The paired reward differences are +6.25 (bootstrap 95\% CI 0--18.75) and +2.00 (-12.75--18.75). This is a small single-family result and is kept separate from the primary eight-variation LLM-readout table. One easy find-animal variation serves as a second-family control at duplication 1 and 4: flat and grouped provenance both complete it with reward 92.0 (n=1), so this control is null and does not support a general success claim. Within the same eight episodes, provenance minus flat reward is +8.375 (95\% bootstrap interval 0--25.125) at duplication 1 and 0 at duplication 4, while success remains tied. This is a small reward-level planning signal, not a stable success-rate improvement. An additional four-variation stress run (two plant and two animal tasks) produced identical flat/provenance success and reward at duplication 1 and 4 (success 0.25, reward -58.0); two plant tasks terminated on an invalid first public action. We retain these failures as evidence that candidate generation remains a separate bottleneck. A six-variation \texttt{\detokenize{find-living-thing}} stress set gives success 0.333 for no-imagination and 0.167 for both rollout methods at both budgets; these candidate-generation failures are retained as negative evidence.
+
+A fair ALFWorld algorithmic control was added after repairing a Python 3.14 TextWorld grammar-namespace incompatibility. On three public-observation games, \texttt{\detokenize{flat_value}} and \texttt{\detokenize{provenance_value}} reused the same candidate and conditional banks. At duplication 4, flat reported mean belief drift of 0.218 while provenance remained at 0; success, reward, steps, and unnecessary actions were identical in this batch. This is direct real-environment evidence for duplication-invariant belief handling, but it is a null episode-level planning comparison and does not establish a broad success gain. The paired artifact is \texttt{\detokenize{results_submission/report/alfworld_interactive/paired_algorithmic.csv}}; the compatibility patch is in \texttt{\detokenize{submission/alfworld_interactive_runner.py}}.
+
+\section{6. Limitations and falsification}
+
+The controlled flat curve isolates a specified estimator and therefore cannot establish that arbitrary LLMs count duplicates this way. Legacy fixed-snapshot rows are retained for auditability, but their trace-derived visible histories contain the post-action mutable history view and are excluded from causal claims. The clean serialized-input intervention reports the fixed-bank evidence. The lexical provenance recovery benchmark exposes condition words and source patterns; premise-edge and source-edge F1 are both 1.0 and are intentionally upper-bound diagnostics. In a separate multi-root opaque-text stress, target-specific extractors fall to premise F1 0.652 and source F1 0.392; learned grouping then reaches action correctness 0.257, reward 0.005, and regret 1.233 versus oracle correctness 1.0, reward 1.238, and regret 0, showing that semantic recovery remains an open component. The real-model sample remains exploratory, and ALFWorld now adds a 114-row public-observation comparison plus a separately labeled success-objective ablation rather than a broad planner-improvement claim. The CUDA-Qwen ScienceWorld table has 111 valid rows over 27 complete pairs, but remains task-family narrow despite the refreshed and contiguous extensions. A stronger paper would preregister larger multi-model runs and evaluate more diverse successful tasks. A null real-model effect is compatible with the theory because the theory constrains information and estimator design, not transformer internals.
+
+\section{7. Conclusion}
+
+More imagined continuations are useful when they are independent value samples. They are not additional evidence for a shared premise. Tracking provenance and preserving belief/value separation prevents exact duplication from changing confidence while retaining the computational benefit of independent rollouts. The artifacts establish the mechanism, its observability limit, and a reproducible evaluation protocol; the historical positive Qwen contrasts are confounded by rank-zero selection and do not yet establish a provenance-specific planning benefit.
+\clearpage\section{Selected quantitative evidence}
+The frozen evidence audit reports 70 verified, 3 partial, and 1 not-established requirements. The partial and open items are stated explicitly in the limitations.
+\begin{table}[t]
+\centering
+\scriptsize
+\begin{tabularx}{\linewidth}{Yrrrrr}
+\toprule
+Budget & Method & Root confidence & Reward & Regret & Action flip \\
+\midrule
+1 & bayesian\_mixing & 0.510 [0.464, 0.555] & 0.613 [0.405, 0.806] & 0.606 [0.449, 0.771] & 0.000 [0.000, 0.000] \\
+1 & exact\_dedup & 0.510 [0.464, 0.555] & 0.613 [0.402, 0.806] & 0.606 [0.449, 0.773] & 0.000 [0.000, 0.000] \\
+1 & flat\_rollout & 0.510 [0.464, 0.555] & 0.613 [0.398, 0.806] & 0.606 [0.451, 0.777] & 0.000 [0.000, 0.000] \\
+1 & independent\_trajectory & 0.510 [0.463, 0.554] & 0.778 [0.648, 0.894] & 0.441 [0.352, 0.532] & 0.000 [0.000, 0.000] \\
+1 & mean\_pooling & 0.510 [0.463, 0.556] & 0.778 [0.648, 0.893] & 0.441 [0.350, 0.530] & 0.000 [0.000, 0.000] \\
+1 & no\_imagination & 0.510 [0.464, 0.556] & -0.115 [-0.132, -0.097] & 1.334 [1.195, 1.468] & 0.000 [0.000, 0.000] \\
+1 & oracle\_provenance & 0.510 [0.463, 0.555] & 0.613 [0.399, 0.809] & 0.606 [0.448, 0.773] & 0.000 [0.000, 0.000] \\
+1 & provenance\_preserving & 0.510 [0.463, 0.555] & 0.613 [0.401, 0.808] & 0.606 [0.450, 0.776] & 0.000 [0.000, 0.000] \\
+1 & risk\_classifier & 0.510 [0.463, 0.555] & 0.425 [0.068, 0.760] & 0.794 [0.556, 1.053] & 0.000 [0.000, 0.000] \\
+1 & semantic\_dedup & 0.510 [0.463, 0.556] & 0.613 [0.402, 0.807] & 0.606 [0.450, 0.773] & 0.000 [0.000, 0.000] \\
+1 & source\_grouping & 0.510 [0.463, 0.555] & 0.613 [0.404, 0.807] & 0.606 [0.447, 0.773] & 0.000 [0.000, 0.000] \\
+8 & bayesian\_mixing & 0.510 [0.464, 0.555] & 0.613 [0.400, 0.807] & 0.606 [0.452, 0.772] & 0.000 [0.000, 0.000] \\
+8 & exact\_dedup & 0.510 [0.464, 0.556] & 0.613 [0.402, 0.807] & 0.606 [0.452, 0.771] & 0.000 [0.000, 0.000] \\
+8 & flat\_rollout & 0.926 [0.912, 0.939] & 0.311 [-0.049, 0.664] & 0.908 [0.651, 1.174] & 0.551 [0.436, 0.667] \\
+8 & independent\_trajectory & 0.510 [0.463, 0.556] & 0.778 [0.647, 0.893] & 0.441 [0.352, 0.531] & 0.000 [0.000, 0.000] \\
+8 & mean\_pooling & 0.510 [0.463, 0.555] & 0.778 [0.647, 0.894] & 0.441 [0.351, 0.534] & 0.000 [0.000, 0.000] \\
+8 & no\_imagination & 0.510 [0.463, 0.555] & -0.115 [-0.132, -0.096] & 1.334 [1.195, 1.465] & 0.000 [0.000, 0.000] \\
+8 & oracle\_provenance & 0.510 [0.463, 0.556] & 0.613 [0.400, 0.807] & 0.606 [0.446, 0.771] & 0.000 [0.000, 0.000] \\
+8 & provenance\_preserving & 0.510 [0.462, 0.555] & 0.613 [0.398, 0.806] & 0.606 [0.450, 0.773] & 0.000 [0.000, 0.000] \\
+8 & risk\_classifier & 0.510 [0.463, 0.556] & 0.425 [0.079, 0.759] & 0.794 [0.553, 1.043] & 0.000 [0.000, 0.000] \\
+8 & semantic\_dedup & 0.510 [0.463, 0.556] & 0.613 [0.403, 0.803] & 0.606 [0.453, 0.771] & 0.000 [0.000, 0.000] \\
+8 & source\_grouping & 0.510 [0.464, 0.554] & 0.613 [0.401, 0.805] & 0.606 [0.450, 0.773] & 0.000 [0.000, 0.000] \\
+64 & bayesian\_mixing & 0.510 [0.463, 0.556] & 0.613 [0.403, 0.806] & 0.606 [0.449, 0.774] & 0.000 [0.000, 0.000] \\
+64 & exact\_dedup & 0.510 [0.463, 0.555] & 0.613 [0.402, 0.803] & 0.606 [0.448, 0.771] & 0.000 [0.000, 0.000] \\
+64 & flat\_rollout & 1.000 [1.000, 1.000] & 0.272 [-0.094, 0.627] & 0.947 [0.692, 1.217] & 0.564 [0.449, 0.667] \\
+64 & independent\_trajectory & 0.510 [0.462, 0.556] & 0.778 [0.646, 0.895] & 0.441 [0.350, 0.532] & 0.000 [0.000, 0.000] \\
+64 & mean\_pooling & 0.510 [0.463, 0.556] & 0.778 [0.647, 0.894] & 0.441 [0.350, 0.533] & 0.000 [0.000, 0.000] \\
+64 & no\_imagination & 0.510 [0.463, 0.556] & -0.115 [-0.132, -0.097] & 1.334 [1.197, 1.469] & 0.000 [0.000, 0.000] \\
+64 & oracle\_provenance & 0.510 [0.463, 0.556] & 0.613 [0.402, 0.805] & 0.606 [0.449, 0.772] & 0.000 [0.000, 0.000] \\
+64 & provenance\_preserving & 0.510 [0.463, 0.556] & 0.613 [0.401, 0.807] & 0.606 [0.450, 0.773] & 0.000 [0.000, 0.000] \\
+64 & risk\_classifier & 0.510 [0.464, 0.555] & 0.425 [0.068, 0.758] & 0.794 [0.554, 1.053] & 0.000 [0.000, 0.000] \\
+64 & semantic\_dedup & 0.510 [0.464, 0.556] & 0.613 [0.402, 0.809] & 0.606 [0.448, 0.772] & 0.000 [0.000, 0.000] \\
+64 & source\_grouping & 0.510 [0.463, 0.555] & 0.613 [0.404, 0.807] & 0.606 [0.450, 0.773] & 0.000 [0.000, 0.000] \\
+\bottomrule
+\end{tabularx}
+\caption{Controlled benchmark main table}
+\end{table}
+\begin{table}[t]
+\centering
+\scriptsize
+\begin{tabularx}{\linewidth}{Yrrrrr}
+\toprule
+Method & Root confidence & Wrong-premise confidence & Reward & Regret & Action correct \\
+\midrule
+attention\_only & 0.522 & 0.545 & -0.190 & 1.438 & 0.471 \\
+oracle\_grouping & 0.522 & 0.545 & 0.517 & 0.731 & 0.426 \\
+random\_grouping & 0.522 & 0.545 & 0.525 & 0.723 & 0.439 \\
+remove\_belief\_separation & 0.522 & 0.545 & 0.807 & 0.441 & 0.452 \\
+remove\_provenance & 1.000 & 0.493 & 0.134 & 1.114 & 0.507 \\
+remove\_sample\_identity & 0.522 & 0.545 & 0.517 & 0.731 & 0.426 \\
+simple\_dedup & 0.522 & 0.545 & 0.517 & 0.731 & 0.426 \\
+\bottomrule
+\end{tabularx}
+\caption{Component ablation endpoint}
+\end{table}
+\begin{table}[t]
+\centering
+\scriptsize
+\begin{tabularx}{\linewidth}{Yrrrrrr}
+\toprule
+Method & Duplication & p(true) & Belief drift & Action flip & Reward & Decision regret \\
+\midrule
+flat & 1 & 0.443 & -0.039 & 0.000 & 1.468 & 0.649 \\
+provenance\_value & 1 & 0.481 & 0.000 & 0.333 & 0.477 & 0.000 \\
+source\_grouping & 1 & 0.519 & 0.037 & 0.667 & -0.091 & 0.575 \\
+flat & 2 & 0.443 & -0.039 & 0.000 & 1.468 & 0.649 \\
+provenance\_value & 2 & 0.481 & 0.000 & 0.333 & 0.477 & 0.000 \\
+source\_grouping & 2 & 0.519 & 0.037 & 0.667 & -0.091 & 0.575 \\
+flat & 4 & 0.507 & 0.026 & 0.333 & 0.477 & 0.000 \\
+provenance\_value & 4 & 0.481 & 0.000 & 0.333 & 0.477 & 0.000 \\
+source\_grouping & 4 & 0.519 & 0.037 & 0.667 & -0.091 & 0.575 \\
+flat & 8 & 0.523 & 0.041 & 0.333 & 0.477 & 0.000 \\
+provenance\_value & 8 & 0.481 & 0.000 & 0.333 & 0.477 & 0.000 \\
+source\_grouping & 8 & 0.519 & 0.037 & 0.667 & -0.091 & 0.575 \\
+\bottomrule
+\end{tabularx}
+\caption{DeepSeek three-seed MVP}
+\end{table}
+\clearpage\section{Figures}
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\linewidth]{../results_submission/report/controlled_curves_ci.png}
+\caption{Controlled task-cluster uncertainty: flat duplication changes confidence and actions, while provenance-preserving aggregation is invariant.}
+\end{figure}
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\linewidth]{../results_submission/report/local_qwen_effect_heterogeneity/forest.png}
+\caption{Non-pooled CUDA-Qwen effect heterogeneity across task families and fresh expansions.}
+\end{figure}
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\linewidth]{../results_submission/scienceworld_frozen_readout_first4_20260929/episode_curves.png}
+\caption{Fixed-input ScienceWorld readout intervention, shown by episode cluster.}
+\end{figure}
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.92\linewidth]{../results_submission/report/alfworld_interactive/curve.png}
+\caption{ALFWorld public-observation exploratory comparison; model and task strata are kept separate.}
+\end{figure}
+\clearpage\section{Reproducibility note}
+All numerical artifacts, request manifests, raw traces, figures, and commands are retained under results\_submission/. The reproducibility manifest is results\_submission/reproducibility\_manifest.json. The PDF is a rendering of the current draft and selected generated tables; it does not add experimental claims.
+\end{document}

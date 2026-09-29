@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v4-fair-provenance-readout",
+  "task": "find-living-thing",
+  "variation": 152,
+  "method": "flat",
+  "duplication": 1,
+  "step_limit": 12,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 25,
+  "reward": 17,
+  "steps": 12,
+  "charged_tokens": 122325,
+  "repeated_no_visible_change": 3,
+  "initial_success_probability": 0.45,
+  "initial_state": {
+    "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 5 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 6 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 7 (containing nothing)\n\ta flower pot 9 (containing nothing)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+    "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 5 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 6 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 7 (containing nothing)\n\ta flower pot 9 (containing nothing)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) living thing. First, focus on the thing. Then, move it to the blue box in the kitchen.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": null,
+  "runtime_seconds": 111.26235146122053,
+  "trace_file": "results_submission/scienceworld_v4_living_m1/episodes/find-living-thing-v152-flat-m1-trace.jsonl"
+}

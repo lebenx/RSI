@@ -1,0 +1,32 @@
+{
+  "provider": "DeepSeek",
+  "model": "deepseek-chat",
+  "api_probe_status": 200,
+  "task": "find-plant",
+  "variations": [
+    150,
+    151,
+    152,
+    153,
+    154,
+    155
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "no_imagination",
+    "provenance",
+    "provenance_success",
+    "provenance_value"
+  ],
+  "valid_rows": 60,
+  "errors_excluded": true,
+  "protocol": "sw-llm-v8-public-discovery-fair",
+  "uses_gold_path": false,
+  "uses_hidden_state": false,
+  "bootstrap_draws": 20000,
+  "interpretation": "fresh real-model diagnostic; broad success improvement is not assumed"
+}

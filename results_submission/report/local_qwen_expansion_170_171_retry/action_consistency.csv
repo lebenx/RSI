@@ -1,0 +1,9 @@
+task_family,variation,method,steps_m1,steps_m4,aligned_steps,action_flips,action_flip_rate
+find-animal,170,flat,1,1,1,0,0.0
+find-animal,170,provenance_value,1,1,1,0,0.0
+find-animal,171,flat,1,1,1,0,0.0
+find-animal,171,provenance_value,1,1,1,0,0.0
+find-plant,170,flat,8,8,8,0,0.0
+find-plant,170,provenance_value,8,8,8,0,0.0
+find-plant,171,flat,8,8,8,5,0.625
+find-plant,171,provenance_value,7,7,7,0,0.0

@@ -1,0 +1,26 @@
+{
+  "protocol": "cross-model-interactive-stratified-v3",
+  "models": [
+    "DeepSeek",
+    "Qwen2.5-Coder-3B"
+  ],
+  "pooled": false,
+  "deepseek_rows": 60,
+  "qwen_rows": 44,
+  "alfworld_rows": 32,
+  "rows": 104,
+  "metrics": [
+    "calibration_brier",
+    "charged_tokens",
+    "final_score",
+    "mean_belief_drift",
+    "reward",
+    "root_confidence_delta",
+    "steps",
+    "success",
+    "unnecessary_actions"
+  ],
+  "qwen_source_table": "results_submission/report/local_qwen_interactive_expanded_table_v4/contrasts.csv",
+  "qwen_paired_episodes": 27,
+  "interpretation": "model/protocol/task-family strata are displayed without pooled superiority claim"
+}

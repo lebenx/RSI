@@ -1,0 +1,41 @@
+{
+  "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+  "specs": [
+    {
+      "task_type": 1,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+      "available_games": 35,
+      "selection_index": 0
+    },
+    {
+      "task_type": 2,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/look_at_obj_in_light-AlarmClock-None-DeskLamp-323/trial_T20190909_044715_250790/game.tw-pddl",
+      "available_games": 13,
+      "selection_index": 0
+    },
+    {
+      "task_type": 3,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+      "available_games": 27,
+      "selection_index": 0
+    }
+  ],
+  "task_types": [
+    1,
+    2,
+    3
+  ],
+  "games_per_type": 1,
+  "game_offset": 0,
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat_value",
+    "provenance_value",
+    "no_imagination"
+  ],
+  "data_dir": "external/alfworld_data",
+  "steps": 10
+}

@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v9-public-discovery-fair",
+  "task": "find-animal",
+  "variation": 158,
+  "method": "provenance_success",
+  "duplication": 1,
+  "step_limit": 8,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 8,
+  "reward": 0,
+  "steps": 8,
+  "charged_tokens": 40393,
+  "repeated_no_visible_change": 2,
+  "initial_success_probability": 0.0,
+  "initial_state": {
+    "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 2 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 7 (containing nothing)\n\ta flower pot 8 (containing nothing)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+    "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 2 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 7 (containing nothing)\n\ta flower pot 8 (containing nothing)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the blue box in the bathroom.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": null,
+  "runtime_seconds": 46.57507802918553,
+  "trace_file": "results_submission/scienceworld_recharged_animal_extension_v9_m1_157_161/episodes/find-animal-v158-provenance_success-m1-trace.jsonl"
+}

@@ -1,0 +1,27 @@
+{
+  "protocol": "local-qwen-interactive-expanded-table-v2",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "task_families": [
+    "find-animal",
+    "find-plant"
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "valid_rows": 95,
+  "paired_episodes": 23,
+  "plant_paired_episodes": 12,
+  "animal_paired_episodes": 11,
+  "fresh_expansions": [
+    "results_submission/report/local_qwen_expansion_162_164",
+    "results_submission/report/local_qwen_expansion_165_167",
+    "results_submission/report/local_qwen_expansion_170_171_retry"
+  ],
+  "planner_claim": false,
+  "interpretation": "stratified exploratory CUDA-Qwen table; legacy and fresh paired episodes remain task-family strata"
+}

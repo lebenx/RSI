@@ -1,0 +1,17 @@
+task_type,game_id,duplication,metric,provenance_value_minus_flat
+1,ed061b7a5223,1,success,0.0
+1,ed061b7a5223,1,reward,0.0
+1,ed061b7a5223,1,final_score,0.0
+1,ed061b7a5223,1,steps,-4.0
+1,ed061b7a5223,1,unnecessary_actions,0.0
+1,ed061b7a5223,1,charged_tokens,-21407.0
+1,ed061b7a5223,1,mean_belief_drift,0.39999999999999997
+1,ed061b7a5223,1,calibration_brier,-0.21
+1,ed061b7a5223,4,success,0.0
+1,ed061b7a5223,4,reward,0.0
+1,ed061b7a5223,4,final_score,0.0
+1,ed061b7a5223,4,steps,0.0
+1,ed061b7a5223,4,unnecessary_actions,0.0
+1,ed061b7a5223,4,charged_tokens,-12629.0
+1,ed061b7a5223,4,mean_belief_drift,0.42500000000000004
+1,ed061b7a5223,4,calibration_brier,-0.21

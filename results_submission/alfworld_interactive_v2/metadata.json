@@ -1,0 +1,24 @@
+{
+  "protocol": "alfworld-textworld-provenance-v2",
+  "model": "deepseek-chat",
+  "task_types": [
+    1,
+    2,
+    3
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "episodes": 3,
+  "valid_rows": 12,
+  "api_network_calls": 238,
+  "cache_hits": 212,
+  "uses_hidden_state_in_prompt": false,
+  "uses_gold_plan": false,
+  "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+}

@@ -1,0 +1,13 @@
+task_family,duplication,metric,n_episodes,estimate,ci95_low,ci95_high,bootstrap_draws
+find-animal,1,success,3,0.0,0.0,0.0,20000
+find-animal,4,success,3,0.0,0.0,0.0,20000
+find-animal,1,final_score,3,0.0,0.0,0.0,20000
+find-animal,4,final_score,3,0.0,0.0,0.0,20000
+find-animal,1,reward,3,0.0,0.0,0.0,20000
+find-animal,4,reward,3,0.0,0.0,0.0,20000
+find-animal,1,steps,3,0.0,0.0,0.0,20000
+find-animal,4,steps,3,0.0,0.0,0.0,20000
+find-animal,1,charged_tokens,3,0.0,0.0,0.0,20000
+find-animal,4,charged_tokens,3,0.0,0.0,0.0,20000
+find-animal,1,repeated_no_visible_change,3,0.0,0.0,0.0,20000
+find-animal,4,repeated_no_visible_change,3,0.0,0.0,0.0,20000

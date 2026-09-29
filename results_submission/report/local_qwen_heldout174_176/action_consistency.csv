@@ -1,0 +1,7 @@
+task_family,variation,method,steps_m1,steps_m4,aligned_steps,action_flips,action_flip_rate
+find-plant,174,flat_value,8,8,8,0,0.0
+find-plant,174,provenance_value,8,8,8,0,0.0
+find-plant,175,flat_value,8,8,8,0,0.0
+find-plant,175,provenance_value,8,8,8,0,0.0
+find-plant,176,flat_value,8,8,8,0,0.0
+find-plant,176,provenance_value,8,8,8,0,0.0

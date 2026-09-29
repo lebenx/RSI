@@ -1,0 +1,22 @@
+{
+  "model": "deepseek-chat",
+  "scenarios": 4,
+  "multiplicities": [
+    1,
+    4
+  ],
+  "layouts": [
+    "front",
+    "reverse",
+    "interleave"
+  ],
+  "paraphrase": [
+    false,
+    true
+  ],
+  "prompt_variants": [
+    "neutral",
+    "cautious"
+  ],
+  "no_fallback": true
+}

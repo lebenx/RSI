@@ -1,0 +1,17 @@
+task,duplication,confidence_changed,action_flip,n_comparisons
+find-animal,2,0,0,137
+find-animal,2,0,1,7
+find-animal,4,0,0,141
+find-animal,4,0,1,3
+find-animal,8,0,0,139
+find-animal,8,0,1,3
+find-animal,8,1,0,2
+find-plant,2,0,0,138
+find-plant,2,0,1,1
+find-plant,2,1,0,5
+find-plant,4,0,0,136
+find-plant,4,0,1,3
+find-plant,4,1,0,5
+find-plant,8,0,0,128
+find-plant,8,0,1,6
+find-plant,8,1,0,10

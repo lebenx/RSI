@@ -1,0 +1,26 @@
+{
+  "valid_rows": 46,
+  "methods": [
+    "flat",
+    "provenance_success"
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "matched_rows_per_duplication": 11,
+  "tasks": [
+    "find-animal",
+    "find-plant"
+  ],
+  "variations": [
+    150,
+    151,
+    152,
+    153,
+    154,
+    155
+  ],
+  "selection_rule": "all fixed-grid valid rows; paired contrasts use the method intersection",
+  "objective": "unique-sample conditional success probability"
+}

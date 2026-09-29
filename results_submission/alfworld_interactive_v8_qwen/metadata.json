@@ -1,0 +1,35 @@
+{
+  "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+  "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+  "backend": "cuda_worker",
+  "task_types": [
+    2,
+    6
+  ],
+  "games_per_type": 1,
+  "game_offset": 0,
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "episodes": 2,
+  "valid_rows": 8,
+  "api_network_calls": 0,
+  "api_network_retries": 0,
+  "cache_hits": 121,
+  "inference": {
+    "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+    "device": "cuda:0",
+    "dtype": "torch.float16",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "torch_version": "2.13.0+cu130",
+    "cuda_version": "13.0"
+  },
+  "uses_hidden_state_in_prompt": false,
+  "uses_gold_plan": false,
+  "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+}

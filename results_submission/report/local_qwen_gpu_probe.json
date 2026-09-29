@@ -1,0 +1,13 @@
+{
+  "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+  "inference_device": "cuda:0",
+  "inference_dtype": "torch.float16",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 4090",
+  "cuda_version": "13.0",
+  "torch_version": "2.13.0+cu130",
+  "input_tokens": 38,
+  "generated_tokens": 4,
+  "generation_seconds": 1.6226471327245235,
+  "status": "verified"
+}

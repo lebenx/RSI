@@ -1,0 +1,33 @@
+{
+  "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+  "specs": [
+    {
+      "task_type": 2,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/look_at_obj_in_light-AlarmClock-None-DeskLamp-323/trial_T20190909_044715_250790/game.tw-pddl",
+      "available_games": 13,
+      "selection_index": 0
+    },
+    {
+      "task_type": 6,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_two_obj_and_place-AlarmClock-None-Dresser-305/trial_T20190907_165826_194855/game.tw-pddl",
+      "available_games": 24,
+      "selection_index": 0
+    }
+  ],
+  "task_types": [
+    2,
+    6
+  ],
+  "games_per_type": 1,
+  "game_offset": 0,
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "data_dir": "external/alfworld_data",
+  "steps": 10
+}

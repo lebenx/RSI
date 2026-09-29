@@ -1,0 +1,22 @@
+{
+  "protocol": "alfworld-textworld-provenance-v2",
+  "task_type": 1,
+  "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-SoapBar-None-Cart-401/trial_T20190907_054906_608944/game.tw-pddl",
+  "game_id": "e96f2b33aa0c",
+  "method": "provenance_value",
+  "duplication": 4,
+  "step_limit": 15,
+  "success": 0,
+  "reward": 0.0,
+  "final_score": 0.0,
+  "steps": 15,
+  "unnecessary_actions": 0,
+  "charged_tokens": 27588,
+  "root_confidence_first": 0.5,
+  "root_confidence_last": 0.9,
+  "root_confidence_delta": 0.4,
+  "confidence_steps": 15,
+  "errors": [],
+  "trace_file": "results_submission/alfworld_interactive_v2/traces/t1-ge96f2b33aa0c-provenance_value-m4.jsonl",
+  "runtime_seconds": 0.5914090853184462
+}

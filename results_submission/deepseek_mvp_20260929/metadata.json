@@ -1,0 +1,33 @@
+{
+  "protocol": "deepseek-mvp-fixed-bank-v1",
+  "model": "deepseek-chat",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "duplications": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "methods": [
+    "flat",
+    "trajectory_average",
+    "simple_dedup",
+    "source_grouping",
+    "provenance_value"
+  ],
+  "api_network_calls_this_run": 0,
+  "archived_request_files": 30,
+  "valid_rows": 60,
+  "paired_rows": 72,
+  "bootstrap_draws": 20000,
+  "same_body_control_rows": 12,
+  "same_body_control_all_identical": true,
+  "hidden_state_used_in_prompt": false,
+  "interpretation": "model-specific diagnostic; no universal LLM claim",
+  "provenance_value": "algorithmic unique-sample conditional-value mixture",
+  "api_seed_supported": false
+}

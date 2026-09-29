@@ -1,0 +1,17 @@
+{
+  "generated_by": "submission.scienceworld_interactive_aggregate",
+  "api_calls": 0,
+  "protocols": [
+    "refreshed_llm",
+    "fresh_key_success"
+  ],
+  "task_families": [
+    "find-plant",
+    "find-animal"
+  ],
+  "raw_rows": 96,
+  "valid_rows": 96,
+  "error_rows": 0,
+  "valid_episode_units": 96,
+  "interpretation": "consolidated audit; separate planner readouts remain stratified and broad success gain is not asserted"
+}

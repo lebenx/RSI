@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v4-fair-provenance-readout",
+  "task": "find-animal",
+  "variation": 161,
+  "method": "flat",
+  "duplication": 4,
+  "step_limit": 10,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 8,
+  "reward": 0,
+  "steps": 10,
+  "charged_tokens": 111454,
+  "repeated_no_visible_change": 4,
+  "initial_success_probability": 0.9,
+  "initial_state": {
+    "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a short height, soil)\n\ta flower pot 2 (containing nothing)\n\ta flower pot 3 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 8 (containing nothing)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+    "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a short height, soil)\n\ta flower pot 2 (containing nothing)\n\ta flower pot 3 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 8 (containing nothing)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the purple box in the bathroom.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": null,
+  "runtime_seconds": 45.69011325016618,
+  "trace_file": "results_submission/scienceworld_v4_dev8_m4/episodes/find-animal-v161-flat-m4-trace.jsonl"
+}

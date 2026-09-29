@@ -1,0 +1,49 @@
+{
+  "protocol": "local-qwen-expanded-full-episode-pilot-v1",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "task": "find-plant",
+  "variations": [
+    152,
+    153,
+    154,
+    158,
+    161
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_success"
+  ],
+  "valid_rows": 20,
+  "error_rows": 0,
+  "paired_episodes": 5,
+  "step_limit": 8,
+  "episode_success_claim": false,
+  "planner_claim": false,
+  "calibration_metric": "initial Brier=(initial_success_probability-success)^2",
+  "gpu_probe": {
+    "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+    "inference_device": "cuda:0",
+    "inference_dtype": "torch.float16",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 4090",
+    "cuda_version": "13.0",
+    "torch_version": "2.13.0+cu130",
+    "input_tokens": 38,
+    "generated_tokens": 4,
+    "generation_seconds": 1.6226471327245235,
+    "status": "verified"
+  },
+  "cuda_run_policy": "LOCAL_QWEN_DEVICE=cuda; CUDA is required and CPU fallback is disabled",
+  "runner_version": "scienceworld_runner v9",
+  "raw_extension_variations": [
+    150,
+    151,
+    155
+  ],
+  "raw_extension_error_rows": 10,
+  "interpretation": "small second-model exploratory pilot; complete paired rows only; raw interface failures are retained separately; not pooled with DeepSeek and not a confirmatory success estimate"
+}

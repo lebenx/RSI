@@ -1,0 +1,13 @@
+{
+  "protocol": "qwen-semantic-bank-probe-v1",
+  "selection": "first two pre-action states of each of six declared episodes; no filtering by reward or value spread",
+  "experimental_status": "exploratory prompt intervention following diagnosis",
+  "calls": 12,
+  "system": "You plan actions in ScienceWorld. You only know supplied observations.\nReturn one JSON object. Never invent observations or assume a task has completed.\nUse executable actions exactly as listed. Follow the task description's required\norder: if it says \"First, focus\", choose a focus action before moving or using\nthe object; after focus, perform the stated move/use action. Do not spend a\nstep on look/inventory/opening an unrelated container when a required progress\naction is available. If the requested object category is not visible, use a\npublic navigation action to inspect a plausible room before trying to focus an\nunseen object. Track history and avoid repeating no-change actions.\nOptimize final task score within the remaining action budget.\nEstimate conditional action values, not the probability of the premise.\nFor each requested (action_id, hypothesis_value) pair, assume that hypothesis\nvalue and imagine the candidate action followed by up to two useful actions.\nUse the supplied real evidence, task description, and remaining action budget.\nNo observations are acquired by this imagination.\npredicted_final_score means expected final ScienceWorld task score divided by\n100, in [-1,1]. success_probability means probability of reaching score 100\nwithin the remaining budget, in [0,1]. Evaluate each action under its specified\ncondition. Equal estimates are allowed when justified by the evidence.\nReturn one JSON object with key rollouts, an array of exactly eight rows.\nEach row must contain action_id (integer copied from requested_conditions),\nhypothesis_value (boolean copied from requested_conditions), imagined_actions\n(an array containing at most two action strings), imagined_outcome (one short\nsentence describing the conditional consequence), predicted_final_score\n(number), and success_probability (number). No markdown or extra fields.\n",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "outcomes_supplied_to_model": false,
+  "episode_success_claim": false,
+  "retries": 0,
+  "max_tokens": 2800,
+  "decision_gate": "Compare schema coverage, template-copy rate, branch/action discrimination, and rank-zero agreement. Nonconstant values alone do not demonstrate accurate values or planning gains."
+}

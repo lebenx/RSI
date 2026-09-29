@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v2-guided-public-action-shortlist",
+  "task": "find-plant",
+  "variation": 158,
+  "method": "flat",
+  "duplication": 4,
+  "step_limit": 10,
+  "simplification": "easy",
+  "success": 1,
+  "final_score": 100,
+  "reward": 92,
+  "steps": 4,
+  "charged_tokens": 32846,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": 0.9,
+  "initial_state": {
+    "observation": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 4 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+    "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 4 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the blue box in the bathroom.",
+    "score": 8
+  },
+  "terminal": true,
+  "error": null,
+  "runtime_seconds": 25.143526930827647,
+  "trace_file": "results_submission/scienceworld_dev8_m4/episodes/find-plant-v158-flat-m4-trace.jsonl"
+}

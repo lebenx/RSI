@@ -1,0 +1,12 @@
+{
+  "main_steps": 768,
+  "main_constant_steps": 751,
+  "main_unique_snapshots": 403,
+  "main_unique_constant_snapshots": 396,
+  "provenance_episode_rows": 56,
+  "provenance_rank_zero_episode_rows": 56,
+  "new_model_calls": 0,
+  "new_environment_episodes": 0,
+  "inference": "Historical reward differences are confounded by reader versus rank-zero selection. Template-value matching is observed; a causal prompt-copying explanation needs an intervention.",
+  "planning_attribution_established": false
+}

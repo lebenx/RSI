@@ -1,0 +1,66 @@
+{
+  "model": "deepseek-chat",
+  "api_requested": true,
+  "api_success_by_seed": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true,
+    "11": true
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "priors": [
+    0.2,
+    0.5,
+    0.8
+  ],
+  "strengths": {
+    "weak": 1.2,
+    "medium": 1.5,
+    "strong": 2.0
+  },
+  "duplications": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "conditions": [
+    "pure_duplication",
+    "independent_rollout"
+  ],
+  "methods": [
+    "ordinary_flat_aggregation",
+    "single_trajectory_score_average",
+    "exact_deduplication",
+    "semantic_group_deduplication",
+    "source_group_average",
+    "explicit_belief_mixing",
+    "provenance_preserving"
+  ],
+  "controls": {
+    "order_randomized": true,
+    "equal_text_length": 96
+  }
+}

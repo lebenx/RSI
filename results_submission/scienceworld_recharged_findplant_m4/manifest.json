@@ -1,0 +1,59 @@
+{
+  "output": "results_submission/scienceworld_recharged_findplant_m4",
+  "tasks": [
+    "find-plant"
+  ],
+  "split": "dev",
+  "variations": 0,
+  "steps": 8,
+  "workers": 2,
+  "methods": [
+    "no_imagination",
+    "flat",
+    "provenance"
+  ],
+  "duplication": 4,
+  "simplification": "easy",
+  "variation_ids": "find-plant:150,find-plant:151,find-plant:152,find-plant:153,find-plant:154,find-plant:155",
+  "backend": "api",
+  "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+  "scienceworld_commit": "e8216d6044e8e39be9fcb185e3b2dfb602584b52",
+  "version": "sw-llm-v8-public-discovery-fair",
+  "episodes": [
+    {
+      "task": "find-plant",
+      "variation": 150,
+      "split": "dev"
+    },
+    {
+      "task": "find-plant",
+      "variation": 151,
+      "split": "dev"
+    },
+    {
+      "task": "find-plant",
+      "variation": 152,
+      "split": "dev"
+    },
+    {
+      "task": "find-plant",
+      "variation": 153,
+      "split": "dev"
+    },
+    {
+      "task": "find-plant",
+      "variation": 154,
+      "split": "dev"
+    },
+    {
+      "task": "find-plant",
+      "variation": 155,
+      "split": "dev"
+    }
+  ],
+  "uses_gold_path": false,
+  "uses_hidden_state": false,
+  "independent_rollout_claim": false,
+  "budget_note": "shared generation budget; flat uses one extra API readout; report native cost",
+  "candidate_policy": "deterministic public task-phase/action shortlist; invalid model action repaired to first unused admissible shortlist entry"
+}

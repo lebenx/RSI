@@ -1,0 +1,5 @@
+duplication,method,n,success,final_score,reward,steps,tokens,repeated_no_visible_change,initial_brier
+1,flat,1,0.0,8.0,0.0,2.0,6541.0,0.0,0.25
+1,provenance,1,0.0,8.0,0.0,2.0,6580.0,0.0,0.25
+4,flat,1,0.0,8.0,0.0,2.0,9419.0,0.0,0.25
+4,provenance,1,0.0,8.0,0.0,2.0,6580.0,0.0,0.25

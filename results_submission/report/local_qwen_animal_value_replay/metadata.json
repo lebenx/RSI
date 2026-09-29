@@ -1,0 +1,21 @@
+{
+  "protocol": "local-qwen-find-animal-value-v1",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "task": "find-animal",
+  "variation": 153,
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "valid_rows": 4,
+  "paired_episodes": 1,
+  "error_rows": 0,
+  "new_request_files": 60,
+  "planner_claim": false,
+  "cuda_run_policy": "LOCAL_QWEN_DEVICE=cuda; RTX 4090 FP16",
+  "interpretation": "single second-task-family control; exploratory and separate from the plant cache replay"
+}

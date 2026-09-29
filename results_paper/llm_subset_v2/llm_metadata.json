@@ -1,0 +1,29 @@
+{
+  "model": "deepseek-chat",
+  "scenarios": 12,
+  "jobs": 144,
+  "rows": 1008,
+  "api_archive": "api_archive.jsonl",
+  "no_fallback": true,
+  "conditions": [
+    "pure_duplication",
+    "paraphrase_duplication",
+    "independent_rollout"
+  ],
+  "multiplicities": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "methods": [
+    "flat",
+    "trajectory_average",
+    "exact_dedup",
+    "semantic_dedup",
+    "source_average",
+    "belief_mixing",
+    "provenance"
+  ],
+  "api_success": 1
+}

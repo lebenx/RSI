@@ -1,0 +1,28 @@
+{
+  "provider": "DeepSeek",
+  "model": "deepseek-chat",
+  "api_probe_status": 200,
+  "protocol": "sw-llm-v9-public-discovery-fair",
+  "task": "find-plant",
+  "variations": [
+    156,
+    157,
+    158,
+    159,
+    160,
+    161
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_success"
+  ],
+  "valid_rows": 24,
+  "error_rows": 0,
+  "new_episode_rows": 24,
+  "network_request_files": 377,
+  "interpretation": "fresh-key extension; null/negative boundary, not a broad planner claim"
+}

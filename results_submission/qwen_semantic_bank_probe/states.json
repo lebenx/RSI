@@ -1,0 +1,2180 @@
+[
+  {
+    "state_id": "find-plant-174-step0",
+    "task": "find-plant",
+    "variation": 174,
+    "step": 0,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the red box in the workshop.",
+      "observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at apple",
+        "look at banana",
+        "look at bathroom",
+        "look at bowl",
+        "look at ceramic cup",
+        "look at chair",
+        "look at counter",
+        "look at cup containing nothing in table",
+        "look at cup containing orange juice",
+        "look at cupboard",
+        "look at door to bathroom",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at drawer in counter",
+        "look at drawer in cupboard",
+        "look at freezer",
+        "look at fridge",
+        "look at glass jar",
+        "look at hallway",
+        "look at inventory",
+        "look at kitchen",
+        "look at lighter",
+        "look at metal pot",
+        "look at orange in bowl",
+        "look at orange in inventory",
+        "look at orange juice",
+        "look at outside",
+        "look at oven",
+        "look at painting",
+        "look at potato",
+        "look at sewer",
+        "look at sink",
+        "look at soap",
+        "look at sodium chloride",
+        "look at stopwatch",
+        "look at stove",
+        "look at table",
+        "look at thermometer",
+        "look at tin cup",
+        "look in bathroom",
+        "look in bowl",
+        "look in ceramic cup",
+        "look in chair",
+        "look in counter",
+        "look in cup containing nothing in table",
+        "look in cup containing orange juice",
+        "look in hallway",
+        "look in inventory",
+        "look in kitchen",
+        "look in metal pot",
+        "look in outside",
+        "look in sewer",
+        "look in sink",
+        "look in stove",
+        "look in table",
+        "look in tin cup"
+      ],
+      "admissible_action_count": 976,
+      "history": [],
+      "remaining_actions": 8
+    },
+    "candidate": {
+      "premise": "The agent is in the kitchen.",
+      "p_true": 0.5,
+      "evidence_ids": [
+        "e0"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look around"
+        },
+        {
+          "id": 1,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 2,
+          "action": "look at agent"
+        },
+        {
+          "id": 3,
+          "action": "look at air"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 3
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "679afc6215c26b94da2d8206-h1-a1-j0",
+        "parent_id": "679afc6215c26b94da2d8206-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "679afc6215c26b94da2d8206-h1-a0-j0",
+        "parent_id": "679afc6215c26b94da2d8206-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "679afc6215c26b94da2d8206-h0-a1-j0",
+        "parent_id": "679afc6215c26b94da2d8206-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at air"
+        ],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "679afc6215c26b94da2d8206-h1-a3-j0",
+        "parent_id": "679afc6215c26b94da2d8206-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at agent"
+        ],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "679afc6215c26b94da2d8206-h1-a2-j0",
+        "parent_id": "679afc6215c26b94da2d8206-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "679afc6215c26b94da2d8206-h0-a0-j0",
+        "parent_id": "679afc6215c26b94da2d8206-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at air"
+        ],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "679afc6215c26b94da2d8206-h0-a3-j0",
+        "parent_id": "679afc6215c26b94da2d8206-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at agent"
+        ],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "679afc6215c26b94da2d8206-h0-a2-j0",
+        "parent_id": "679afc6215c26b94da2d8206-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout174_176_m1/episodes/find-plant-v174-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-plant-174-step1",
+    "task": "find-plant",
+    "variation": 174,
+    "step": 1,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the red box in the workshop.",
+      "observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+      "look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at apple",
+        "look at banana",
+        "look at bathroom",
+        "look at bowl",
+        "look at ceramic cup",
+        "look at chair",
+        "look at counter",
+        "look at cup containing nothing in table",
+        "look at cup containing orange juice",
+        "look at cupboard",
+        "look at door to bathroom",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at drawer in counter",
+        "look at drawer in cupboard",
+        "look at freezer",
+        "look at fridge",
+        "look at glass jar",
+        "look at hallway",
+        "look at inventory",
+        "look at kitchen",
+        "look at lighter",
+        "look at metal pot",
+        "look at orange in bowl",
+        "look at orange in inventory",
+        "look at orange juice",
+        "look at outside",
+        "look at oven",
+        "look at painting",
+        "look at potato",
+        "look at sewer",
+        "look at sink",
+        "look at soap",
+        "look at sodium chloride",
+        "look at stopwatch",
+        "look at stove",
+        "look at table",
+        "look at thermometer",
+        "look at tin cup",
+        "look in bathroom",
+        "look in bowl",
+        "look in ceramic cup",
+        "look in chair",
+        "look in counter",
+        "look in cup containing nothing in table",
+        "look in cup containing orange juice",
+        "look in hallway",
+        "look in inventory",
+        "look in kitchen",
+        "look in metal pot",
+        "look in outside",
+        "look in sewer",
+        "look in sink",
+        "look in stove",
+        "look in table",
+        "look in tin cup"
+      ],
+      "admissible_action_count": 976,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look around",
+          "observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 0,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The agent is in the kitchen.",
+      "p_true": 0.5,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at agent"
+        },
+        {
+          "id": 1,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 2,
+          "action": "look around"
+        },
+        {
+          "id": 3,
+          "action": "look at air"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 3
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "43d04587ce0dbfeb1d6dd490-h1-a1-j0",
+        "parent_id": "43d04587ce0dbfeb1d6dd490-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "43d04587ce0dbfeb1d6dd490-h1-a0-j0",
+        "parent_id": "43d04587ce0dbfeb1d6dd490-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "43d04587ce0dbfeb1d6dd490-h0-a1-j0",
+        "parent_id": "43d04587ce0dbfeb1d6dd490-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "43d04587ce0dbfeb1d6dd490-h1-a3-j0",
+        "parent_id": "43d04587ce0dbfeb1d6dd490-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "43d04587ce0dbfeb1d6dd490-h1-a2-j0",
+        "parent_id": "43d04587ce0dbfeb1d6dd490-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "43d04587ce0dbfeb1d6dd490-h0-a0-j0",
+        "parent_id": "43d04587ce0dbfeb1d6dd490-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "43d04587ce0dbfeb1d6dd490-h0-a3-j0",
+        "parent_id": "43d04587ce0dbfeb1d6dd490-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "43d04587ce0dbfeb1d6dd490-h0-a2-j0",
+        "parent_id": "43d04587ce0dbfeb1d6dd490-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout174_176_m1/episodes/find-plant-v174-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-plant-175-step0",
+    "task": "find-plant",
+    "variation": 175,
+    "step": 0,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the green box in the workshop.",
+      "observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at art studio",
+        "look at blue paint on wood cup containing blue paint",
+        "look at cup containing blue paint in art studio",
+        "look at cup containing blue paint in cupboard",
+        "look at cup containing nothing",
+        "look at cup containing red paint in art studio",
+        "look at cup containing red paint in cupboard",
+        "look at cup containing yellow paint in art studio",
+        "look at cup containing yellow paint in cupboard",
+        "look at cupboard",
+        "look at door to hallway",
+        "look at drawer",
+        "look at hallway",
+        "look at inventory",
+        "look at orange",
+        "look at paint in wood cup",
+        "look at paint in wood cup containing blue paint",
+        "look at paint in wood cup containing red paint",
+        "look at paint on cup",
+        "look at red paint in wood cup containing red paint",
+        "look at table",
+        "look in art studio",
+        "look in cup containing blue paint in art studio",
+        "look in cup containing blue paint in cupboard",
+        "look in cup containing nothing",
+        "look in cup containing red paint in art studio",
+        "look in cup containing red paint in cupboard",
+        "look in cup containing yellow paint in art studio",
+        "look in cup containing yellow paint in cupboard",
+        "look in hallway",
+        "look in inventory",
+        "look in table"
+      ],
+      "admissible_action_count": 422,
+      "history": [],
+      "remaining_actions": 8
+    },
+    "candidate": {
+      "premise": "The art studio contains a large cupboard with a door that is closed.",
+      "p_true": 0.7,
+      "evidence_ids": [
+        "e0"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at cupboard"
+        },
+        {
+          "id": 1,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 2,
+          "action": "look around"
+        },
+        {
+          "id": 3,
+          "action": "look at agent"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 3
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "6b9ed9fc9e1b5b3f11ff1598-h1-a1-j0",
+        "parent_id": "6b9ed9fc9e1b5b3f11ff1598-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "6b9ed9fc9e1b5b3f11ff1598-h1-a0-j0",
+        "parent_id": "6b9ed9fc9e1b5b3f11ff1598-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "6b9ed9fc9e1b5b3f11ff1598-h0-a1-j0",
+        "parent_id": "6b9ed9fc9e1b5b3f11ff1598-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "6b9ed9fc9e1b5b3f11ff1598-h1-a3-j0",
+        "parent_id": "6b9ed9fc9e1b5b3f11ff1598-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "6b9ed9fc9e1b5b3f11ff1598-h1-a2-j0",
+        "parent_id": "6b9ed9fc9e1b5b3f11ff1598-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "6b9ed9fc9e1b5b3f11ff1598-h0-a0-j0",
+        "parent_id": "6b9ed9fc9e1b5b3f11ff1598-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "6b9ed9fc9e1b5b3f11ff1598-h0-a3-j0",
+        "parent_id": "6b9ed9fc9e1b5b3f11ff1598-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "6b9ed9fc9e1b5b3f11ff1598-h0-a2-j0",
+        "parent_id": "6b9ed9fc9e1b5b3f11ff1598-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout174_176_m1/episodes/find-plant-v175-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-plant-175-step1",
+    "task": "find-plant",
+    "variation": 175,
+    "step": 1,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the green box in the workshop.",
+      "observation": "a large cupboard. The large cupboard door is closed.",
+      "look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at art studio",
+        "look at blue paint in wood cup containing blue paint",
+        "look at blue paint on cup containing blue paint",
+        "look at cup containing blue paint in art studio",
+        "look at cup containing blue paint in cupboard",
+        "look at cup containing nothing",
+        "look at cup containing red paint in art studio",
+        "look at cup containing red paint in cupboard",
+        "look at cup containing yellow paint in art studio",
+        "look at cup containing yellow paint in cupboard",
+        "look at cupboard",
+        "look at door to hallway",
+        "look at drawer",
+        "look at hallway",
+        "look at inventory",
+        "look at orange",
+        "look at paint on cup",
+        "look at paint on wood cup",
+        "look at red paint on cup containing red paint",
+        "look at table",
+        "look at yellow paint on wood cup containing yellow paint",
+        "look in art studio",
+        "look in cup containing blue paint in art studio",
+        "look in cup containing blue paint in cupboard",
+        "look in cup containing nothing",
+        "look in cup containing red paint in art studio",
+        "look in cup containing red paint in cupboard",
+        "look in cup containing yellow paint in art studio",
+        "look in cup containing yellow paint in cupboard",
+        "look in hallway",
+        "look in inventory",
+        "look in table"
+      ],
+      "admissible_action_count": 422,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look at cupboard",
+          "observation": "a large cupboard. The large cupboard door is closed.",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The large cupboard door is closed.",
+      "p_true": 0.5,
+      "evidence_ids": [
+        "e0"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at cupboard"
+        },
+        {
+          "id": 1,
+          "action": "look at door to hallway"
+        },
+        {
+          "id": 2,
+          "action": "look at art studio"
+        },
+        {
+          "id": 3,
+          "action": "look at table"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 0
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "09e4879bb8e5bdcdf2d772aa-h1-a1-j0",
+        "parent_id": "09e4879bb8e5bdcdf2d772aa-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "09e4879bb8e5bdcdf2d772aa-h1-a0-j0",
+        "parent_id": "09e4879bb8e5bdcdf2d772aa-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "09e4879bb8e5bdcdf2d772aa-h0-a1-j0",
+        "parent_id": "09e4879bb8e5bdcdf2d772aa-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "09e4879bb8e5bdcdf2d772aa-h1-a3-j0",
+        "parent_id": "09e4879bb8e5bdcdf2d772aa-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "09e4879bb8e5bdcdf2d772aa-h1-a2-j0",
+        "parent_id": "09e4879bb8e5bdcdf2d772aa-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "09e4879bb8e5bdcdf2d772aa-h0-a0-j0",
+        "parent_id": "09e4879bb8e5bdcdf2d772aa-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "09e4879bb8e5bdcdf2d772aa-h0-a3-j0",
+        "parent_id": "09e4879bb8e5bdcdf2d772aa-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "09e4879bb8e5bdcdf2d772aa-h0-a2-j0",
+        "parent_id": "09e4879bb8e5bdcdf2d772aa-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout174_176_m1/episodes/find-plant-v175-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-plant-176-step0",
+    "task": "find-plant",
+    "variation": 176,
+    "step": 0,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the blue box in the workshop.",
+      "observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+      "look": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at bathroom",
+        "look at bathtub",
+        "look at cup",
+        "look at door to kitchen",
+        "look at drain to sewer",
+        "look at inventory",
+        "look at kitchen",
+        "look at orange",
+        "look at painting",
+        "look at sewer",
+        "look at sink",
+        "look at substance in toilet",
+        "look at toilet",
+        "look in bathroom",
+        "look in bathtub",
+        "look in cup",
+        "look in inventory",
+        "look in kitchen",
+        "look in sewer",
+        "look in sink",
+        "look in toilet"
+      ],
+      "admissible_action_count": 130,
+      "history": [],
+      "remaining_actions": 8
+    },
+    "candidate": {
+      "premise": "The agent is currently in the bathroom.",
+      "p_true": 0.9,
+      "evidence_ids": [
+        "e0"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at agent"
+        },
+        {
+          "id": 1,
+          "action": "look at bathroom"
+        },
+        {
+          "id": 2,
+          "action": "look at bathtub"
+        },
+        {
+          "id": 3,
+          "action": "look at toilet"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.9,
+      "candidate_repaired": 0
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "56be5f4400b40e52ed8890ef-h1-a1-j0",
+        "parent_id": "56be5f4400b40e52ed8890ef-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "56be5f4400b40e52ed8890ef-h1-a0-j0",
+        "parent_id": "56be5f4400b40e52ed8890ef-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "56be5f4400b40e52ed8890ef-h0-a1-j0",
+        "parent_id": "56be5f4400b40e52ed8890ef-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "56be5f4400b40e52ed8890ef-h1-a3-j0",
+        "parent_id": "56be5f4400b40e52ed8890ef-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "56be5f4400b40e52ed8890ef-h1-a2-j0",
+        "parent_id": "56be5f4400b40e52ed8890ef-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "56be5f4400b40e52ed8890ef-h0-a0-j0",
+        "parent_id": "56be5f4400b40e52ed8890ef-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "56be5f4400b40e52ed8890ef-h0-a3-j0",
+        "parent_id": "56be5f4400b40e52ed8890ef-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "56be5f4400b40e52ed8890ef-h0-a2-j0",
+        "parent_id": "56be5f4400b40e52ed8890ef-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout174_176_m1/episodes/find-plant-v176-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-plant-176-step1",
+    "task": "find-plant",
+    "variation": 176,
+    "step": 1,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the blue box in the workshop.",
+      "observation": "the agent",
+      "look": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is closed, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at bathroom",
+        "look at bathtub",
+        "look at cup",
+        "look at door to kitchen",
+        "look at drain to sewer",
+        "look at inventory",
+        "look at kitchen",
+        "look at orange",
+        "look at painting",
+        "look at sewer",
+        "look at sink",
+        "look at substance in toilet",
+        "look at toilet",
+        "look in bathroom",
+        "look in bathtub",
+        "look in cup",
+        "look in inventory",
+        "look in kitchen",
+        "look in sewer",
+        "look in sink",
+        "look in toilet"
+      ],
+      "admissible_action_count": 131,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look at agent",
+          "observation": "the agent",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The agent is in the bathroom.",
+      "p_true": 0.9,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at bathroom"
+        },
+        {
+          "id": 1,
+          "action": "look at agent"
+        },
+        {
+          "id": 2,
+          "action": "look at bathtub"
+        },
+        {
+          "id": 3,
+          "action": "teleport to greenhouse"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.9,
+      "candidate_repaired": 1
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "46e4d2a43ec167d292f5905f-h1-a1-j0",
+        "parent_id": "46e4d2a43ec167d292f5905f-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "46e4d2a43ec167d292f5905f-h1-a0-j0",
+        "parent_id": "46e4d2a43ec167d292f5905f-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "46e4d2a43ec167d292f5905f-h0-a1-j0",
+        "parent_id": "46e4d2a43ec167d292f5905f-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "46e4d2a43ec167d292f5905f-h1-a3-j0",
+        "parent_id": "46e4d2a43ec167d292f5905f-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "46e4d2a43ec167d292f5905f-h1-a2-j0",
+        "parent_id": "46e4d2a43ec167d292f5905f-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "46e4d2a43ec167d292f5905f-h0-a0-j0",
+        "parent_id": "46e4d2a43ec167d292f5905f-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "46e4d2a43ec167d292f5905f-h0-a3-j0",
+        "parent_id": "46e4d2a43ec167d292f5905f-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "46e4d2a43ec167d292f5905f-h0-a2-j0",
+        "parent_id": "46e4d2a43ec167d292f5905f-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout174_176_m1/episodes/find-plant-v176-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-animal-177-step0",
+    "task": "find-animal",
+    "variation": 177,
+    "step": 0,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the orange box in the workshop.",
+      "observation": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)",
+      "look": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "go to door to greenhouse",
+        "go to door to living room",
+        "go to greenhouse",
+        "go to living room",
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at art studio",
+        "look at bedroom",
+        "look at door to art studio",
+        "look at door to bedroom",
+        "look at door to greenhouse",
+        "look at door to kitchen",
+        "look at door to living room",
+        "look at door to workshop",
+        "look at greenhouse",
+        "look at hallway",
+        "look at inventory",
+        "look at kitchen",
+        "look at living room",
+        "look at orange",
+        "look at painting",
+        "look at workshop",
+        "look in art studio",
+        "look in bedroom",
+        "look in greenhouse",
+        "look in hallway",
+        "look in inventory",
+        "look in kitchen",
+        "look in living room",
+        "look in workshop"
+      ],
+      "admissible_action_count": 115,
+      "history": [],
+      "remaining_actions": 8
+    },
+    "candidate": {
+      "premise": "The hallway contains a painting.",
+      "p_true": 0.7,
+      "evidence_ids": [
+        "e0"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at painting"
+        },
+        {
+          "id": 1,
+          "action": "go to door to greenhouse"
+        },
+        {
+          "id": 2,
+          "action": "go to door to living room"
+        },
+        {
+          "id": 3,
+          "action": "go to greenhouse"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.9,
+      "candidate_repaired": 3
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "213dddc7f530497e80f139b8-h1-a1-j0",
+        "parent_id": "213dddc7f530497e80f139b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "213dddc7f530497e80f139b8-h1-a0-j0",
+        "parent_id": "213dddc7f530497e80f139b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "213dddc7f530497e80f139b8-h0-a1-j0",
+        "parent_id": "213dddc7f530497e80f139b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "213dddc7f530497e80f139b8-h1-a3-j0",
+        "parent_id": "213dddc7f530497e80f139b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "213dddc7f530497e80f139b8-h1-a2-j0",
+        "parent_id": "213dddc7f530497e80f139b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "213dddc7f530497e80f139b8-h0-a0-j0",
+        "parent_id": "213dddc7f530497e80f139b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "213dddc7f530497e80f139b8-h0-a3-j0",
+        "parent_id": "213dddc7f530497e80f139b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "213dddc7f530497e80f139b8-h0-a2-j0",
+        "parent_id": "213dddc7f530497e80f139b8-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout177_179_m1/episodes/find-animal-v177-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-animal-177-step1",
+    "task": "find-animal",
+    "variation": 177,
+    "step": 1,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the orange box in the workshop.",
+      "observation": "a painting of a boat crossing a river. The artist is listed as Alexandra.",
+      "look": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "go to door to greenhouse",
+        "go to door to living room",
+        "go to greenhouse",
+        "go to living room",
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at art studio",
+        "look at bedroom",
+        "look at door to art studio",
+        "look at door to bedroom",
+        "look at door to greenhouse",
+        "look at door to kitchen",
+        "look at door to living room",
+        "look at door to workshop",
+        "look at greenhouse",
+        "look at hallway",
+        "look at inventory",
+        "look at kitchen",
+        "look at living room",
+        "look at orange",
+        "look at painting",
+        "look at workshop",
+        "look in art studio",
+        "look in bedroom",
+        "look in greenhouse",
+        "look in hallway",
+        "look in inventory",
+        "look in kitchen",
+        "look in living room",
+        "look in workshop"
+      ],
+      "admissible_action_count": 115,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look at painting",
+          "observation": "a painting of a boat crossing a river. The artist is listed as Alexandra.",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the hallway. In it, you see: \n\tthe agent\n\ta substance called air\n\ta painting\nYou also see:\n\tA door to the art studio (that is open)\n\tA door to the bedroom (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n\tA door to the living room (that is open)\n\tA door to the workshop (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The current room is the hallway.",
+      "p_true": 0.5,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "go to door to greenhouse"
+        },
+        {
+          "id": 1,
+          "action": "go to door to living room"
+        },
+        {
+          "id": 2,
+          "action": "go to greenhouse"
+        },
+        {
+          "id": 3,
+          "action": "look around"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 3
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "7f3b119658d97deb88be00b8-h1-a1-j0",
+        "parent_id": "7f3b119658d97deb88be00b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "7f3b119658d97deb88be00b8-h1-a0-j0",
+        "parent_id": "7f3b119658d97deb88be00b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "7f3b119658d97deb88be00b8-h0-a1-j0",
+        "parent_id": "7f3b119658d97deb88be00b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "7f3b119658d97deb88be00b8-h1-a3-j0",
+        "parent_id": "7f3b119658d97deb88be00b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "7f3b119658d97deb88be00b8-h1-a2-j0",
+        "parent_id": "7f3b119658d97deb88be00b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "7f3b119658d97deb88be00b8-h0-a0-j0",
+        "parent_id": "7f3b119658d97deb88be00b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "7f3b119658d97deb88be00b8-h0-a3-j0",
+        "parent_id": "7f3b119658d97deb88be00b8-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "7f3b119658d97deb88be00b8-h0-a2-j0",
+        "parent_id": "7f3b119658d97deb88be00b8-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout177_179_m1/episodes/find-animal-v177-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-animal-178-step0",
+    "task": "find-animal",
+    "variation": 178,
+    "step": 0,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the yellow box in the workshop.",
+      "observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+      "look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at chair",
+        "look at cloth sittable",
+        "look at door to hallway",
+        "look at hallway",
+        "look at inventory",
+        "look at living room",
+        "look at object",
+        "look at orange",
+        "look at painting",
+        "look at steel table",
+        "look in chair",
+        "look in cloth sittable",
+        "look in hallway",
+        "look in inventory",
+        "look in living room",
+        "look in steel table"
+      ],
+      "admissible_action_count": 119,
+      "history": [],
+      "remaining_actions": 8
+    },
+    "candidate": {
+      "premise": "The living room contains a chair with a white pillow.",
+      "p_true": 0.7,
+      "evidence_ids": [
+        "e0"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at chair"
+        },
+        {
+          "id": 1,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 2,
+          "action": "teleport to living room"
+        },
+        {
+          "id": 3,
+          "action": "teleport to outside"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 3
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "dd9b6370226a82a101c01efe-h1-a1-j0",
+        "parent_id": "dd9b6370226a82a101c01efe-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "dd9b6370226a82a101c01efe-h1-a0-j0",
+        "parent_id": "dd9b6370226a82a101c01efe-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "dd9b6370226a82a101c01efe-h0-a1-j0",
+        "parent_id": "dd9b6370226a82a101c01efe-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "dd9b6370226a82a101c01efe-h1-a3-j0",
+        "parent_id": "dd9b6370226a82a101c01efe-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "dd9b6370226a82a101c01efe-h1-a2-j0",
+        "parent_id": "dd9b6370226a82a101c01efe-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "dd9b6370226a82a101c01efe-h0-a0-j0",
+        "parent_id": "dd9b6370226a82a101c01efe-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "dd9b6370226a82a101c01efe-h0-a3-j0",
+        "parent_id": "dd9b6370226a82a101c01efe-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "dd9b6370226a82a101c01efe-h0-a2-j0",
+        "parent_id": "dd9b6370226a82a101c01efe-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout177_179_m1/episodes/find-animal-v178-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-animal-178-step1",
+    "task": "find-animal",
+    "variation": 178,
+    "step": 1,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the yellow box in the workshop.",
+      "observation": "a chair. On the chair is: nothing.",
+      "look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at chair",
+        "look at cloth sittable",
+        "look at door to hallway",
+        "look at hallway",
+        "look at inventory",
+        "look at living room",
+        "look at object",
+        "look at orange",
+        "look at painting",
+        "look at steel table",
+        "look in chair",
+        "look in cloth sittable",
+        "look in hallway",
+        "look in inventory",
+        "look in living room",
+        "look in steel table"
+      ],
+      "admissible_action_count": 119,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look at chair",
+          "observation": "a chair. On the chair is: nothing.",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The living room contains a chair with nothing on it.",
+      "p_true": 0.5,
+      "evidence_ids": [
+        "e0"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look around"
+        },
+        {
+          "id": 1,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 2,
+          "action": "look at painting"
+        },
+        {
+          "id": 3,
+          "action": "teleport to living room"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 2
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "1497df8832b7bdd124832a34-h1-a1-j0",
+        "parent_id": "1497df8832b7bdd124832a34-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "1497df8832b7bdd124832a34-h1-a0-j0",
+        "parent_id": "1497df8832b7bdd124832a34-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "1497df8832b7bdd124832a34-h0-a1-j0",
+        "parent_id": "1497df8832b7bdd124832a34-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "1497df8832b7bdd124832a34-h1-a3-j0",
+        "parent_id": "1497df8832b7bdd124832a34-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "1497df8832b7bdd124832a34-h1-a2-j0",
+        "parent_id": "1497df8832b7bdd124832a34-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "1497df8832b7bdd124832a34-h0-a0-j0",
+        "parent_id": "1497df8832b7bdd124832a34-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "1497df8832b7bdd124832a34-h0-a3-j0",
+        "parent_id": "1497df8832b7bdd124832a34-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "1497df8832b7bdd124832a34-h0-a2-j0",
+        "parent_id": "1497df8832b7bdd124832a34-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout177_179_m1/episodes/find-animal-v178-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-animal-179-step0",
+    "task": "find-animal",
+    "variation": 179,
+    "step": 0,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the purple box in the workshop.",
+      "observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+      "look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at art studio",
+        "look at blue paint in wood cup containing blue paint",
+        "look at blue paint on wood cup containing blue paint",
+        "look at cup containing blue paint in art studio",
+        "look at cup containing blue paint in cupboard",
+        "look at cup containing nothing",
+        "look at cup containing red paint in art studio",
+        "look at cup containing red paint in cupboard",
+        "look at cup containing yellow paint in art studio",
+        "look at cup containing yellow paint in cupboard",
+        "look at cupboard",
+        "look at door to hallway",
+        "look at drawer",
+        "look at hallway",
+        "look at inventory",
+        "look at orange",
+        "look at paint",
+        "look at paint in cup containing red paint",
+        "look at paint on cup",
+        "look at paint on cup containing red paint",
+        "look at table",
+        "look in art studio",
+        "look in cup containing blue paint in art studio",
+        "look in cup containing blue paint in cupboard",
+        "look in cup containing nothing",
+        "look in cup containing red paint in art studio",
+        "look in cup containing red paint in cupboard",
+        "look in cup containing yellow paint in art studio",
+        "look in cup containing yellow paint in cupboard",
+        "look in hallway",
+        "look in inventory",
+        "look in table"
+      ],
+      "admissible_action_count": 422,
+      "history": [],
+      "remaining_actions": 8
+    },
+    "candidate": {
+      "premise": "The art studio contains a large cupboard with a door that is closed.",
+      "p_true": 0.7,
+      "evidence_ids": [
+        "e0"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at cupboard"
+        },
+        {
+          "id": 1,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 2,
+          "action": "teleport to living room"
+        },
+        {
+          "id": 3,
+          "action": "teleport to outside"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 3
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "53de241d476ac26f7d2365e6-h1-a1-j0",
+        "parent_id": "53de241d476ac26f7d2365e6-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "53de241d476ac26f7d2365e6-h1-a0-j0",
+        "parent_id": "53de241d476ac26f7d2365e6-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "53de241d476ac26f7d2365e6-h0-a1-j0",
+        "parent_id": "53de241d476ac26f7d2365e6-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "53de241d476ac26f7d2365e6-h1-a3-j0",
+        "parent_id": "53de241d476ac26f7d2365e6-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "53de241d476ac26f7d2365e6-h1-a2-j0",
+        "parent_id": "53de241d476ac26f7d2365e6-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "53de241d476ac26f7d2365e6-h0-a0-j0",
+        "parent_id": "53de241d476ac26f7d2365e6-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "53de241d476ac26f7d2365e6-h0-a3-j0",
+        "parent_id": "53de241d476ac26f7d2365e6-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "53de241d476ac26f7d2365e6-h0-a2-j0",
+        "parent_id": "53de241d476ac26f7d2365e6-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout177_179_m1/episodes/find-animal-v179-flat_value-m1-trace.jsonl"
+  },
+  {
+    "state_id": "find-animal-179-step1",
+    "task": "find-animal",
+    "variation": 179,
+    "step": 1,
+    "evidence": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the purple box in the workshop.",
+      "observation": "a large cupboard. The large cupboard door is closed.",
+      "look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at art studio",
+        "look at blue paint in wood cup",
+        "look at blue paint in wood cup containing blue paint",
+        "look at cup containing blue paint in art studio",
+        "look at cup containing blue paint in cupboard",
+        "look at cup containing nothing",
+        "look at cup containing red paint in art studio",
+        "look at cup containing red paint in cupboard",
+        "look at cup containing yellow paint in art studio",
+        "look at cup containing yellow paint in cupboard",
+        "look at cupboard",
+        "look at door to hallway",
+        "look at drawer",
+        "look at hallway",
+        "look at inventory",
+        "look at orange",
+        "look at paint",
+        "look at paint in wood cup",
+        "look at paint on cup",
+        "look at paint on cup containing red paint",
+        "look at table",
+        "look in art studio",
+        "look in cup containing blue paint in art studio",
+        "look in cup containing blue paint in cupboard",
+        "look in cup containing nothing",
+        "look in cup containing red paint in art studio",
+        "look in cup containing red paint in cupboard",
+        "look in cup containing yellow paint in art studio",
+        "look in cup containing yellow paint in cupboard",
+        "look in hallway",
+        "look in inventory",
+        "look in table"
+      ],
+      "admissible_action_count": 422,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look at cupboard",
+          "observation": "a large cupboard. The large cupboard door is closed.",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The large cupboard door is closed.",
+      "p_true": 0.5,
+      "evidence_ids": [
+        "e0"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look around"
+        },
+        {
+          "id": 1,
+          "action": "look at cupboard"
+        },
+        {
+          "id": 2,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 3,
+          "action": "teleport to living room"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 2
+    },
+    "old_bank": [
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "2996fd0ca7816411c1963aeb-h1-a1-j0",
+        "parent_id": "2996fd0ca7816411c1963aeb-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "2996fd0ca7816411c1963aeb-h1-a0-j0",
+        "parent_id": "2996fd0ca7816411c1963aeb-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "2996fd0ca7816411c1963aeb-h0-a1-j0",
+        "parent_id": "2996fd0ca7816411c1963aeb-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "2996fd0ca7816411c1963aeb-h1-a3-j0",
+        "parent_id": "2996fd0ca7816411c1963aeb-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "2996fd0ca7816411c1963aeb-h1-a2-j0",
+        "parent_id": "2996fd0ca7816411c1963aeb-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "2996fd0ca7816411c1963aeb-h0-a0-j0",
+        "parent_id": "2996fd0ca7816411c1963aeb-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "2996fd0ca7816411c1963aeb-h0-a3-j0",
+        "parent_id": "2996fd0ca7816411c1963aeb-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "short",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.2,
+        "sample_id": "2996fd0ca7816411c1963aeb-h0-a2-j0",
+        "parent_id": "2996fd0ca7816411c1963aeb-premise",
+        "source_type": "imagined_condition"
+      }
+    ],
+    "source_trace": "results_submission/scienceworld_local_qwen_heldout177_179_m1/episodes/find-animal-v179-flat_value-m1-trace.jsonl"
+  }
+]

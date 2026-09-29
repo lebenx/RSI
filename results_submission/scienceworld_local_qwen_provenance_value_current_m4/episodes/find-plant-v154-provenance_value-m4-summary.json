@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v9-public-discovery-fair",
+  "task": "find-plant",
+  "variation": 154,
+  "method": "provenance_value",
+  "duplication": 4,
+  "step_limit": 8,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 75,
+  "reward": 67,
+  "steps": 8,
+  "charged_tokens": 26664,
+  "repeated_no_visible_change": 2,
+  "initial_success_probability": 0.2,
+  "initial_state": {
+    "observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+    "look": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the yellow box in the kitchen.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": null,
+  "runtime_seconds": 0.9787549590691924,
+  "trace_file": "results_submission/scienceworld_local_qwen_provenance_value_current_m4/episodes/find-plant-v154-provenance_value-m4-trace.jsonl"
+}

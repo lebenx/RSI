@@ -1,0 +1,60 @@
+{
+  "train_composites": 162,
+  "dev_composites": 43,
+  "test_composites": 37,
+  "pair_train_rows": 25920,
+  "source_pair_train_rows": 25920,
+  "summaries": [
+    {
+      "target": "premise",
+      "micro_precision": 0.4838709677419355,
+      "micro_recall": 1.0,
+      "micro_f1": 0.6521739130434783,
+      "tasks": 37,
+      "pairs": 18352,
+      "threshold": 0.1
+    },
+    {
+      "target": "source",
+      "micro_precision": 0.25003315210184324,
+      "micro_recall": 0.9099903474903475,
+      "micro_f1": 0.3922812857588682,
+      "tasks": 37,
+      "pairs": 18352,
+      "threshold": 0.35
+    }
+  ],
+  "thresholds": {
+    "premise": 0.1,
+    "source": 0.35
+  },
+  "downstream": {
+    "premise": {
+      "learned": {
+        "action_correct": 0.25675675675675674,
+        "reward": 0.005008918918918892,
+        "regret": 1.2329906756756757
+      },
+      "oracle": {
+        "action_correct": 1.0,
+        "reward": 1.2379995945945945,
+        "regret": 0.0
+      }
+    },
+    "source": {
+      "learned": {
+        "action_correct": 0.25675675675675674,
+        "reward": 0.005008918918918892,
+        "regret": 1.2329906756756757
+      },
+      "oracle": {
+        "action_correct": 1.0,
+        "reward": 1.2379995945945945,
+        "regret": 0.0
+      }
+    }
+  },
+  "margin_analysis": "margin_analysis.csv",
+  "identifiability_null": "identifiability_null.csv",
+  "text_contract": "opaque branch report; premise/source names and original draw parity removed; target-specific train models"
+}

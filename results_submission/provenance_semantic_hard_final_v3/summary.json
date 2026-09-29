@@ -1,0 +1,57 @@
+{
+  "train_composites": 164,
+  "dev_composites": 44,
+  "test_composites": 38,
+  "pair_train_rows": 26240,
+  "summaries": [
+    {
+      "target": "premise",
+      "micro_precision": 0.4838709677419355,
+      "micro_recall": 1.0,
+      "micro_f1": 0.6521739130434783,
+      "tasks": 38,
+      "pairs": 18848,
+      "threshold": 0.1
+    },
+    {
+      "target": "source",
+      "micro_precision": 0.22580645161290322,
+      "micro_recall": 1.0,
+      "micro_f1": 0.3684210526315789,
+      "tasks": 38,
+      "pairs": 18848,
+      "threshold": 0.1
+    }
+  ],
+  "thresholds": {
+    "premise": 0.1,
+    "source": 0.1
+  },
+  "downstream": {
+    "premise": {
+      "learned": {
+        "action_correct": 0.15789473684210525,
+        "reward": -0.003974868421052651,
+        "regret": NaN
+      },
+      "oracle": {
+        "action_correct": 1.0,
+        "reward": NaN,
+        "regret": 0.0
+      }
+    },
+    "source": {
+      "learned": {
+        "action_correct": 0.15789473684210525,
+        "reward": -0.003974868421052651,
+        "regret": NaN
+      },
+      "oracle": {
+        "action_correct": 1.0,
+        "reward": NaN,
+        "regret": 0.0
+      }
+    }
+  },
+  "text_contract": "opaque branch report; premise/source names and original draw parity removed"
+}

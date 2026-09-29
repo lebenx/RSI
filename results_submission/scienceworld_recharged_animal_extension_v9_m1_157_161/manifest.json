@@ -1,0 +1,53 @@
+{
+  "output": "results_submission/scienceworld_recharged_animal_extension_v9_m1_157_161",
+  "tasks": [
+    "find-animal"
+  ],
+  "split": "dev",
+  "variations": 1,
+  "steps": 8,
+  "workers": 1,
+  "methods": [
+    "flat",
+    "provenance_success"
+  ],
+  "duplication": 1,
+  "simplification": "easy",
+  "variation_ids": "find-animal:157,find-animal:158,find-animal:159,find-animal:160,find-animal:161",
+  "backend": "api",
+  "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+  "scienceworld_commit": "e8216d6044e8e39be9fcb185e3b2dfb602584b52",
+  "version": "sw-llm-v9-public-discovery-fair",
+  "episodes": [
+    {
+      "task": "find-animal",
+      "variation": 157,
+      "split": "dev"
+    },
+    {
+      "task": "find-animal",
+      "variation": 158,
+      "split": "dev"
+    },
+    {
+      "task": "find-animal",
+      "variation": 159,
+      "split": "dev"
+    },
+    {
+      "task": "find-animal",
+      "variation": 160,
+      "split": "dev"
+    },
+    {
+      "task": "find-animal",
+      "variation": 161,
+      "split": "dev"
+    }
+  ],
+  "uses_gold_path": false,
+  "uses_hidden_state": false,
+  "independent_rollout_claim": false,
+  "budget_note": "shared generation budget; flat uses one extra API readout; report native cost",
+  "candidate_policy": "deterministic public task-phase/action shortlist; invalid model action repaired to first unused admissible shortlist entry"
+}

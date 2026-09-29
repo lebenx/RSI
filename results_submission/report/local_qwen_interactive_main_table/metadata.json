@@ -1,0 +1,32 @@
+{
+  "protocol": "local-qwen-interactive-main-table-v1",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "task_families": [
+    "find-animal",
+    "find-plant"
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "valid_rows": 32,
+  "paired_episodes": 8,
+  "plant_paired_episodes": 5,
+  "animal_paired_episodes": 3,
+  "metrics": [
+    "success",
+    "reward",
+    "final_score",
+    "regret_proxy",
+    "steps",
+    "unnecessary_actions",
+    "calibration_brier",
+    "tokens"
+  ],
+  "planner_claim": false,
+  "interpretation": "stratified exploratory second-model main table; incomplete animal blocks excluded"
+}

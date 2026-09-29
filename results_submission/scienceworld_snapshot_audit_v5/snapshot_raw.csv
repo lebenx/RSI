@@ -1,0 +1,73 @@
+task,variation,snapshot_id,step,duplication,method,action,p_true,success_probability,score_before,score_after,immediate_reward,done,tokens,action_m1,action_flip_from_m1
+find-animal,153,19d98b14de336a8f5ea03641,0,1,flat,focus on baby baby beaver,0.9,0.9,8,58,50.0,0,2360,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,0,1,provenance,focus on baby baby beaver,0.9,0.9,8,58,50.0,0,2421,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,0,1,no_imagination,focus on baby baby beaver,0.9,0.9,8,58,50.0,0,0,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,0,4,flat,focus on baby baby beaver,0.9,0.9,8,58,50.0,0,4152,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,0,4,provenance,focus on baby baby beaver,0.9,0.9,8,58,50.0,0,2421,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,0,4,no_imagination,focus on baby baby beaver,0.9,0.9,8,58,50.0,0,0,focus on baby baby beaver,0
+find-animal,153,48228a3cea33d2a4503c9709,1,1,flat,pick up baby baby beaver,0.95,0.9,58,67,9.0,0,2449,pick up baby baby beaver,0
+find-animal,153,48228a3cea33d2a4503c9709,1,1,provenance,go to door to kitchen,0.95,0.95,58,75,17.0,0,2531,go to door to kitchen,0
+find-animal,153,48228a3cea33d2a4503c9709,1,1,no_imagination,pick up baby baby beaver,0.95,0.95,58,67,9.0,0,0,pick up baby baby beaver,0
+find-animal,153,48228a3cea33d2a4503c9709,1,4,flat,go to door to kitchen,0.95,0.9,58,75,17.0,0,4212,pick up baby baby beaver,1
+find-animal,153,48228a3cea33d2a4503c9709,1,4,provenance,go to door to kitchen,0.95,0.95,58,75,17.0,0,2531,go to door to kitchen,0
+find-animal,153,48228a3cea33d2a4503c9709,1,4,no_imagination,pick up baby baby beaver,0.95,0.95,58,67,9.0,0,0,pick up baby baby beaver,0
+find-animal,153,6b9d4aedb571d995bd9c21ac,2,1,flat,go to kitchen,0.5,0.9,67,83,16.0,0,2646,go to kitchen,0
+find-animal,153,6b9d4aedb571d995bd9c21ac,2,1,provenance,go to kitchen,0.5,0.7,67,83,16.0,0,2720,go to kitchen,0
+find-animal,153,6b9d4aedb571d995bd9c21ac,2,1,no_imagination,go to kitchen,0.5,0.5,67,83,16.0,0,0,go to kitchen,0
+find-animal,153,6b9d4aedb571d995bd9c21ac,2,4,flat,go to kitchen,0.5,0.9,67,83,16.0,0,4416,go to kitchen,0
+find-animal,153,6b9d4aedb571d995bd9c21ac,2,4,provenance,go to kitchen,0.5,0.7,67,83,16.0,0,2720,go to kitchen,0
+find-animal,153,6b9d4aedb571d995bd9c21ac,2,4,no_imagination,go to kitchen,0.5,0.5,67,83,16.0,0,0,go to kitchen,0
+find-animal,153,89c9ba3a8e22e964673af8a9,3,1,flat,move baby baby beaver to orange box,1.0,1.0,83,100,17.0,1,3376,move baby baby beaver to orange box,0
+find-animal,153,89c9ba3a8e22e964673af8a9,3,1,provenance,move baby baby beaver to orange box,1.0,1.0,83,100,17.0,1,3449,move baby baby beaver to orange box,0
+find-animal,153,89c9ba3a8e22e964673af8a9,3,1,no_imagination,move baby baby beaver to orange box,1.0,0.95,83,100,17.0,1,0,move baby baby beaver to orange box,0
+find-animal,153,89c9ba3a8e22e964673af8a9,3,4,flat,move baby baby beaver to orange box,1.0,1.0,83,100,17.0,1,5106,move baby baby beaver to orange box,0
+find-animal,153,89c9ba3a8e22e964673af8a9,3,4,provenance,move baby baby beaver to orange box,1.0,1.0,83,100,17.0,1,3449,move baby baby beaver to orange box,0
+find-animal,153,89c9ba3a8e22e964673af8a9,3,4,no_imagination,move baby baby beaver to orange box,1.0,0.95,83,100,17.0,1,0,move baby baby beaver to orange box,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,0,1,flat,focus on adult pea plant,0.9,0.9,8,58,50.0,0,2711,focus on adult pea plant,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,0,1,provenance,focus on adult pea plant,0.5,0.5,8,58,50.0,0,2790,focus on adult pea plant,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,0,1,no_imagination,focus on adult pea plant,0.5,0.5,8,58,50.0,0,0,focus on adult pea plant,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,0,4,flat,focus on adult pea plant,0.9,0.9,8,58,50.0,0,4509,focus on adult pea plant,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,0,4,provenance,focus on adult pea plant,0.5,0.5,8,58,50.0,0,2790,focus on adult pea plant,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,0,4,no_imagination,focus on adult pea plant,0.5,0.5,8,58,50.0,0,0,focus on adult pea plant,0
+find-plant,161,11e107ccf2314b82dfe10508,1,1,flat,teleport to bathroom,0.9,0.9,58,75,17.0,0,2873,teleport to bathroom,0
+find-plant,161,11e107ccf2314b82dfe10508,1,1,provenance,teleport to bathroom,0.1,0.81,58,75,17.0,0,2953,teleport to bathroom,0
+find-plant,161,11e107ccf2314b82dfe10508,1,1,no_imagination,pick up adult pea plant,0.1,0.9,58,67,9.0,0,0,pick up adult pea plant,0
+find-plant,161,11e107ccf2314b82dfe10508,1,4,flat,teleport to bathroom,0.95,0.9,58,75,17.0,0,4828,teleport to bathroom,0
+find-plant,161,11e107ccf2314b82dfe10508,1,4,provenance,teleport to bathroom,0.1,0.81,58,75,17.0,0,2953,teleport to bathroom,0
+find-plant,161,11e107ccf2314b82dfe10508,1,4,no_imagination,pick up adult pea plant,0.1,0.9,58,67,9.0,0,0,pick up adult pea plant,0
+find-plant,161,01b4ece1ca24f332ae82e196,2,1,flat,teleport to bathroom,0.9,1.0,67,83,16.0,0,3136,teleport to bathroom,0
+find-plant,161,01b4ece1ca24f332ae82e196,2,1,provenance,teleport to bathroom,0.9,0.9,67,83,16.0,0,3211,teleport to bathroom,0
+find-plant,161,01b4ece1ca24f332ae82e196,2,1,no_imagination,teleport to bathroom,0.9,0.9,67,83,16.0,0,0,teleport to bathroom,0
+find-plant,161,01b4ece1ca24f332ae82e196,2,4,flat,teleport to bathroom,0.9,0.9,67,83,16.0,0,5008,teleport to bathroom,0
+find-plant,161,01b4ece1ca24f332ae82e196,2,4,provenance,teleport to bathroom,0.9,0.9,67,83,16.0,0,3211,teleport to bathroom,0
+find-plant,161,01b4ece1ca24f332ae82e196,2,4,no_imagination,teleport to bathroom,0.9,0.9,67,83,16.0,0,0,teleport to bathroom,0
+find-plant,161,64868e730fea6bb1c6d7ff41,3,1,flat,move adult pea plant to purple box,0.95,1.0,83,100,17.0,1,3198,move adult pea plant to purple box,0
+find-plant,161,64868e730fea6bb1c6d7ff41,3,1,provenance,move adult pea plant to purple box,0.95,0.95,83,100,17.0,1,3279,move adult pea plant to purple box,0
+find-plant,161,64868e730fea6bb1c6d7ff41,3,1,no_imagination,move adult pea plant to purple box,0.95,0.95,83,100,17.0,1,0,move adult pea plant to purple box,0
+find-plant,161,64868e730fea6bb1c6d7ff41,3,4,flat,move adult pea plant to purple box,0.95,0.95,83,100,17.0,1,5067,move adult pea plant to purple box,0
+find-plant,161,64868e730fea6bb1c6d7ff41,3,4,provenance,move adult pea plant to purple box,0.95,0.95,83,100,17.0,1,3279,move adult pea plant to purple box,0
+find-plant,161,64868e730fea6bb1c6d7ff41,3,4,no_imagination,move adult pea plant to purple box,0.95,0.95,83,100,17.0,1,0,move adult pea plant to purple box,0
+find-plant,162,db3e30ef43d15894304b868e,0,1,flat,focus on adult pea plant,0.9,0.9,8,58,50.0,0,2709,focus on adult pea plant,0
+find-plant,162,db3e30ef43d15894304b868e,0,1,provenance,focus on adult pea plant,0.5,0.5,8,58,50.0,0,2795,focus on adult pea plant,0
+find-plant,162,db3e30ef43d15894304b868e,0,1,no_imagination,focus on adult pea plant,0.5,0.5,8,58,50.0,0,0,focus on adult pea plant,0
+find-plant,162,db3e30ef43d15894304b868e,0,4,flat,focus on adult pea plant,0.9,0.9,8,58,50.0,0,4451,focus on adult pea plant,0
+find-plant,162,db3e30ef43d15894304b868e,0,4,provenance,focus on adult pea plant,0.5,0.5,8,58,50.0,0,2795,focus on adult pea plant,0
+find-plant,162,db3e30ef43d15894304b868e,0,4,no_imagination,focus on adult pea plant,0.5,0.5,8,58,50.0,0,0,focus on adult pea plant,0
+find-plant,162,8d5505f7c5dba55bb4d9b791,1,1,flat,pick up adult pea plant,0.95,0.9,58,67,9.0,0,2926,pick up adult pea plant,0
+find-plant,162,8d5505f7c5dba55bb4d9b791,1,1,provenance,teleport to living room,0.95,0.9,58,75,17.0,0,3000,teleport to living room,0
+find-plant,162,8d5505f7c5dba55bb4d9b791,1,1,no_imagination,pick up adult pea plant,0.95,0.95,58,67,9.0,0,0,pick up adult pea plant,0
+find-plant,162,8d5505f7c5dba55bb4d9b791,1,4,flat,pick up adult pea plant,0.95,0.9,58,67,9.0,0,4868,pick up adult pea plant,0
+find-plant,162,8d5505f7c5dba55bb4d9b791,1,4,provenance,teleport to living room,0.95,0.9,58,75,17.0,0,3000,teleport to living room,0
+find-plant,162,8d5505f7c5dba55bb4d9b791,1,4,no_imagination,pick up adult pea plant,0.95,0.95,58,67,9.0,0,0,pick up adult pea plant,0
+find-plant,162,d856deaa2e6e4616da30d9f2,2,1,flat,teleport to living room,0.9,0.9,67,83,16.0,0,3140,teleport to living room,0
+find-plant,162,d856deaa2e6e4616da30d9f2,2,1,provenance,teleport to living room,0.9,0.9,67,83,16.0,0,3214,teleport to living room,0
+find-plant,162,d856deaa2e6e4616da30d9f2,2,1,no_imagination,teleport to living room,0.9,0.9,67,83,16.0,0,0,teleport to living room,0
+find-plant,162,d856deaa2e6e4616da30d9f2,2,4,flat,teleport to living room,0.9,0.9,67,83,16.0,0,4976,teleport to living room,0
+find-plant,162,d856deaa2e6e4616da30d9f2,2,4,provenance,teleport to living room,0.9,0.9,67,83,16.0,0,3214,teleport to living room,0
+find-plant,162,d856deaa2e6e4616da30d9f2,2,4,no_imagination,teleport to living room,0.9,0.9,67,83,16.0,0,0,teleport to living room,0
+find-plant,162,445ad0e84036093321670da6,3,1,flat,move adult pea plant to red box,1.0,1.0,83,100,17.0,1,2958,move adult pea plant to red box,0
+find-plant,162,445ad0e84036093321670da6,3,1,provenance,move adult pea plant to red box,1.0,1.0,83,100,17.0,1,3039,move adult pea plant to red box,0
+find-plant,162,445ad0e84036093321670da6,3,1,no_imagination,move adult pea plant to red box,1.0,0.9,83,100,17.0,1,0,move adult pea plant to red box,0
+find-plant,162,445ad0e84036093321670da6,3,4,flat,move adult pea plant to red box,1.0,1.0,83,100,17.0,1,4575,move adult pea plant to red box,0
+find-plant,162,445ad0e84036093321670da6,3,4,provenance,move adult pea plant to red box,1.0,1.0,83,100,17.0,1,3039,move adult pea plant to red box,0
+find-plant,162,445ad0e84036093321670da6,3,4,no_imagination,move adult pea plant to red box,1.0,0.9,83,100,17.0,1,0,move adult pea plant to red box,0

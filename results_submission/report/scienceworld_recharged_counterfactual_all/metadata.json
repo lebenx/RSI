@@ -1,0 +1,28 @@
+{
+  "provider": "DeepSeek archived traces",
+  "tasks": [
+    "find-animal",
+    "find-plant"
+  ],
+  "variations": [
+    150,
+    151,
+    152,
+    153,
+    154,
+    155
+  ],
+  "states": 12,
+  "rows": 36,
+  "methods": [
+    "flat_m1",
+    "flat_m4",
+    "provenance_grouped"
+  ],
+  "step_limit": 8,
+  "common_suffix": "no_imagination archived action suffix",
+  "new_api_calls": 0,
+  "gold_path": false,
+  "hidden_state": false,
+  "interpretation": "paired causal state-replay diagnostic; not a broad closed-loop success estimate"
+}

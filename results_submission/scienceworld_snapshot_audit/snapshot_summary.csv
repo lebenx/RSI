@@ -1,0 +1,7 @@
+duplication,method,n,root_confidence,action_flip,immediate_reward,score_after,tokens
+1,flat,3,0.7666666666666666,0.0,50.0,58.0,2588.3333333333335
+1,no_imagination,3,0.6333333333333333,0.0,50.0,58.0,0.0
+1,provenance,3,0.6333333333333333,0.0,50.0,58.0,0.0
+4,flat,3,0.9,0.0,50.0,58.0,4365.333333333333
+4,no_imagination,3,0.6333333333333333,0.0,50.0,58.0,0.0
+4,provenance,3,0.6333333333333333,0.0,50.0,58.0,0.0

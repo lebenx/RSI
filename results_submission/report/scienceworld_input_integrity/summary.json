@@ -1,0 +1,38 @@
+{
+  "trace_rows": 5003,
+  "trace_rows_with_post_action_history": 4991,
+  "scopes": {
+    "interactive_counterfactual": {
+      "requests": 46,
+      "checked": 46,
+      "current_or_future_outcome": 46
+    },
+    "original_closed_loop": {
+      "requests": 10024,
+      "checked": 10024,
+      "current_or_future_outcome": 0
+    },
+    "scienceworld_frozen_readout_20260929": {
+      "requests": 234,
+      "checked": 234,
+      "current_or_future_outcome": 234
+    },
+    "scienceworld_frozen_readout_clean_20260929": {
+      "requests": 180,
+      "checked": 180,
+      "current_or_future_outcome": 0
+    },
+    "scienceworld_frozen_readout_first4_20260929": {
+      "requests": 1440,
+      "checked": 1440,
+      "current_or_future_outcome": 0
+    },
+    "scienceworld_snapshot_audit_v4": {
+      "requests": 36,
+      "checked": 36,
+      "current_or_future_outcome": 36
+    }
+  },
+  "interpretation": "Withdraw contaminated replay/readout causal claims; original API input integrity is assessed separately.",
+  "fix": "public_observation deep-copies history; clean frozen inputs come from original serialized requests."
+}

@@ -1,0 +1,5 @@
+task_family,method,n_episodes,estimate,ci95_low,ci95_high,bootstrap_draws
+find-animal,flat,1,0.0,0.0,0.0,20000
+find-animal,provenance_value,1,0.0,0.0,0.0,20000
+find-plant,flat,1,0.0,0.0,0.0,20000
+find-plant,provenance_value,1,0.0,0.0,0.0,20000

@@ -1,0 +1,32 @@
+{
+  "protocol": "local-qwen-find-animal-expanded-v1",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "task": "find-animal",
+  "requested_variations": [
+    150,
+    151,
+    152,
+    153,
+    154,
+    155
+  ],
+  "paired_variations": [
+    150,
+    153,
+    155
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "valid_rows": 17,
+  "error_rows": 7,
+  "paired_episodes": 3,
+  "planner_claim": false,
+  "cuda_run_policy": "LOCAL_QWEN_DEVICE=cuda; RTX 4090 FP16",
+  "interpretation": "second-task-family exploratory control; incomplete variation blocks are retained but excluded from paired estimates"
+}

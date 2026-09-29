@@ -1,0 +1,87 @@
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:  20%|██        | 88/434 [00:00<00:00, 876.03it/s]Loading weights:  44%|████▍     | 190/434 [00:00<00:00, 960.17it/s]Loading weights:  66%|██████▌   | 287/434 [00:00<00:00, 952.59it/s]Loading weights:  88%|████████▊ | 383/434 [00:00<00:00, 866.41it/s]Loading weights: 100%|██████████| 434/434 [00:00<00:00, 919.80it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/xhj/JevAttention/submission/cuda_json_worker.py", line 122, in <module>
+    main()
+    ~~~~^^
+  File "/home/xhj/JevAttention/submission/cuda_json_worker.py", line 98, in main
+    y = model.generate(inputs, max_new_tokens=x['max_tokens'], do_sample=False,
+                       pad_token_id=tok.eos_token_id)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/generation/utils.py", line 2802, in generate
+    result = decoding_method(
+        self,
+    ...<5 lines>...
+        **model_kwargs,
+    )
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/generation/utils.py", line 3030, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/utils/generic.py", line 939, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 452, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ~~~~~~~~~~^
+        input_ids=input_ids,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/utils/generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/utils/output_capturing.py", line 286, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 388, in forward
+    hidden_states = decoder_layer(
+        hidden_states,
+    ...<5 lines>...
+        **kwargs,
+    )
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/modeling_layers.py", line 109, in __call__
+    return super().__call__(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 282, in forward
+    hidden_states, _ = self.self_attn(
+                       ~~~~~~~~~~~~~~^
+        hidden_states=hidden_states,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 207, in forward
+    key_states = self.k_proj(hidden_states).view(hidden_shape).transpose(1, 2)
+                 ~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xhj/miniconda3/lib/python3.14/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

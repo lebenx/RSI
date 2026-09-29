@@ -1,0 +1,25 @@
+state_id,task,variation,condition,valid,error,unique_samples,constant_value,constant_success,example_values_only,empty_imagined_actions,max_branch_value_difference,score_range,top_two_margin,belief_sensitive_winner,mixture_action_id
+find-plant-174-step0,find-plant,174,archived_compact,True,,8.0,True,True,True,False,0.0,0.0,0.0,False,0.0
+find-plant-174-step0,find-plant,174,semantic,True,,8.0,False,False,False,False,0.0,1.08,0.0,False,0.0
+find-plant-174-step1,find-plant,174,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-plant-174-step1,find-plant,174,semantic,True,,8.0,False,False,False,False,0.0,1.08,0.0,False,0.0
+find-plant-175-step0,find-plant,175,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-plant-175-step0,find-plant,175,semantic,False,"{'type': 'KeyError', 'message': ""'rollouts'""}",,,,,,,,,,
+find-plant-175-step1,find-plant,175,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-plant-175-step1,find-plant,175,semantic,True,,8.0,False,True,False,False,0.009999999999999995,0.0049999999999999906,0.0049999999999999906,False,0.0
+find-plant-176-step0,find-plant,176,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-plant-176-step0,find-plant,176,semantic,True,,8.0,True,True,False,True,0.0,0.0,0.0,False,0.0
+find-plant-176-step1,find-plant,176,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-plant-176-step1,find-plant,176,semantic,True,,8.0,True,True,False,True,0.0,0.0,0.0,False,0.0
+find-animal-177-step0,find-animal,177,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-animal-177-step0,find-animal,177,semantic,True,,8.0,False,True,False,False,0.0,0.009999999999999995,0.0,False,1.0
+find-animal-177-step1,find-animal,177,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-animal-177-step1,find-animal,177,semantic,False,"{'type': 'KeyError', 'message': ""'rollouts'""}",,,,,,,,,,
+find-animal-178-step0,find-animal,178,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-animal-178-step0,find-animal,178,semantic,False,"{'type': 'KeyError', 'message': ""'rollouts'""}",,,,,,,,,,
+find-animal-178-step1,find-animal,178,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-animal-178-step1,find-animal,178,semantic,False,"{'type': 'KeyError', 'message': ""'rollouts'""}",,,,,,,,,,
+find-animal-179-step0,find-animal,179,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-animal-179-step0,find-animal,179,semantic,True,,8.0,False,False,False,False,0.009999999999999995,1.087,1.087,False,0.0
+find-animal-179-step1,find-animal,179,archived_compact,True,,8.0,True,True,True,True,0.0,0.0,0.0,False,0.0
+find-animal-179-step1,find-animal,179,semantic,True,,8.0,True,True,False,True,0.0,0.0,0.0,False,0.0

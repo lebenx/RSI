@@ -1,0 +1,786 @@
+[
+  {
+    "task": "find-plant",
+    "variation": 152,
+    "step": 1,
+    "method": "provenance_grouped",
+    "duplication": "all",
+    "action_id": 0,
+    "action": "pick up adult pea plant",
+    "p_true": 0.9,
+    "predicted_success_probability": 0.81,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to kitchen",
+      "move adult pea plant to blue box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 152,
+    "step": 1,
+    "method": "flat",
+    "duplication": 1,
+    "action_id": 1,
+    "action": "teleport to kitchen",
+    "p_true": 0.9,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to kitchen",
+      "move adult pea plant to blue box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 152,
+    "step": 1,
+    "method": "flat",
+    "duplication": 4,
+    "action_id": 1,
+    "action": "teleport to kitchen",
+    "p_true": 0.9,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to kitchen",
+      "move adult pea plant to blue box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 152,
+    "step": 1,
+    "method": "flat",
+    "duplication": 8,
+    "action_id": 0,
+    "action": "pick up adult pea plant",
+    "p_true": 0.9,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to kitchen",
+      "move adult pea plant to blue box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 158,
+    "step": 1,
+    "method": "provenance_grouped",
+    "duplication": "all",
+    "action_id": 0,
+    "action": "pick up adult pea plant",
+    "p_true": 0.5,
+    "predicted_success_probability": 0.45,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to bathroom",
+      "move adult pea plant to blue box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 158,
+    "step": 1,
+    "method": "flat",
+    "duplication": 1,
+    "action_id": 1,
+    "action": "teleport to bathroom",
+    "p_true": 0.9,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to bathroom",
+      "move adult pea plant to blue box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 158,
+    "step": 1,
+    "method": "flat",
+    "duplication": 4,
+    "action_id": 1,
+    "action": "teleport to bathroom",
+    "p_true": 0.9,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to bathroom",
+      "move adult pea plant to blue box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 158,
+    "step": 1,
+    "method": "flat",
+    "duplication": 8,
+    "action_id": 1,
+    "action": "teleport to bathroom",
+    "p_true": 0.9,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to bathroom",
+      "move adult pea plant to blue box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 161,
+    "step": 1,
+    "method": "provenance_grouped",
+    "duplication": "all",
+    "action_id": 0,
+    "action": "pick up adult pea plant",
+    "p_true": 0.0,
+    "predicted_success_probability": 0.0,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to bathroom",
+      "move adult pea plant to purple box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to purple box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 161,
+    "step": 1,
+    "method": "flat",
+    "duplication": 1,
+    "action_id": 1,
+    "action": "teleport to bathroom",
+    "p_true": 0.0,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to bathroom",
+      "move adult pea plant to purple box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to purple box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 161,
+    "step": 1,
+    "method": "flat",
+    "duplication": 4,
+    "action_id": 1,
+    "action": "teleport to bathroom",
+    "p_true": 0.0,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to bathroom",
+      "move adult pea plant to purple box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to purple box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 161,
+    "step": 1,
+    "method": "flat",
+    "duplication": 8,
+    "action_id": 1,
+    "action": "teleport to bathroom",
+    "p_true": 0.0,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to bathroom",
+      "move adult pea plant to purple box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to bathroom",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to purple box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 162,
+    "step": 1,
+    "method": "provenance_grouped",
+    "duplication": "all",
+    "action_id": 0,
+    "action": "pick up adult pea plant",
+    "p_true": 0.5,
+    "predicted_success_probability": 0.45,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to living room",
+      "move adult pea plant to red box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "teleport to living room",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to red box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 162,
+    "step": 1,
+    "method": "flat",
+    "duplication": 1,
+    "action_id": 1,
+    "action": "teleport to living room",
+    "p_true": 1.0,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to living room",
+      "move adult pea plant to red box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to living room",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to living room",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to red box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 162,
+    "step": 1,
+    "method": "flat",
+    "duplication": 4,
+    "action_id": 0,
+    "action": "pick up adult pea plant",
+    "p_true": 0.9,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to living room",
+      "move adult pea plant to red box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "teleport to living room",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to red box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 162,
+    "step": 1,
+    "method": "flat",
+    "duplication": 8,
+    "action_id": 1,
+    "action": "teleport to living room",
+    "p_true": 0.9,
+    "predicted_success_probability": 0.9,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "common_suffix": [
+      "teleport to living room",
+      "move adult pea plant to red box"
+    ],
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "teleport to living room",
+        "reward": 17,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to living room",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to red box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 67.0,
+    "steps": 4,
+    "terminal": false
+  }
+]

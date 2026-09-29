@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v9-public-discovery-fair",
+  "task": "find-plant",
+  "variation": 169,
+  "method": "provenance_value",
+  "duplication": 4,
+  "step_limit": 8,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 83,
+  "reward": 66,
+  "steps": 8,
+  "charged_tokens": 30045,
+  "repeated_no_visible_change": 1,
+  "initial_success_probability": 0.2,
+  "initial_state": {
+    "observation": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet)\n\ta closet. The closet door is closed. \n\ta finger painting\n\ta green box (containing nothing)\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the bedroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bed. On the bed is: a mattress. On the mattress is: a white pillow..\n\ta book shelf (containing A book (Beowulf) titled Beowulf by Beowulf poet)\n\ta closet. The closet door is closed. \n\ta finger painting\n\ta green box (containing nothing)\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the green box in the bedroom.",
+    "score": 17
+  },
+  "terminal": false,
+  "error": null,
+  "runtime_seconds": 0.7142624268308282,
+  "trace_file": "results_submission/scienceworld_local_qwen_flatvalue_168_169_m4/episodes/find-plant-v169-provenance_value-m4-trace.jsonl"
+}

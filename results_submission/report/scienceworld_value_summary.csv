@@ -1,0 +1,5 @@
+duplication,method,n,success,final_score,reward,steps,tokens
+1,flat,4,0.75,93.75,85.75,4.5,29991.25
+1,provenance_value,4,1.0,100.0,92.0,5.25,23619.5
+4,flat,4,0.75,93.75,85.75,4.5,37869.0
+4,provenance_value,4,0.75,95.75,87.75,5.25,23228.0

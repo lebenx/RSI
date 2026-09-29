@@ -1,0 +1,30 @@
+{
+  "protocol": "local-qwen-short-horizon-v1",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "directories": [
+    "results_submission/scienceworld_local_qwen_mvp_v159_m1",
+    "results_submission/scienceworld_local_qwen_mvp_v159_m4"
+  ],
+  "task": "find-plant",
+  "variation": 159,
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance"
+  ],
+  "step_limit": 2,
+  "valid_rows": 4,
+  "error_rows": 0,
+  "episode_success_claim": false,
+  "planner_claim": false,
+  "interpretation": "schema/feasibility smoke; horizon is too short for episode-success inference",
+  "scienceworld_commit": "sw-llm-v9-public-discovery-fair",
+  "inference_device": "cuda:0",
+  "inference_dtype": "torch.float16",
+  "gpu_name": "NVIDIA GeForce RTX 4090",
+  "gpu_probe_status": "verified",
+  "device_policy": "LOCAL_QWEN_DEVICE=cuda (CUDA required)"
+}

@@ -1,0 +1,7 @@
+model,source_run,task_type,game_id,duplication,provenance_value_minus_flat_value_success,provenance_value_minus_flat_value_reward,provenance_value_minus_flat_value_final_score,provenance_value_minus_flat_value_steps,provenance_value_minus_flat_value_unnecessary_actions,provenance_value_minus_flat_value_charged_tokens,provenance_value_minus_flat_value_mean_belief_drift,provenance_value_minus_flat_value_calibration_brier
+DeepSeek,alfworld_interactive_v12_deepseek_flatvalue,1,ed061b7a5223,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DeepSeek,alfworld_interactive_v12_deepseek_flatvalue,1,ed061b7a5223,4,0.0,0.0,0.0,0.0,0.0,0.0,-0.2173054378489342,-0.1496507900028727
+DeepSeek,alfworld_interactive_v12_deepseek_flatvalue,2,952d1970902c,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DeepSeek,alfworld_interactive_v12_deepseek_flatvalue,2,952d1970902c,4,0.0,0.0,0.0,0.0,0.0,0.0,-0.1942396327579897,-0.21272063508977573
+DeepSeek,alfworld_interactive_v12_deepseek_flatvalue,3,0dcffb7d0aa0,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DeepSeek,alfworld_interactive_v12_deepseek_flatvalue,3,0dcffb7d0aa0,4,0.0,0.0,0.0,0.0,0.0,0.0,-0.24379289020247,-0.0222345303073829

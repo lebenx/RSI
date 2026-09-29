@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260">
+<style>text{font:13px sans-serif}.box{fill:#eef;stroke:#446}</style>
+<rect class="box" x="20" y="25" width="190" height="50"/>
+<text x="28" y="53">rollout: -20260929-h0-a0-j0</text>
+<rect class="box" x="240" y="25" width="190" height="50"/>
+<text x="248" y="53">source: -20260929-branch-0</text>
+<rect class="box" x="460" y="25" width="190" height="50"/>
+<text x="468" y="53">premise: 0929-bridge_intact</text>
+<rect class="box" x="680" y="25" width="190" height="50"/>
+<text x="688" y="53">evidence: spb-hid-m-20260929</text>
+<rect class="box" x="20" y="125" width="190" height="50"/>
+<text x="28" y="153">rollout: -20260929-h0-a0-j1</text>
+<rect class="box" x="240" y="125" width="190" height="50"/>
+<text x="248" y="153">source: -20260929-branch-1</text>
+<rect class="box" x="460" y="125" width="190" height="50"/>
+<text x="468" y="153">rollout: -20260929-h0-a0-j2</text>
+<rect class="box" x="680" y="125" width="190" height="50"/>
+<text x="688" y="153">rollout: -20260929-h0-a0-j3</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "protocol": "alfworld-textworld-provenance-v1",
+  "task_type": 2,
+  "game_file": "external/alfworld_data/json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/game.tw-pddl",
+  "game_id": "41ffce5fab56",
+  "method": "provenance_value",
+  "duplication": 4,
+  "step_limit": 8,
+  "success": 0,
+  "reward": 0.0,
+  "final_score": 0.0,
+  "steps": 8,
+  "unnecessary_actions": 2,
+  "charged_tokens": 11646,
+  "root_confidence_first": 0.2,
+  "root_confidence_last": 0.9,
+  "root_confidence_delta": 0.7,
+  "confidence_steps": 8,
+  "errors": [],
+  "trace_file": "results_submission/alfworld_interactive_v1/traces/t2-g41ffce5fab56-provenance_value-m4.jsonl",
+  "runtime_seconds": 0.23071856796741486
+}

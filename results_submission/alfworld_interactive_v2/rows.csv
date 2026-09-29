@@ -1,0 +1,13 @@
+task_type,game_id,method,duplication,success,reward,final_score,steps,unnecessary_actions,charged_tokens,root_confidence_first,root_confidence_last,root_confidence_delta,confidence_steps,errors,trace_file
+1,e96f2b33aa0c,flat,1,0,0.0,0.0,15,0,53069,0.5,0.9,0.4,15,[],results_submission/alfworld_interactive_v2/traces/t1-ge96f2b33aa0c-flat-m1.jsonl
+1,e96f2b33aa0c,flat,4,0,0.0,0.0,15,0,75164,0.5,0.9,0.4,15,[],results_submission/alfworld_interactive_v2/traces/t1-ge96f2b33aa0c-flat-m4.jsonl
+1,e96f2b33aa0c,provenance_value,1,0,0.0,0.0,15,0,27588,0.5,0.9,0.4,15,[],results_submission/alfworld_interactive_v2/traces/t1-ge96f2b33aa0c-provenance_value-m1.jsonl
+1,e96f2b33aa0c,provenance_value,4,0,0.0,0.0,15,0,27588,0.5,0.9,0.4,15,[],results_submission/alfworld_interactive_v2/traces/t1-ge96f2b33aa0c-provenance_value-m4.jsonl
+2,41ffce5fab56,flat,1,0,0.0,0.0,15,0,49004,0.2,0.5,0.3,15,[],results_submission/alfworld_interactive_v2/traces/t2-g41ffce5fab56-flat-m1.jsonl
+2,41ffce5fab56,flat,4,0,0.0,0.0,15,0,70075,0.2,0.5,0.3,15,[],results_submission/alfworld_interactive_v2/traces/t2-g41ffce5fab56-flat-m4.jsonl
+2,41ffce5fab56,provenance_value,1,0,0.0,0.0,15,0,25474,0.2,0.9,0.7,15,[],results_submission/alfworld_interactive_v2/traces/t2-g41ffce5fab56-provenance_value-m1.jsonl
+2,41ffce5fab56,provenance_value,4,0,0.0,0.0,15,0,25474,0.2,0.9,0.7,15,[],results_submission/alfworld_interactive_v2/traces/t2-g41ffce5fab56-provenance_value-m4.jsonl
+3,4bf4541aaa91,flat,1,0,0.0,0.0,15,1,58296,0.4,0.5,0.09999999999999998,15,[],results_submission/alfworld_interactive_v2/traces/t3-g4bf4541aaa91-flat-m1.jsonl
+3,4bf4541aaa91,flat,4,0,0.0,0.0,15,0,79386,0.4,0.9,0.5,15,[],results_submission/alfworld_interactive_v2/traces/t3-g4bf4541aaa91-flat-m4.jsonl
+3,4bf4541aaa91,provenance_value,1,0,0.0,0.0,15,0,31690,0.4,0.5,0.09999999999999998,15,[],results_submission/alfworld_interactive_v2/traces/t3-g4bf4541aaa91-provenance_value-m1.jsonl
+3,4bf4541aaa91,provenance_value,4,0,0.0,0.0,15,0,31690,0.4,0.5,0.09999999999999998,15,[],results_submission/alfworld_interactive_v2/traces/t3-g4bf4541aaa91-provenance_value-m4.jsonl

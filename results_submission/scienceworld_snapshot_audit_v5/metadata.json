@@ -1,0 +1,15 @@
+{
+  "version": "sw-llm-v8-public-discovery-fair",
+  "trace_root": "results_submission/scienceworld_v3_m1/episodes",
+  "source_raw": "results_submission/scienceworld_snapshot_audit_v4/snapshot_raw.csv",
+  "replayed_prefix": true,
+  "frozen_fields": [
+    "visible",
+    "candidate",
+    "archived readout action"
+  ],
+  "changed_field": "stipulated true-branch multiplicity in archived readout",
+  "uses_gold_path": false,
+  "uses_hidden_state": false,
+  "note": "Simulator state is reconstructed by replaying the original flat m1 prefix before each one-step action."
+}

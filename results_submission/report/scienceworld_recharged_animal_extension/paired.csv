@@ -1,0 +1,7 @@
+task,variation,flat_success,provenance_success_success,provenance_success_minus_flat_success,flat_final_score,provenance_success_final_score,provenance_success_minus_flat_final_score,flat_reward,provenance_success_reward,provenance_success_minus_flat_reward,flat_steps,provenance_success_steps,provenance_success_minus_flat_steps
+find-animal,156,0,0,0,17,17,0,9,9,0,8,8,0
+find-animal,157,0,0,0,8,17,9,0,9,9,8,8,0
+find-animal,158,0,0,0,75,8,-67,67,0,-67,8,8,0
+find-animal,159,0,0,0,17,17,0,9,9,0,8,8,0
+find-animal,160,0,0,0,8,17,9,0,9,9,8,8,0
+find-animal,161,0,0,0,8,8,0,0,0,0,8,8,0

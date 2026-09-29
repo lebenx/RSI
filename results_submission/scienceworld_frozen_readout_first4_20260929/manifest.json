@@ -1,0 +1,38 @@
+{
+  "protocol": "frozen-bank-identical-prompt-v3-expanded-pre-action",
+  "states": 96,
+  "input_integrity": "history contains only steps strictly before the frozen decision; original candidate/bank/readout inputs agree",
+  "selection": "all pre-action trace steps of archived flat m1 runs, both tasks, variations 150..161; no outcome filter",
+  "max_step_exclusive": 4,
+  "duplications": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "api_repetitions": 3,
+  "variants": [
+    "m1",
+    "m1_repeat",
+    "m2",
+    "m4",
+    "m8"
+  ],
+  "planned_api_calls": 1440,
+  "model": "deepseek-chat",
+  "temperature": 0,
+  "system_prompt": "You plan actions in ScienceWorld. You only know supplied observations.\nReturn one JSON object. Never invent observations or assume a task has completed.\nUse executable actions exactly as listed. Follow the task description's required\norder: if it says \"First, focus\", choose a focus action before moving or using\nthe object; after focus, perform the stated move/use action. Do not spend a\nstep on look/inventory/opening an unrelated container when a required progress\naction is available. If the requested object category is not visible, use a\npublic navigation action to inspect a plausible room before trying to focus an\nunseen object. Track history and avoid repeating no-change actions.\nOptimize final task score within the remaining action budget.\nChoose one of the supplied candidate actions based on evidence and imagined\nrollouts. Report the probability that the specified premise is true and the\nprobability your chosen action leads to full task success within remaining budget.\nJSON: {\"action_id\":0,\"p_true\":0.5,\"success_probability\":0.5,\n\"reason\":\"one short sentence\"}.",
+  "api_seed_supported": false,
+  "schedule_seed": 20260929,
+  "control": "m1_repeat request has byte-identical body to m1; independent request ID",
+  "methods": [
+    "flat",
+    "same_prompt_dedup",
+    "provenance_value"
+  ],
+  "dedup_readout": "use the independent m1_repeat response at each m; structural input invariance",
+  "provenance_value": "deterministic unique-sample belief mixture; no LLM belief override treated as model behavior",
+  "outcome": "immediate simulator reward and best-of-four immediate regret, not episode reward/success",
+  "root_truth_labels": "unavailable; report belief drift, not root calibration or wrong-belief rate",
+  "known_limit": "selected archived task families; readout intervention is causal for the fixed public states, not a broad closed-loop success estimate"
+}

@@ -1,0 +1,12 @@
+{
+  "version": "sw-llm-v3-guided-public-action-shortlist-category-aware",
+  "trace_root": "results_submission/scienceworld_v3_m1/episodes",
+  "frozen_fields": [
+    "visible",
+    "candidate",
+    "bank"
+  ],
+  "changed_field": "stipulated true-branch multiplicity",
+  "uses_gold_path": false,
+  "uses_hidden_state": false
+}

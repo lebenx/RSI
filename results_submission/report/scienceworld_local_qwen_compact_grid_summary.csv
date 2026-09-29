@@ -1,0 +1,7 @@
+task,variation,method,duplication,success,final_score,reward,steps,charged_tokens,repeated_no_visible_change,initial_success_probability,error
+find-plant,152,flat,1,0,83,75,8,58554,0,0.5,
+find-plant,152,provenance,1,0,75,67,8,69768,3,0.5,
+find-plant,158,flat,1,0,67,59,8,59825,0,0.5,
+find-plant,158,provenance,1,0,75,67,8,55054,2,0.5,
+find-plant,161,flat,1,1,100,92,5,27869,0,0.5,
+find-plant,161,provenance,1,0,75,67,8,53410,3,0.5,

@@ -1,0 +1,51 @@
+{
+  "instances": 500,
+  "family_counts": {
+    "hidden_state_dependency": 100,
+    "permission_tool_availability": 100,
+    "object_property_uncertainty": 100,
+    "resource_constraint": 100,
+    "planning_failure": 100
+  },
+  "difficulty_counts": {
+    "medium": 169,
+    "hard": 165,
+    "easy": 166
+  },
+  "split_counts": {
+    "train": 332,
+    "dev": 90,
+    "test": 78
+  },
+  "family_by_split": {
+    "train/hidden_state_dependency": 77,
+    "dev/hidden_state_dependency": 16,
+    "test/hidden_state_dependency": 7,
+    "train/permission_tool_availability": 72,
+    "dev/permission_tool_availability": 14,
+    "test/permission_tool_availability": 14,
+    "train/object_property_uncertainty": 59,
+    "test/object_property_uncertainty": 22,
+    "dev/object_property_uncertainty": 19,
+    "dev/resource_constraint": 24,
+    "train/resource_constraint": 61,
+    "test/resource_constraint": 15,
+    "dev/planning_failure": 17,
+    "train/planning_failure": 63,
+    "test/planning_failure": 20
+  },
+  "difficulty_by_split": {
+    "train/medium": 117,
+    "train/hard": 106,
+    "train/easy": 109,
+    "dev/hard": 33,
+    "dev/easy": 31,
+    "test/medium": 26,
+    "dev/medium": 26,
+    "test/easy": 26,
+    "test/hard": 26
+  },
+  "rollouts": 256000,
+  "lineage_edges": 768000,
+  "generator_seed": 20260929
+}

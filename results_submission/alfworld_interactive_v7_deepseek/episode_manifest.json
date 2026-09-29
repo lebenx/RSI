@@ -1,0 +1,62 @@
+{
+  "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+  "specs": [
+    {
+      "task_type": 1,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-Book-None-SideTable-329/trial_T20190908_050633_745514/game.tw-pddl",
+      "available_games": 35,
+      "selection_index": 0
+    },
+    {
+      "task_type": 2,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/look_at_obj_in_light-AlarmClock-None-DeskLamp-323/trial_T20190909_044715_250790/game.tw-pddl",
+      "available_games": 13,
+      "selection_index": 0
+    },
+    {
+      "task_type": 3,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-8/trial_T20190909_105559_983897/game.tw-pddl",
+      "available_games": 27,
+      "selection_index": 0
+    },
+    {
+      "task_type": 4,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060234_011675/game.tw-pddl",
+      "available_games": 16,
+      "selection_index": 0
+    },
+    {
+      "task_type": 5,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+      "available_games": 25,
+      "selection_index": 0
+    },
+    {
+      "task_type": 6,
+      "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_two_obj_and_place-AlarmClock-None-Dresser-305/trial_T20190907_165826_194855/game.tw-pddl",
+      "available_games": 24,
+      "selection_index": 0
+    }
+  ],
+  "task_types": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "games_per_type": 1,
+  "game_offset": 0,
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "no_imagination",
+    "flat",
+    "provenance_value"
+  ],
+  "data_dir": "external/alfworld_data",
+  "steps": 12
+}

@@ -1,0 +1,11 @@
+duplication,contrast,metric,n,estimate,ci95_low,ci95_high,bootstrap_draws
+1,provenance-flat,success,6,0.0,0.0,0.0,20000
+1,provenance-flat,final_score,6,-1.3333333333333333,-33.0,29.0,20000
+1,provenance-flat,reward,6,-1.3333333333333333,-33.0,29.0,20000
+1,provenance-flat,steps,6,0.0,0.0,0.0,20000
+1,provenance-flat,repeated_no_visible_change,6,0.3333333333333333,0.0,1.0,20000
+4,provenance-flat,success,6,0.0,0.0,0.0,20000
+4,provenance-flat,final_score,6,1.3333333333333333,0.0,4.0,20000
+4,provenance-flat,reward,6,1.3333333333333333,0.0,4.0,20000
+4,provenance-flat,steps,6,0.0,0.0,0.0,20000
+4,provenance-flat,repeated_no_visible_change,6,0.0,-0.5,0.5,20000

@@ -1,0 +1,2969 @@
+[
+  {
+    "state_id": "find-plant-v156-s1",
+    "task": "find-plant",
+    "variation": 156,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_extension_v9_m1_156_161/episodes/find-plant-v156-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "teleport to greenhouse"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the red box in the bathroom.",
+      "observation": "You teleport to the greenhouse.",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing a substance called water)\n\ta flower pot 5 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a pea plant in the adult stage with a short height, soil)\n\ta flower pot 7 (containing a substance called water)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 17,
+      "admissible_actions": [
+        "focus on adult apple tree",
+        "focus on adult cherry tree",
+        "focus on adult pea plant",
+        "inventory",
+        "look around",
+        "look at adult apple tree",
+        "look at adult cherry tree",
+        "look at adult pea plant",
+        "look at agent",
+        "look at air",
+        "look at bee 0",
+        "look at bee 1",
+        "look at bee 2",
+        "look at bee 3",
+        "look at bee 4",
+        "look at bee hive",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at flower pot 2",
+        "look at flower pot 4",
+        "look at flower pot 5",
+        "look at flower pot 6",
+        "look at flower pot 7",
+        "look at greenhouse",
+        "look at hallway",
+        "look at inventory",
+        "look at jug",
+        "look at orange",
+        "look at outside",
+        "look at sewer",
+        "look at shovel",
+        "look at sink",
+        "look at soil in flower pot 2",
+        "look at soil in flower pot 5",
+        "look at soil in flower pot 6",
+        "look at substance in flower pot 4",
+        "look at substance in flower pot 7",
+        "look in adult apple tree",
+        "look in adult cherry tree",
+        "look in adult pea plant",
+        "look in flower pot 2",
+        "look in flower pot 4",
+        "look in flower pot 5",
+        "look in flower pot 6",
+        "look in flower pot 7",
+        "look in greenhouse",
+        "look in hallway",
+        "look in inventory",
+        "look in jug",
+        "look in outside",
+        "look in sewer",
+        "look in sink"
+      ],
+      "admissible_action_count": 772,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "teleport to greenhouse",
+          "observation": "You teleport to the greenhouse.",
+          "reward": 9,
+          "score": 17,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "focus on adult pea plant",
+          "observation": "You focus on the pea plant.",
+          "reward": 50,
+          "score": 67,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a apple tree in the adult stage, soil)\n\ta flower pot 4 (containing a substance called water)\n\ta flower pot 5 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a pea plant in the adult stage with a short height, soil)\n\ta flower pot 7 (containing a substance called water)\n\ta jug (containing nothing)\n\ta shovel\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The plant to focus on is the adult pea plant in flower pot 6.",
+      "p_true": 0.5,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "focus on adult pea plant"
+        },
+        {
+          "id": 1,
+          "action": "focus on adult apple tree"
+        },
+        {
+          "id": 2,
+          "action": "focus on adult cherry tree"
+        },
+        {
+          "id": 3,
+          "action": "look at adult pea plant"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult apple tree",
+          "move adult apple tree to red box in bathroom"
+        ],
+        "imagined_outcome": "The agent focuses on the adult apple tree, then attempts to move it to the red box in the bathroom. The move may fail if the apple tree is too heavy or if the red box is not accessible.",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.1,
+        "sample_id": "720e76a0e191e98fcfadae11-h0-a0-j0",
+        "parent_id": "720e76a0e191e98fcfadae11-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to red box in bathroom"
+        ],
+        "imagined_outcome": "The agent focuses on the adult apple tree, but since the hypothesis is false, the apple tree is not the correct plant. The agent then focuses on the pea plant and moves it, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.8,
+        "sample_id": "720e76a0e191e98fcfadae11-h0-a1-j0",
+        "parent_id": "720e76a0e191e98fcfadae11-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to red box in bathroom"
+        ],
+        "imagined_outcome": "The agent focuses on the adult cherry tree, but since the hypothesis is false, the cherry tree is not the correct plant. The agent then focuses on the pea plant and moves it, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.8,
+        "sample_id": "720e76a0e191e98fcfadae11-h0-a2-j0",
+        "parent_id": "720e76a0e191e98fcfadae11-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to red box in bathroom"
+        ],
+        "imagined_outcome": "The agent looks at the adult pea plant, but since the hypothesis is false, the pea plant is not the correct plant. The agent then focuses on another plant and moves it, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.7,
+        "sample_id": "720e76a0e191e98fcfadae11-h0-a3-j0",
+        "parent_id": "720e76a0e191e98fcfadae11-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "move adult pea plant to red box in bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "The agent focuses on the adult pea plant, then successfully moves it to the red box in the bathroom, completing the task. The final score increases.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "720e76a0e191e98fcfadae11-h1-a0-j0",
+        "parent_id": "720e76a0e191e98fcfadae11-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "move adult apple tree to red box in bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "The agent focuses on the adult apple tree, then moves it to the red box in the bathroom, completing the task. The final score increases.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "720e76a0e191e98fcfadae11-h1-a1-j0",
+        "parent_id": "720e76a0e191e98fcfadae11-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "move adult cherry tree to red box in bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "The agent focuses on the adult cherry tree, then moves it to the red box in the bathroom, completing the task. The final score increases.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "720e76a0e191e98fcfadae11-h1-a2-j0",
+        "parent_id": "720e76a0e191e98fcfadae11-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to red box in bathroom"
+        ],
+        "imagined_outcome": "The agent looks at the adult pea plant, then focuses on it and moves it to the red box in the bathroom, completing the task. The final score increases.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "720e76a0e191e98fcfadae11-h1-a3-j0",
+        "parent_id": "720e76a0e191e98fcfadae11-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-plant-v157-s1",
+    "task": "find-plant",
+    "variation": 157,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_extension_v9_m1_156_161/episodes/find-plant-v157-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "teleport to greenhouse"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the green box in the bathroom.",
+      "observation": "You teleport to the greenhouse.",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a substance called water)\n\ta flower pot 3 (containing a substance called water)\n\ta flower pot 4 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 6 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 7 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 17,
+      "admissible_actions": [
+        "focus on adult apple tree",
+        "focus on adult cherry tree",
+        "focus on adult pea plant",
+        "inventory",
+        "look around",
+        "look at adult apple tree",
+        "look at adult cherry tree",
+        "look at adult pea plant",
+        "look at agent",
+        "look at air",
+        "look at bee 0",
+        "look at bee 1",
+        "look at bee 2",
+        "look at bee 3",
+        "look at bee 4",
+        "look at bee hive",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at flower pot 2",
+        "look at flower pot 3",
+        "look at flower pot 4",
+        "look at flower pot 6",
+        "look at flower pot 7",
+        "look at greenhouse",
+        "look at hallway",
+        "look at inventory",
+        "look at jug",
+        "look at orange",
+        "look at outside",
+        "look at sewer",
+        "look at sink",
+        "look at soil in flower pot 4",
+        "look at soil in flower pot 6",
+        "look at soil in flower pot 7",
+        "look at substance in flower pot 2",
+        "look at substance in flower pot 3",
+        "look in adult apple tree",
+        "look in adult cherry tree",
+        "look in adult pea plant",
+        "look in flower pot 2",
+        "look in flower pot 3",
+        "look in flower pot 4",
+        "look in flower pot 6",
+        "look in flower pot 7",
+        "look in greenhouse",
+        "look in hallway",
+        "look in inventory",
+        "look in jug",
+        "look in outside",
+        "look in sewer",
+        "look in sink"
+      ],
+      "admissible_action_count": 720,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "teleport to greenhouse",
+          "observation": "You teleport to the greenhouse.",
+          "reward": 9,
+          "score": 17,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "focus on adult pea plant",
+          "observation": "You focus on the pea plant.",
+          "reward": 50,
+          "score": 67,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 2 (containing a substance called water)\n\ta flower pot 3 (containing a substance called water)\n\ta flower pot 4 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 6 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 7 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The adult pea plant in flower pot 4 is a plant that can be focused on and moved.",
+      "p_true": 0.9,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "focus on adult pea plant"
+        },
+        {
+          "id": 1,
+          "action": "focus on adult apple tree"
+        },
+        {
+          "id": 2,
+          "action": "focus on adult cherry tree"
+        },
+        {
+          "id": 3,
+          "action": "look at adult pea plant"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.9,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to green box in bathroom"
+        ],
+        "imagined_outcome": "The focus action fails because the pea plant cannot be focused on. The subsequent move action also fails. No progress is made toward the task.",
+        "predicted_final_score": 0.17,
+        "success_probability": 0.0,
+        "sample_id": "db7142a9232417490f87a14e-h0-a0-j0",
+        "parent_id": "db7142a9232417490f87a14e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult apple tree",
+          "move adult apple tree to green box in bathroom"
+        ],
+        "imagined_outcome": "The focus action fails because the apple tree cannot be focused on. The subsequent move action also fails. No progress is made toward the task.",
+        "predicted_final_score": 0.17,
+        "success_probability": 0.0,
+        "sample_id": "db7142a9232417490f87a14e-h0-a1-j0",
+        "parent_id": "db7142a9232417490f87a14e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult cherry tree",
+          "move adult cherry tree to green box in bathroom"
+        ],
+        "imagined_outcome": "The focus action fails because the cherry tree cannot be focused on. The subsequent move action also fails. No progress is made toward the task.",
+        "predicted_final_score": 0.17,
+        "success_probability": 0.0,
+        "sample_id": "db7142a9232417490f87a14e-h0-a2-j0",
+        "parent_id": "db7142a9232417490f87a14e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at adult pea plant",
+          "focus on adult pea plant"
+        ],
+        "imagined_outcome": "Looking at the pea plant provides no useful information. The subsequent focus action fails. No progress is made toward the task.",
+        "predicted_final_score": 0.17,
+        "success_probability": 0.0,
+        "sample_id": "db7142a9232417490f87a14e-h0-a3-j0",
+        "parent_id": "db7142a9232417490f87a14e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to green box in bathroom"
+        ],
+        "imagined_outcome": "The pea plant is successfully focused on. Then, moving it to the green box in the bathroom succeeds, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "db7142a9232417490f87a14e-h1-a0-j0",
+        "parent_id": "db7142a9232417490f87a14e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on adult apple tree",
+          "move adult apple tree to green box in bathroom"
+        ],
+        "imagined_outcome": "The apple tree is successfully focused on. Then, moving it to the green box in the bathroom succeeds, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "db7142a9232417490f87a14e-h1-a1-j0",
+        "parent_id": "db7142a9232417490f87a14e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on adult cherry tree",
+          "move adult cherry tree to green box in bathroom"
+        ],
+        "imagined_outcome": "The cherry tree is successfully focused on. Then, moving it to the green box in the bathroom succeeds, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "db7142a9232417490f87a14e-h1-a2-j0",
+        "parent_id": "db7142a9232417490f87a14e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at adult pea plant",
+          "focus on adult pea plant"
+        ],
+        "imagined_outcome": "Looking at the pea plant confirms it is a plant. The subsequent focus action succeeds, but the task is not yet complete because the plant has not been moved to the bathroom.",
+        "predicted_final_score": 0.17,
+        "success_probability": 0.0,
+        "sample_id": "db7142a9232417490f87a14e-h1-a3-j0",
+        "parent_id": "db7142a9232417490f87a14e-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-plant-v158-s1",
+    "task": "find-plant",
+    "variation": 158,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_extension_v9_m1_156_161/episodes/find-plant-v158-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the blue box in the bathroom.",
+      "observation": "You focus on the pea.",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a substance called water)\n\ta flower pot 4 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 5 (containing a substance called water)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 58,
+      "admissible_actions": [
+        "pick up adult pea plant",
+        "teleport to bathroom",
+        "inventory",
+        "look around",
+        "look at adult apple tree",
+        "look at adult cherry tree",
+        "look at adult pea plant",
+        "look at agent",
+        "look at air",
+        "look at bee 0",
+        "look at bee 1",
+        "look at bee 2",
+        "look at bee 3",
+        "look at bee 4",
+        "look at bee hive",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at flower pot 1",
+        "look at flower pot 4",
+        "look at flower pot 5",
+        "look at flower pot 7",
+        "look at flower pot 8",
+        "look at greenhouse",
+        "look at hallway",
+        "look at inventory",
+        "look at jug",
+        "look at orange",
+        "look at outside",
+        "look at sewer",
+        "look at sink",
+        "look at soil in flower pot 4",
+        "look at soil in flower pot 7",
+        "look at soil in flower pot 8",
+        "look at substance in flower pot 1",
+        "look at substance in flower pot 5",
+        "look in adult apple tree",
+        "look in adult cherry tree",
+        "look in adult pea plant",
+        "look in flower pot 1",
+        "look in flower pot 4",
+        "look in flower pot 5",
+        "look in flower pot 7",
+        "look in flower pot 8",
+        "look in greenhouse",
+        "look in hallway",
+        "look in inventory",
+        "look in jug",
+        "look in outside",
+        "look in sewer",
+        "look in sink"
+      ],
+      "admissible_action_count": 720,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "focus on adult pea plant",
+          "observation": "You focus on the pea.",
+          "reward": 50,
+          "score": 58,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing nothing)\n\ta flower pot 4 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "pick up adult pea plant",
+          "observation": "You move the pea plant to the inventory.",
+          "reward": 9,
+          "score": 67,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a substance called water)\n\ta flower pot 4 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 5 (containing a substance called water)\n\ta flower pot 7 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 8 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The adult pea plant in flower pot 7 can be picked up directly without first moving it or the pot.",
+      "p_true": 0.5,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "pick up adult pea plant"
+        },
+        {
+          "id": 1,
+          "action": "teleport to bathroom"
+        },
+        {
+          "id": 2,
+          "action": "look at adult pea plant"
+        },
+        {
+          "id": 3,
+          "action": "look in flower pot 7"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to bathroom",
+          "move adult pea plant to blue box"
+        ],
+        "imagined_outcome": "The pea plant cannot be picked up directly; the action fails, and the agent remains in the greenhouse. Subsequent teleport and move actions are not possible because the plant is not held.",
+        "predicted_final_score": 0.58,
+        "success_probability": 0.0,
+        "sample_id": "8fd83549b77d185b21a6b42c-h0-a0-j0",
+        "parent_id": "8fd83549b77d185b21a6b42c-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "move adult pea plant to blue box"
+        ],
+        "imagined_outcome": "Teleportation fails; the agent remains in the greenhouse. The subsequent pick up and move actions are attempted but the agent is not in the bathroom, so the move fails.",
+        "predicted_final_score": 0.58,
+        "success_probability": 0.0,
+        "sample_id": "8fd83549b77d185b21a6b42c-h0-a1-j0",
+        "parent_id": "8fd83549b77d185b21a6b42c-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "teleport to bathroom"
+        ],
+        "imagined_outcome": "Looking at the pea plant provides no new information. The agent then picks up the plant and teleports to the bathroom, but the task is not yet complete.",
+        "predicted_final_score": 0.58,
+        "success_probability": 0.0,
+        "sample_id": "8fd83549b77d185b21a6b42c-h0-a2-j0",
+        "parent_id": "8fd83549b77d185b21a6b42c-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "teleport to bathroom"
+        ],
+        "imagined_outcome": "Looking in flower pot 7 shows no pea plant. The agent then attempts to pick up the pea plant but fails because it is not there.",
+        "predicted_final_score": 0.58,
+        "success_probability": 0.0,
+        "sample_id": "8fd83549b77d185b21a6b42c-h0-a3-j0",
+        "parent_id": "8fd83549b77d185b21a6b42c-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to bathroom",
+          "move adult pea plant to blue box"
+        ],
+        "imagined_outcome": "The pea plant is successfully picked up and added to inventory. The agent teleports to the bathroom and moves the plant into the blue box, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 1.0,
+        "sample_id": "8fd83549b77d185b21a6b42c-h1-a0-j0",
+        "parent_id": "8fd83549b77d185b21a6b42c-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "move adult pea plant to blue box"
+        ],
+        "imagined_outcome": "The agent teleports to the bathroom. However, the pea plant is still in the greenhouse, so picking it up fails. The move action also fails because the plant is not held.",
+        "predicted_final_score": 0.58,
+        "success_probability": 0.0,
+        "sample_id": "8fd83549b77d185b21a6b42c-h1-a1-j0",
+        "parent_id": "8fd83549b77d185b21a6b42c-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "teleport to bathroom"
+        ],
+        "imagined_outcome": "Looking at the pea plant confirms it is an adult pea plant. The agent then picks it up and teleports to the bathroom, but the task is not yet complete.",
+        "predicted_final_score": 0.58,
+        "success_probability": 0.0,
+        "sample_id": "8fd83549b77d185b21a6b42c-h1-a2-j0",
+        "parent_id": "8fd83549b77d185b21a6b42c-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "teleport to bathroom"
+        ],
+        "imagined_outcome": "Looking in flower pot 7 confirms the pea plant is present. The agent then picks it up and teleports to the bathroom, but the task is not yet complete.",
+        "predicted_final_score": 0.58,
+        "success_probability": 0.0,
+        "sample_id": "8fd83549b77d185b21a6b42c-h1-a3-j0",
+        "parent_id": "8fd83549b77d185b21a6b42c-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-plant-v159-s1",
+    "task": "find-plant",
+    "variation": 159,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_extension_v9_m1_156_161/episodes/find-plant-v159-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "teleport to greenhouse"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the orange box in the bathroom.",
+      "observation": "You teleport to the greenhouse.",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 3 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 4 (containing a substance called water)\n\ta flower pot 5 (containing a substance called water)\n\ta flower pot 9 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 17,
+      "admissible_actions": [
+        "focus on adult apple tree",
+        "focus on adult cherry tree",
+        "focus on adult pea plant",
+        "inventory",
+        "look around",
+        "look at adult apple tree",
+        "look at adult cherry tree",
+        "look at adult pea plant",
+        "look at agent",
+        "look at air",
+        "look at bee 0",
+        "look at bee 1",
+        "look at bee 2",
+        "look at bee 3",
+        "look at bee 4",
+        "look at bee hive",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at flower pot 1",
+        "look at flower pot 3",
+        "look at flower pot 4",
+        "look at flower pot 5",
+        "look at flower pot 9",
+        "look at greenhouse",
+        "look at hallway",
+        "look at inventory",
+        "look at jug",
+        "look at orange",
+        "look at outside",
+        "look at sewer",
+        "look at sink",
+        "look at soil in flower pot 1",
+        "look at soil in flower pot 3",
+        "look at soil in flower pot 9",
+        "look at substance in flower pot 4",
+        "look at substance in flower pot 5",
+        "look in adult apple tree",
+        "look in adult cherry tree",
+        "look in adult pea plant",
+        "look in flower pot 1",
+        "look in flower pot 3",
+        "look in flower pot 4",
+        "look in flower pot 5",
+        "look in flower pot 9",
+        "look in greenhouse",
+        "look in hallway",
+        "look in inventory",
+        "look in jug",
+        "look in outside",
+        "look in sewer",
+        "look in sink"
+      ],
+      "admissible_action_count": 720,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "teleport to greenhouse",
+          "observation": "You teleport to the greenhouse.",
+          "reward": 9,
+          "score": 17,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "focus on adult pea plant",
+          "observation": "You focus on the pea plant.",
+          "reward": 50,
+          "score": 67,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 3 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 4 (containing a substance called water)\n\ta flower pot 5 (containing a substance called water)\n\ta flower pot 9 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The plant to be moved is the adult pea plant in flower pot 3.",
+      "p_true": 0.5,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "focus on adult pea plant"
+        },
+        {
+          "id": 1,
+          "action": "focus on adult apple tree"
+        },
+        {
+          "id": 2,
+          "action": "focus on adult cherry tree"
+        },
+        {
+          "id": 3,
+          "action": "look around"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.5,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult apple tree",
+          "move adult apple tree to orange box"
+        ],
+        "imagined_outcome": "Focusing on the pea plant fails or is irrelevant; the apple tree is focused instead, but moving it to the bathroom orange box is not completed within remaining steps.",
+        "predicted_final_score": 0.17,
+        "success_probability": 0.05,
+        "sample_id": "9191407e630838eb724102bd-h0-a0-j0",
+        "parent_id": "9191407e630838eb724102bd-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to orange box"
+        ],
+        "imagined_outcome": "Focusing on the apple tree fails or is irrelevant; the pea plant is focused and moved, but the apple tree hypothesis is false.",
+        "predicted_final_score": 0.17,
+        "success_probability": 0.05,
+        "sample_id": "9191407e630838eb724102bd-h0-a1-j0",
+        "parent_id": "9191407e630838eb724102bd-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to orange box"
+        ],
+        "imagined_outcome": "Focusing on the cherry tree fails or is irrelevant; the pea plant is focused and moved, but the cherry tree hypothesis is false.",
+        "predicted_final_score": 0.17,
+        "success_probability": 0.05,
+        "sample_id": "9191407e630838eb724102bd-h0-a2-j0",
+        "parent_id": "9191407e630838eb724102bd-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to orange box"
+        ],
+        "imagined_outcome": "Looking around does not focus a plant; the pea plant remains unfocused and the task is not completed.",
+        "predicted_final_score": 0.17,
+        "success_probability": 0.05,
+        "sample_id": "9191407e630838eb724102bd-h0-a3-j0",
+        "parent_id": "9191407e630838eb724102bd-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "move adult pea plant to orange box",
+          "look around"
+        ],
+        "imagined_outcome": "The adult pea plant is focused, then moved to the orange box in the bathroom, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.85,
+        "sample_id": "9191407e630838eb724102bd-h1-a0-j0",
+        "parent_id": "9191407e630838eb724102bd-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "move adult apple tree to orange box",
+          "look around"
+        ],
+        "imagined_outcome": "The adult apple tree is focused, then moved to the orange box in the bathroom, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.85,
+        "sample_id": "9191407e630838eb724102bd-h1-a1-j0",
+        "parent_id": "9191407e630838eb724102bd-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "move adult cherry tree to orange box",
+          "look around"
+        ],
+        "imagined_outcome": "The adult cherry tree is focused, then moved to the orange box in the bathroom, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.85,
+        "sample_id": "9191407e630838eb724102bd-h1-a2-j0",
+        "parent_id": "9191407e630838eb724102bd-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on adult pea plant",
+          "move adult pea plant to orange box"
+        ],
+        "imagined_outcome": "Looking around reveals no new relevant information; the pea plant is focused and moved, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.85,
+        "sample_id": "9191407e630838eb724102bd-h1-a3-j0",
+        "parent_id": "9191407e630838eb724102bd-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-plant-v160-s1",
+    "task": "find-plant",
+    "variation": 160,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_extension_v9_m1_156_161/episodes/find-plant-v160-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "look in bathroom"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the yellow box in the bathroom.",
+      "observation": "Inside the bathroom is: \n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\n\ta yellow box (containing nothing)\n\n You also see: A door to the kitchen (that is open).",
+      "look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at apple",
+        "look at banana",
+        "look at bathroom",
+        "look at bowl",
+        "look at ceramic cup",
+        "look at chair",
+        "look at counter",
+        "look at cup containing nothing in table",
+        "look at cup containing orange juice",
+        "look at cupboard",
+        "look at door to bathroom",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at drawer in counter",
+        "look at drawer in cupboard",
+        "look at freezer",
+        "look at fridge",
+        "look at glass jar",
+        "look at hallway",
+        "look at inventory",
+        "look at kitchen",
+        "look at lighter",
+        "look at metal pot",
+        "look at orange in bowl",
+        "look at orange in inventory",
+        "look at orange juice",
+        "look at outside",
+        "look at oven",
+        "look at painting",
+        "look at potato",
+        "look at sewer",
+        "look at sink",
+        "look at soap",
+        "look at sodium chloride",
+        "look at stopwatch",
+        "look at stove",
+        "look at table",
+        "look at thermometer",
+        "look at tin cup",
+        "look in bathroom",
+        "look in bowl",
+        "look in ceramic cup",
+        "look in chair",
+        "look in counter",
+        "look in cup containing nothing in table",
+        "look in cup containing orange juice",
+        "look in hallway",
+        "look in inventory",
+        "look in kitchen",
+        "look in metal pot",
+        "look in outside",
+        "look in sewer",
+        "look in sink",
+        "look in stove",
+        "look in table",
+        "look in tin cup"
+      ],
+      "admissible_action_count": 976,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look in bathroom",
+          "observation": "Inside the bathroom is: \n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\n\ta yellow box (containing nothing)\n\n You also see: A door to the kitchen (that is open).",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "look in hallway",
+          "observation": "Inside the hallway is: \n\ta substance called air\n\ta painting\n\n You also see: A door to the kitchen (that is open), A door to the living room (that is open), A door to the bedroom (that is open), A door to the workshop (that is open), A door to the greenhouse (that is open), A door to the art studio (that is open).",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "A plant is present in the hallway, which has not yet been inspected.",
+      "p_true": 0.4,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look in hallway"
+        },
+        {
+          "id": 1,
+          "action": "look in outside"
+        },
+        {
+          "id": 2,
+          "action": "look in kitchen"
+        },
+        {
+          "id": 3,
+          "action": "look in bathroom"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.4,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look in hallway",
+          "look around",
+          "look in kitchen"
+        ],
+        "imagined_outcome": "The hallway does not contain a plant; no plant is found, so the task cannot be completed within the remaining budget.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "2867c5d4ca75a9a525f3f376-h0-a0-j0",
+        "parent_id": "2867c5d4ca75a9a525f3f376-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look in outside",
+          "look in hallway",
+          "look in kitchen"
+        ],
+        "imagined_outcome": "The outside area does not contain a plant; no plant is found, so the task cannot be completed within the remaining budget.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "2867c5d4ca75a9a525f3f376-h0-a1-j0",
+        "parent_id": "2867c5d4ca75a9a525f3f376-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look in kitchen",
+          "look in hallway",
+          "look in outside"
+        ],
+        "imagined_outcome": "The kitchen does not contain a plant; no plant is found, so the task cannot be completed within the remaining budget.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "2867c5d4ca75a9a525f3f376-h0-a2-j0",
+        "parent_id": "2867c5d4ca75a9a525f3f376-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look in bathroom",
+          "look in hallway",
+          "look in outside"
+        ],
+        "imagined_outcome": "The bathroom does not contain a plant; no plant is found, so the task cannot be completed within the remaining budget.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "2867c5d4ca75a9a525f3f376-h0-a3-j0",
+        "parent_id": "2867c5d4ca75a9a525f3f376-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look in hallway",
+          "focus on plant",
+          "move plant to yellow box"
+        ],
+        "imagined_outcome": "The hallway contains a plant. After focusing on it, the plant is moved to the yellow box in the bathroom, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "2867c5d4ca75a9a525f3f376-h1-a0-j0",
+        "parent_id": "2867c5d4ca75a9a525f3f376-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look in outside",
+          "focus on plant",
+          "move plant to yellow box"
+        ],
+        "imagined_outcome": "The outside area contains a plant. After focusing on it, the plant is moved to the yellow box in the bathroom, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.8,
+        "sample_id": "2867c5d4ca75a9a525f3f376-h1-a1-j0",
+        "parent_id": "2867c5d4ca75a9a525f3f376-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look in kitchen",
+          "focus on plant",
+          "move plant to yellow box"
+        ],
+        "imagined_outcome": "The kitchen contains a plant. After focusing on it, the plant is moved to the yellow box in the bathroom, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.7,
+        "sample_id": "2867c5d4ca75a9a525f3f376-h1-a2-j0",
+        "parent_id": "2867c5d4ca75a9a525f3f376-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look in bathroom",
+          "focus on plant",
+          "move plant to yellow box"
+        ],
+        "imagined_outcome": "The bathroom contains a plant. After focusing on it, the plant is moved to the yellow box in the bathroom, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.6,
+        "sample_id": "2867c5d4ca75a9a525f3f376-h1-a3-j0",
+        "parent_id": "2867c5d4ca75a9a525f3f376-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-plant-v161-s1",
+    "task": "find-plant",
+    "variation": 161,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_extension_v9_m1_156_161/episodes/find-plant-v161-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "focus on adult pea plant"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the purple box in the bathroom.",
+      "observation": "You focus on the pea.",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 4 (containing a substance called water)\n\ta flower pot 5 (containing a substance called water)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 9 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 58,
+      "admissible_actions": [
+        "pick up adult pea plant",
+        "teleport to bathroom",
+        "inventory",
+        "look around",
+        "look at adult apple tree",
+        "look at adult cherry tree",
+        "look at adult pea plant",
+        "look at agent",
+        "look at air",
+        "look at bee 0",
+        "look at bee 1",
+        "look at bee 2",
+        "look at bee 3",
+        "look at bee 4",
+        "look at bee hive",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at flower pot 1",
+        "look at flower pot 4",
+        "look at flower pot 5",
+        "look at flower pot 8",
+        "look at flower pot 9",
+        "look at greenhouse",
+        "look at hallway",
+        "look at inventory",
+        "look at jug",
+        "look at orange",
+        "look at outside",
+        "look at sewer",
+        "look at sink",
+        "look at soil in flower pot 1",
+        "look at soil in flower pot 8",
+        "look at soil in flower pot 9",
+        "look at substance in flower pot 4",
+        "look at substance in flower pot 5",
+        "look in adult apple tree",
+        "look in adult cherry tree",
+        "look in adult pea plant",
+        "look in flower pot 1",
+        "look in flower pot 4",
+        "look in flower pot 5",
+        "look in flower pot 8",
+        "look in flower pot 9",
+        "look in greenhouse",
+        "look in hallway",
+        "look in inventory",
+        "look in jug",
+        "look in outside",
+        "look in sewer",
+        "look in sink"
+      ],
+      "admissible_action_count": 720,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "focus on adult pea plant",
+          "observation": "You focus on the pea.",
+          "reward": 50,
+          "score": 58,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 4 (containing nothing)\n\ta flower pot 5 (containing nothing)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 9 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "pick up adult pea plant",
+          "observation": "You move the pea plant to the inventory.",
+          "reward": 9,
+          "score": 67,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 4 (containing a substance called water)\n\ta flower pot 5 (containing a substance called water)\n\ta flower pot 8 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 9 (containing a apple tree in the adult stage, soil)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The adult pea plant is currently in the agent's inventory.",
+      "p_true": 0.1,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "pick up adult pea plant"
+        },
+        {
+          "id": 1,
+          "action": "teleport to bathroom"
+        },
+        {
+          "id": 2,
+          "action": "look at adult pea plant"
+        },
+        {
+          "id": 3,
+          "action": "inventory"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.9,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "The pick up action fails because the pea plant is not in inventory. After teleporting to the bathroom, the pea plant is not there, so the task cannot be completed.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "85343408de1b1298c199b7b2-h0-a0-j0",
+        "parent_id": "85343408de1b1298c199b7b2-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "teleport to bathroom"
+        ],
+        "imagined_outcome": "Teleporting to the bathroom fails, so the agent remains in the greenhouse. Picking up the pea plant succeeds, but without teleportation, the agent cannot reach the bathroom to complete the task.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "85343408de1b1298c199b7b2-h0-a1-j0",
+        "parent_id": "85343408de1b1298c199b7b2-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "teleport to bathroom"
+        ],
+        "imagined_outcome": "Looking at the pea plant fails because it is not in inventory. The agent then picks up the pea plant and teleports to the bathroom, but the task is not completed within the remaining actions.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "85343408de1b1298c199b7b2-h0-a2-j0",
+        "parent_id": "85343408de1b1298c199b7b2-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "teleport to bathroom"
+        ],
+        "imagined_outcome": "Inventory check fails. The agent picks up the pea plant and teleports to the bathroom, but the task is not completed within the remaining actions.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "85343408de1b1298c199b7b2-h0-a3-j0",
+        "parent_id": "85343408de1b1298c199b7b2-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to bathroom",
+          "move adult pea plant to purple box"
+        ],
+        "imagined_outcome": "The pea plant is successfully picked up. Teleporting to the bathroom reveals the purple box. Moving the pea plant into the purple box completes the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 1.0,
+        "sample_id": "85343408de1b1298c199b7b2-h1-a0-j0",
+        "parent_id": "85343408de1b1298c199b7b2-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "pick up adult pea plant",
+          "move adult pea plant to purple box"
+        ],
+        "imagined_outcome": "Teleporting to the bathroom succeeds. The agent then picks up the pea plant (assuming it is in inventory) and moves it to the purple box, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 1.0,
+        "sample_id": "85343408de1b1298c199b7b2-h1-a1-j0",
+        "parent_id": "85343408de1b1298c199b7b2-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to bathroom",
+          "move adult pea plant to purple box"
+        ],
+        "imagined_outcome": "Looking at the pea plant succeeds, confirming it is in inventory. The agent teleports to the bathroom and moves the pea plant to the purple box, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 1.0,
+        "sample_id": "85343408de1b1298c199b7b2-h1-a2-j0",
+        "parent_id": "85343408de1b1298c199b7b2-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to bathroom",
+          "move adult pea plant to purple box"
+        ],
+        "imagined_outcome": "Inventory check succeeds, showing the pea plant. The agent teleports to the bathroom and moves the pea plant to the purple box, completing the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 1.0,
+        "sample_id": "85343408de1b1298c199b7b2-h1-a3-j0",
+        "parent_id": "85343408de1b1298c199b7b2-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-animal-v156-s1",
+    "task": "find-animal",
+    "variation": 156,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_animal_extension_v9_m1_156_probe/episodes/find-animal-v156-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "look in hallway"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the red box in the bathroom.",
+      "observation": "Inside the hallway is: \n\ta substance called air\n\ta painting\n\n You also see: A door to the kitchen (that is open), A door to the living room (that is open), A door to the bedroom (that is open), A door to the workshop (that is open), A door to the greenhouse (that is open), A door to the art studio (that is open).",
+      "look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at book (moby dick)",
+        "look at book (the foundations of the origin of species)",
+        "look at book shelf",
+        "look at chair",
+        "look at cloth sittable",
+        "look at door to hallway",
+        "look at drawing",
+        "look at hallway",
+        "look at inventory",
+        "look at living room",
+        "look at object",
+        "look at orange",
+        "look at steel table",
+        "look in book shelf",
+        "look in chair",
+        "look in cloth sittable",
+        "look in hallway",
+        "look in inventory",
+        "look in living room",
+        "look in steel table"
+      ],
+      "admissible_action_count": 170,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look in hallway",
+          "observation": "Inside the hallway is: \n\ta substance called air\n\ta painting\n\n You also see: A door to the kitchen (that is open), A door to the living room (that is open), A door to the bedroom (that is open), A door to the workshop (that is open), A door to the greenhouse (that is open), A door to the art studio (that is open).",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "teleport to greenhouse",
+          "observation": "You teleport to the greenhouse.",
+          "reward": 9,
+          "score": 17,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta book shelf (containing A book (Moby Dick) titled Moby Dick by Herman Melville, A book (The Foundations of the Origin of Species) titled The Foundations of the Origin of Species by Charles Darwin)\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta drawing\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The animal is located in the greenhouse.",
+      "p_true": 0.3,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 1,
+          "action": "teleport to outside"
+        },
+        {
+          "id": 2,
+          "action": "look around"
+        },
+        {
+          "id": 3,
+          "action": "look at object"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.3,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to greenhouse",
+          "look around",
+          "look at object"
+        ],
+        "imagined_outcome": "Teleport to greenhouse fails or greenhouse does not contain the animal; subsequent looks find no animal.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.0,
+        "sample_id": "e8a853232a4c0604c925ff0e-h0-a0-j0",
+        "parent_id": "e8a853232a4c0604c925ff0e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to outside",
+          "look around",
+          "look at object"
+        ],
+        "imagined_outcome": "Teleport to outside fails or outside does not contain the animal; no progress toward finding the animal.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.0,
+        "sample_id": "e8a853232a4c0604c925ff0e-h0-a1-j0",
+        "parent_id": "e8a853232a4c0604c925ff0e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look around",
+          "look at object",
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "Looking around the living room reveals no animal; no progress toward finding the animal.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.0,
+        "sample_id": "e8a853232a4c0604c925ff0e-h0-a2-j0",
+        "parent_id": "e8a853232a4c0604c925ff0e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at object",
+          "look around",
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "Looking at an unspecified object reveals no animal; no progress toward finding the animal.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.0,
+        "sample_id": "e8a853232a4c0604c925ff0e-h0-a3-j0",
+        "parent_id": "e8a853232a4c0604c925ff0e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to greenhouse",
+          "look around",
+          "look at object"
+        ],
+        "imagined_outcome": "Teleport to greenhouse succeeds; the animal is visible; focus and move to red box in bathroom can be attempted.",
+        "predicted_final_score": 0.9,
+        "success_probability": 0.7,
+        "sample_id": "e8a853232a4c0604c925ff0e-h1-a0-j0",
+        "parent_id": "e8a853232a4c0604c925ff0e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to outside",
+          "look around",
+          "look at object"
+        ],
+        "imagined_outcome": "Teleport to outside succeeds; the animal is visible; focus and move to red box in bathroom can be attempted.",
+        "predicted_final_score": 0.9,
+        "success_probability": 0.7,
+        "sample_id": "e8a853232a4c0604c925ff0e-h1-a1-j0",
+        "parent_id": "e8a853232a4c0604c925ff0e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look around",
+          "look at object",
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "Looking around reveals the animal in the living room; focus and move to red box in bathroom can be attempted.",
+        "predicted_final_score": 0.9,
+        "success_probability": 0.7,
+        "sample_id": "e8a853232a4c0604c925ff0e-h1-a2-j0",
+        "parent_id": "e8a853232a4c0604c925ff0e-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at object",
+          "look around",
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "Looking at an unspecified object reveals the animal; focus and move to red box in bathroom can be attempted.",
+        "predicted_final_score": 0.9,
+        "success_probability": 0.7,
+        "sample_id": "e8a853232a4c0604c925ff0e-h1-a3-j0",
+        "parent_id": "e8a853232a4c0604c925ff0e-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-animal-v157-s1",
+    "task": "find-animal",
+    "variation": 157,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_animal_extension_v9_m1_157_161/episodes/find-animal-v157-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "look at cupboard"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the green box in the bathroom.",
+      "observation": "a large cupboard. The large cupboard door is closed.",
+      "look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at art studio",
+        "look at blue paint in wood cup containing blue paint",
+        "look at blue paint on wood cup",
+        "look at cup containing blue paint in art studio",
+        "look at cup containing blue paint in cupboard",
+        "look at cup containing red paint in art studio",
+        "look at cup containing red paint in cupboard",
+        "look at cup containing yellow paint in art studio",
+        "look at cup containing yellow paint in cupboard",
+        "look at cupboard",
+        "look at door to hallway",
+        "look at drawer",
+        "look at hallway",
+        "look at inventory",
+        "look at jug",
+        "look at orange",
+        "look at paint on cup",
+        "look at paint on cup containing red paint",
+        "look at red paint in wood cup",
+        "look at table",
+        "look at yellow paint in wood cup containing yellow paint",
+        "look in art studio",
+        "look in cup containing blue paint in art studio",
+        "look in cup containing blue paint in cupboard",
+        "look in cup containing red paint in art studio",
+        "look in cup containing red paint in cupboard",
+        "look in cup containing yellow paint in art studio",
+        "look in cup containing yellow paint in cupboard",
+        "look in hallway",
+        "look in inventory",
+        "look in jug",
+        "look in table"
+      ],
+      "admissible_action_count": 422,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look at cupboard",
+          "observation": "a large cupboard. The large cupboard door is closed.",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "look around",
+          "observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a jug (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The large cupboard contains an animal.",
+      "p_true": 0.3,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 1,
+          "action": "teleport to living room"
+        },
+        {
+          "id": 2,
+          "action": "teleport to outside"
+        },
+        {
+          "id": 3,
+          "action": "look around"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.3,
+      "candidate_repaired": 3
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to greenhouse",
+          "look around",
+          "look at inventory"
+        ],
+        "imagined_outcome": "You teleport to the greenhouse. The greenhouse contains plants and a door to the outside, but no animal is visible. The cupboard premise is false, so the animal is elsewhere and not found here.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "143bafeedf194800e8e5f2c9-h0-a0-j0",
+        "parent_id": "143bafeedf194800e8e5f2c9-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to living room",
+          "look around",
+          "look at inventory"
+        ],
+        "imagined_outcome": "You teleport to the living room. It contains furniture but no animal. The cupboard premise is false, so the animal is elsewhere and not found here.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "143bafeedf194800e8e5f2c9-h0-a1-j0",
+        "parent_id": "143bafeedf194800e8e5f2c9-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to outside",
+          "look around",
+          "look at inventory"
+        ],
+        "imagined_outcome": "You teleport outside. You see outdoor scenery but no animal. The cupboard premise is false, so the animal is elsewhere and not found here.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "143bafeedf194800e8e5f2c9-h0-a2-j0",
+        "parent_id": "143bafeedf194800e8e5f2c9-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look around",
+          "look at cupboard",
+          "look at table"
+        ],
+        "imagined_outcome": "You look around the art studio. You see the same objects: cupboard, table, cups, jug, door. No animal is visible. The cupboard premise is false, so the animal is not in the cupboard and must be elsewhere.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "143bafeedf194800e8e5f2c9-h0-a3-j0",
+        "parent_id": "143bafeedf194800e8e5f2c9-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to greenhouse",
+          "look around",
+          "teleport to art studio"
+        ],
+        "imagined_outcome": "You teleport to the greenhouse. The cupboard premise is true, but the animal is in the art studio cupboard, not the greenhouse. You waste a step and must return.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "143bafeedf194800e8e5f2c9-h1-a0-j0",
+        "parent_id": "143bafeedf194800e8e5f2c9-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to living room",
+          "look around",
+          "teleport to art studio"
+        ],
+        "imagined_outcome": "You teleport to the living room. The cupboard premise is true, but the animal is in the art studio cupboard, not the living room. You waste a step and must return.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "143bafeedf194800e8e5f2c9-h1-a1-j0",
+        "parent_id": "143bafeedf194800e8e5f2c9-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to outside",
+          "look around",
+          "teleport to art studio"
+        ],
+        "imagined_outcome": "You teleport outside. The cupboard premise is true, but the animal is in the art studio cupboard, not outside. You waste a step and must return.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "143bafeedf194800e8e5f2c9-h1-a2-j0",
+        "parent_id": "143bafeedf194800e8e5f2c9-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look around",
+          "look at cupboard",
+          "look at table"
+        ],
+        "imagined_outcome": "You look around the art studio. You see the same objects: cupboard, table, cups, jug, door. No animal is visible because the cupboard is closed. The cupboard premise is true, so the animal is likely inside the closed cupboard.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "143bafeedf194800e8e5f2c9-h1-a3-j0",
+        "parent_id": "143bafeedf194800e8e5f2c9-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-animal-v158-s1",
+    "task": "find-animal",
+    "variation": 158,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_animal_extension_v9_m1_157_161/episodes/find-animal-v158-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "open bee hive"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the blue box in the bathroom.",
+      "observation": "The bee hive is now open.",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta adult bee\n\ta bee hive. The bee hive door is open. In the bee hive is: a adult bee, a adult bee, a adult bee, a adult bee.\n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 2 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 7 (containing a substance called water)\n\ta flower pot 8 (containing a substance called water)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "look at bee hive",
+        "inventory",
+        "look around",
+        "look at adult apple tree",
+        "look at adult bee in greenhouse",
+        "look at adult cherry tree",
+        "look at adult pea plant",
+        "look at agent",
+        "look at air",
+        "look at bee 0",
+        "look at bee 2",
+        "look at bee 3",
+        "look at bee 4",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at flower pot 1",
+        "look at flower pot 2",
+        "look at flower pot 6",
+        "look at flower pot 7",
+        "look at flower pot 8",
+        "look at greenhouse",
+        "look at hallway",
+        "look at inventory",
+        "look at jug",
+        "look at orange",
+        "look at outside",
+        "look at sewer",
+        "look at sink",
+        "look at soil in flower pot 1",
+        "look at soil in flower pot 2",
+        "look at soil in flower pot 6",
+        "look at substance in flower pot 7",
+        "look at substance in flower pot 8",
+        "look in adult apple tree",
+        "look in adult cherry tree",
+        "look in adult pea plant",
+        "look in bee hive",
+        "look in flower pot 1",
+        "look in flower pot 2",
+        "look in flower pot 6",
+        "look in flower pot 7",
+        "look in flower pot 8",
+        "look in greenhouse",
+        "look in hallway",
+        "look in inventory",
+        "look in jug",
+        "look in outside",
+        "look in sewer",
+        "look in sink"
+      ],
+      "admissible_action_count": 759,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "open bee hive",
+          "observation": "The bee hive is now open.",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 2 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 7 (containing nothing)\n\ta flower pot 8 (containing nothing)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "look at adult bee in greenhouse",
+          "observation": "a adult bee",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta adult bee\n\ta bee hive. The bee hive door is open. In the bee hive is: a adult bee, a adult bee, a adult bee, a adult bee.\n\ta flower pot 1 (containing a pea plant in the adult stage with a tall height, soil)\n\ta flower pot 2 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 7 (containing a substance called water)\n\ta flower pot 8 (containing a substance called water)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The adult bee in the greenhouse is the animal that can be focused on and moved to the blue box in the bathroom.",
+      "p_true": 0.8,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at bee hive"
+        },
+        {
+          "id": 1,
+          "action": "inventory"
+        },
+        {
+          "id": 2,
+          "action": "look in bee hive"
+        },
+        {
+          "id": 3,
+          "action": "look at adult bee in greenhouse"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.8,
+      "candidate_repaired": 2
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at adult bee in greenhouse",
+          "focus on adult bee in greenhouse",
+          "move adult bee in greenhouse to blue box in bathroom"
+        ],
+        "imagined_outcome": "Looking at the bee hive reveals no new information; the adult bee remains visible in the greenhouse and can be focused and moved, but the blue box location is unknown and may require navigation, risking incomplete task within budget.",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.15,
+        "sample_id": "f0b54ec3fb7181a0b443f97a-h0-a0-j0",
+        "parent_id": "f0b54ec3fb7181a0b443f97a-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at adult bee in greenhouse",
+          "focus on adult bee in greenhouse",
+          "move adult bee in greenhouse to blue box in bathroom"
+        ],
+        "imagined_outcome": "Inventory check shows only an orange, no animal; the adult bee remains in the greenhouse and must be focused and moved, but the blue box is not yet located.",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.15,
+        "sample_id": "f0b54ec3fb7181a0b443f97a-h0-a1-j0",
+        "parent_id": "f0b54ec3fb7181a0b443f97a-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at adult bee in greenhouse",
+          "focus on adult bee in greenhouse",
+          "move adult bee in greenhouse to blue box in bathroom"
+        ],
+        "imagined_outcome": "Looking in the bee hive shows no additional relevant animal; the adult bee in the greenhouse is still the target, but the bathroom blue box remains unfound.",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.15,
+        "sample_id": "f0b54ec3fb7181a0b443f97a-h0-a2-j0",
+        "parent_id": "f0b54ec3fb7181a0b443f97a-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "focus on adult bee in greenhouse",
+          "move adult bee in greenhouse to blue box in bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "Looking at the adult bee in the greenhouse does not reveal the blue box location; focusing and moving the bee may fail if the bathroom is not found within remaining actions.",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.15,
+        "sample_id": "f0b54ec3fb7181a0b443f97a-h0-a3-j0",
+        "parent_id": "f0b54ec3fb7181a0b443f97a-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at adult bee in greenhouse",
+          "focus on adult bee in greenhouse",
+          "move adult bee in greenhouse to blue box in bathroom"
+        ],
+        "imagined_outcome": "Looking at the bee hive confirms it is open and contains bees; the adult bee in the greenhouse is still the focusable animal, but moving it to the bathroom blue box requires finding the bathroom, likely consuming remaining actions.",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.15,
+        "sample_id": "f0b54ec3fb7181a0b443f97a-h1-a0-j0",
+        "parent_id": "f0b54ec3fb7181a0b443f97a-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at adult bee in greenhouse",
+          "focus on adult bee in greenhouse",
+          "move adult bee in greenhouse to blue box in bathroom"
+        ],
+        "imagined_outcome": "Inventory unexpectedly contains the animal, but the task requires focusing on it first; focusing from inventory may not be possible, and moving to the bathroom blue box still requires navigation.",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.1,
+        "sample_id": "f0b54ec3fb7181a0b443f97a-h1-a1-j0",
+        "parent_id": "f0b54ec3fb7181a0b443f97a-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at adult bee in greenhouse",
+          "focus on adult bee in greenhouse",
+          "move adult bee in greenhouse to blue box in bathroom"
+        ],
+        "imagined_outcome": "Looking in the bee hive reveals bees inside, but the adult bee in the greenhouse is already visible and focusable; moving it to the bathroom blue box still requires locating the bathroom.",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.15,
+        "sample_id": "f0b54ec3fb7181a0b443f97a-h1-a2-j0",
+        "parent_id": "f0b54ec3fb7181a0b443f97a-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on adult bee in greenhouse",
+          "move adult bee in greenhouse to blue box in bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "Looking at the adult bee confirms it is the animal; focusing succeeds, but moving it to the blue box in the bathroom requires navigating to the bathroom, which may not be possible with only a few actions left.",
+        "predicted_final_score": 0.1,
+        "success_probability": 0.15,
+        "sample_id": "f0b54ec3fb7181a0b443f97a-h1-a3-j0",
+        "parent_id": "f0b54ec3fb7181a0b443f97a-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-animal-v159-s1",
+    "task": "find-animal",
+    "variation": 159,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_animal_extension_v9_m1_157_161/episodes/find-animal-v159-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "look in hallway"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the orange box in the bathroom.",
+      "observation": "Inside the hallway is: \n\ta substance called air\n\ta finger painting\n\n You also see: A door to the kitchen (that is open), A door to the living room (that is open), A door to the bedroom (that is open), A door to the workshop (that is open), A door to the greenhouse (that is open), A door to the art studio (that is open).",
+      "look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at chair",
+        "look at cloth sittable",
+        "look at door to hallway",
+        "look at finger painting",
+        "look at hallway",
+        "look at inventory",
+        "look at living room",
+        "look at object",
+        "look at orange",
+        "look at steel table",
+        "look in chair",
+        "look in cloth sittable",
+        "look in hallway",
+        "look in inventory",
+        "look in living room",
+        "look in steel table"
+      ],
+      "admissible_action_count": 119,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look in hallway",
+          "observation": "Inside the hallway is: \n\ta substance called air\n\ta finger painting\n\n You also see: A door to the kitchen (that is open), A door to the living room (that is open), A door to the bedroom (that is open), A door to the workshop (that is open), A door to the greenhouse (that is open), A door to the art studio (that is open).",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "teleport to greenhouse",
+          "observation": "You teleport to the greenhouse.",
+          "reward": 9,
+          "score": 17,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "An animal is present in the greenhouse.",
+      "p_true": 0.4,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "teleport to greenhouse"
+        },
+        {
+          "id": 1,
+          "action": "teleport to living room"
+        },
+        {
+          "id": 2,
+          "action": "look around"
+        },
+        {
+          "id": 3,
+          "action": "look at inventory"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.4,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to greenhouse",
+          "look around",
+          "look at inventory"
+        ],
+        "imagined_outcome": "Teleport to greenhouse. If no animal is present, looking around reveals no animal, and the task cannot be completed.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "a8b6b63550c2429aa043ca85-h0-a0-j0",
+        "parent_id": "a8b6b63550c2429aa043ca85-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to living room",
+          "look around",
+          "look at inventory"
+        ],
+        "imagined_outcome": "Teleport to living room. If no animal is present, looking around reveals no animal, and the task cannot be completed.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "a8b6b63550c2429aa043ca85-h0-a1-j0",
+        "parent_id": "a8b6b63550c2429aa043ca85-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look around",
+          "look at inventory",
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "Look around the current room. If no animal is present, the observation confirms absence. Then teleport to greenhouse to search there.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "a8b6b63550c2429aa043ca85-h0-a2-j0",
+        "parent_id": "a8b6b63550c2429aa043ca85-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at inventory",
+          "teleport to greenhouse",
+          "look around"
+        ],
+        "imagined_outcome": "Look at inventory. If no animal is present, the inventory contains only the orange. Then teleport to greenhouse to search there.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "a8b6b63550c2429aa043ca85-h0-a3-j0",
+        "parent_id": "a8b6b63550c2429aa043ca85-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to greenhouse",
+          "focus on animal",
+          "move animal to orange box"
+        ],
+        "imagined_outcome": "Teleport to greenhouse. An animal is present. Focus on it, then move it to the orange box in the bathroom. Task completed successfully.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "a8b6b63550c2429aa043ca85-h1-a0-j0",
+        "parent_id": "a8b6b63550c2429aa043ca85-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to living room",
+          "focus on animal",
+          "move animal to orange box"
+        ],
+        "imagined_outcome": "Teleport to living room. An animal is present. Focus on it, then move it to the orange box in the bathroom. Task completed successfully.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "a8b6b63550c2429aa043ca85-h1-a1-j0",
+        "parent_id": "a8b6b63550c2429aa043ca85-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look around",
+          "focus on animal",
+          "move animal to orange box"
+        ],
+        "imagined_outcome": "Look around the current room. An animal is present. Focus on it, then move it to the orange box in the bathroom. Task completed successfully.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "a8b6b63550c2429aa043ca85-h1-a2-j0",
+        "parent_id": "a8b6b63550c2429aa043ca85-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at inventory",
+          "focus on animal",
+          "move animal to orange box"
+        ],
+        "imagined_outcome": "Look at inventory. An animal is present in the inventory. Focus on it, then move it to the orange box in the bathroom. Task completed successfully.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.9,
+        "sample_id": "a8b6b63550c2429aa043ca85-h1-a3-j0",
+        "parent_id": "a8b6b63550c2429aa043ca85-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-animal-v160-s1",
+    "task": "find-animal",
+    "variation": 160,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_animal_extension_v9_m1_157_161/episodes/find-animal-v160-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "look in bathroom"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the yellow box in the bathroom.",
+      "observation": "Inside the bathroom is: \n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\n\ta yellow box (containing nothing)\n\n You also see: A door to the kitchen (that is open).",
+      "look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "go to door to outside",
+        "go to outside",
+        "teleport to greenhouse",
+        "teleport to living room",
+        "teleport to outside",
+        "look around",
+        "look at agent",
+        "look at air",
+        "look at apple",
+        "look at banana",
+        "look at bathroom",
+        "look at bowl",
+        "look at ceramic cup",
+        "look at chair",
+        "look at counter",
+        "look at cup containing nothing in table",
+        "look at cup containing orange juice",
+        "look at cupboard",
+        "look at door to bathroom",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at drawer in counter",
+        "look at drawer in cupboard",
+        "look at freezer",
+        "look at fridge",
+        "look at glass jar",
+        "look at hallway",
+        "look at inventory",
+        "look at kitchen",
+        "look at lighter",
+        "look at metal pot",
+        "look at orange in bowl",
+        "look at orange in inventory",
+        "look at orange juice",
+        "look at outside",
+        "look at oven",
+        "look at painting",
+        "look at potato",
+        "look at sewer",
+        "look at sink",
+        "look at soap",
+        "look at sodium chloride",
+        "look at stopwatch",
+        "look at stove",
+        "look at table",
+        "look at thermometer",
+        "look at tin cup",
+        "look in bathroom",
+        "look in bowl",
+        "look in ceramic cup",
+        "look in chair",
+        "look in counter",
+        "look in cup containing nothing in table",
+        "look in cup containing orange juice",
+        "look in hallway",
+        "look in inventory",
+        "look in kitchen",
+        "look in metal pot",
+        "look in outside",
+        "look in sewer",
+        "look in sink",
+        "look in stove",
+        "look in table",
+        "look in tin cup"
+      ],
+      "admissible_action_count": 976,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "look in bathroom",
+          "observation": "Inside the bathroom is: \n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta drawing\n\ta glass cup (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\n\ta yellow box (containing nothing)\n\n You also see: A door to the kitchen (that is open).",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "look around",
+          "observation": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": true,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the kitchen. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta counter. On the counter is: a bowl (containing a red apple, a banana, an orange, a potato), a drawer.\n\ta cupboard. The cupboard door is closed. \n\ta freezer. The freezer door is closed. \n\ta fridge. The fridge door is closed. \n\ta glass jar (containing a substance called sodium chloride)\n\ta lighter\n\ta oven, which is turned off. The oven door is closed. \n\ta painting\n\ta sink, which is turned off. In the sink is: nothing.\n\ta substance called soap\n\ta stopwatch, which is deactivated. \n\ta stove, which is turned off. On the stove is: nothing.\n\ta table. On the table is: a glass cup (containing nothing).\n\ta thermometer, currently reading a temperature of 10 degrees celsius\nYou also see:\n\tA door to the bathroom (that is open)\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The animal required by the task is present in the kitchen or bathroom and can be focused on directly.",
+      "p_true": 0.1,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look around"
+        },
+        {
+          "id": 1,
+          "action": "look at bowl"
+        },
+        {
+          "id": 2,
+          "action": "look at counter"
+        },
+        {
+          "id": 3,
+          "action": "look at table"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.1,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at bowl",
+          "look at counter",
+          "look at table"
+        ],
+        "imagined_outcome": "No animal is revealed by looking around; the kitchen still contains only food items and objects, so no focusable animal is found.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "cbcbc0707d2898bc214cf330-h0-a0-j0",
+        "parent_id": "cbcbc0707d2898bc214cf330-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at counter",
+          "look at table",
+          "look around"
+        ],
+        "imagined_outcome": "Looking at the bowl shows only the red apple, banana, orange, and potato; no animal is present.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "cbcbc0707d2898bc214cf330-h0-a1-j0",
+        "parent_id": "cbcbc0707d2898bc214cf330-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at bowl",
+          "look at table",
+          "look around"
+        ],
+        "imagined_outcome": "Looking at the counter shows only the bowl, drawer, and listed food items; no animal is present.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "cbcbc0707d2898bc214cf330-h0-a2-j0",
+        "parent_id": "cbcbc0707d2898bc214cf330-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at bowl",
+          "look at counter",
+          "look around"
+        ],
+        "imagined_outcome": "Looking at the table shows only a glass cup containing nothing; no animal is present.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "cbcbc0707d2898bc214cf330-h0-a3-j0",
+        "parent_id": "cbcbc0707d2898bc214cf330-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on animal",
+          "move animal to yellow box in bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "Looking around reveals an animal in the kitchen; focusing on it and moving it to the yellow box in the bathroom completes the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.7,
+        "sample_id": "cbcbc0707d2898bc214cf330-h1-a0-j0",
+        "parent_id": "cbcbc0707d2898bc214cf330-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on animal in bowl",
+          "move animal to yellow box in bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "The bowl contains an animal; focusing on it and moving it to the yellow box in the bathroom completes the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.65,
+        "sample_id": "cbcbc0707d2898bc214cf330-h1-a1-j0",
+        "parent_id": "cbcbc0707d2898bc214cf330-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on animal on counter",
+          "move animal to yellow box in bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "An animal is on the counter; focusing on it and moving it to the yellow box in the bathroom completes the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.65,
+        "sample_id": "cbcbc0707d2898bc214cf330-h1-a2-j0",
+        "parent_id": "cbcbc0707d2898bc214cf330-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on animal on table",
+          "move animal to yellow box in bathroom",
+          "look around"
+        ],
+        "imagined_outcome": "An animal is on the table; focusing on it and moving it to the yellow box in the bathroom completes the task.",
+        "predicted_final_score": 1.0,
+        "success_probability": 0.65,
+        "sample_id": "cbcbc0707d2898bc214cf330-h1-a3-j0",
+        "parent_id": "cbcbc0707d2898bc214cf330-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-animal-v161-s1",
+    "task": "find-animal",
+    "variation": 161,
+    "step": 1,
+    "trace_file": "results_submission/scienceworld_recharged_animal_extension_v9_m1_157_161/episodes/find-animal-v161-flat-m1-trace.jsonl",
+    "simplification": "easy",
+    "step_limit": 8,
+    "prefix": [
+      "open bee hive"
+    ],
+    "visible": {
+      "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the purple box in the bathroom.",
+      "observation": "The bee hive is now open.",
+      "look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta adult bee\n\ta adult bee\n\ta adult bee\n\ta bee hive. The bee hive door is open. In the bee hive is: a adult bee, a adult bee.\n\ta flower pot 1 (containing a pea plant in the adult stage with a short height, soil)\n\ta flower pot 2 (containing a substance called water)\n\ta flower pot 3 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 8 (containing a substance called water)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+      "inventory": "In your inventory, you see:\n\tan orange\n",
+      "observed_score": 8,
+      "admissible_actions": [
+        "look at bee hive",
+        "inventory",
+        "look around",
+        "look at adult apple tree",
+        "look at adult cherry tree",
+        "look at adult pea plant",
+        "look at agent",
+        "look at air",
+        "look at bee 0",
+        "look at bee 1",
+        "look at bee 2",
+        "look at bee 3",
+        "look at bee 4",
+        "look at door to hallway",
+        "look at door to outside",
+        "look at drain to sewer",
+        "look at flower pot 1",
+        "look at flower pot 2",
+        "look at flower pot 3",
+        "look at flower pot 6",
+        "look at flower pot 8",
+        "look at greenhouse",
+        "look at hallway",
+        "look at inventory",
+        "look at jug",
+        "look at orange",
+        "look at outside",
+        "look at sewer",
+        "look at sink",
+        "look at soil in flower pot 1",
+        "look at soil in flower pot 3",
+        "look at soil in flower pot 6",
+        "look at substance in flower pot 2",
+        "look at substance in flower pot 8",
+        "look in adult apple tree",
+        "look in adult cherry tree",
+        "look in adult pea plant",
+        "look in bee hive",
+        "look in flower pot 1",
+        "look in flower pot 2",
+        "look in flower pot 3",
+        "look in flower pot 6",
+        "look in flower pot 8",
+        "look in greenhouse",
+        "look in hallway",
+        "look in inventory",
+        "look in jug",
+        "look in outside",
+        "look in sewer",
+        "look in sink"
+      ],
+      "admissible_action_count": 727,
+      "history": [
+        {
+          "step": 0,
+          "evidence_id": "e1",
+          "action": "open bee hive",
+          "observation": "The bee hive is now open.",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 1,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bee hive. The bee hive door is closed. \n\ta flower pot 1 (containing a pea plant in the adult stage with a short height, soil)\n\ta flower pot 2 (containing nothing)\n\ta flower pot 3 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 8 (containing nothing)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        },
+        {
+          "step": 1,
+          "evidence_id": "e2",
+          "action": "look at bee 0",
+          "observation": "a adult bee",
+          "reward": 0,
+          "score": 8,
+          "done": false,
+          "moves": 2,
+          "unchanged_visible_state": false,
+          "repeated_no_visible_change": false,
+          "before_look": "This room is called the greenhouse. In it, you see: \n\tthe agent\n\ta substance called air\n\ta adult bee\n\ta adult bee\n\ta adult bee\n\ta bee hive. The bee hive door is open. In the bee hive is: a adult bee, a adult bee.\n\ta flower pot 1 (containing a pea plant in the adult stage with a short height, soil)\n\ta flower pot 2 (containing a substance called water)\n\ta flower pot 3 (containing a cherry tree in the adult stage, soil)\n\ta flower pot 6 (containing a apple tree in the adult stage, soil)\n\ta flower pot 8 (containing a substance called water)\n\ta jug (containing nothing)\n\ta sink, which is turned off. In the sink is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n\tA door to the outside (that is open)\n",
+          "before_inventory": "In your inventory, you see:\n\tan orange\n"
+        }
+      ],
+      "remaining_actions": 7
+    },
+    "candidate": {
+      "premise": "The adult bee currently visible in the greenhouse can be focused on and moved to the purple box in the bathroom.",
+      "p_true": 0.6,
+      "evidence_ids": [
+        "e1"
+      ],
+      "actions": [
+        {
+          "id": 0,
+          "action": "look at bee 0"
+        },
+        {
+          "id": 1,
+          "action": "look at bee 1"
+        },
+        {
+          "id": 2,
+          "action": "look at bee 2"
+        },
+        {
+          "id": 3,
+          "action": "look at bee 3"
+        }
+      ],
+      "direct_action_id": 0,
+      "direct_success_probability": 0.6,
+      "candidate_repaired": 0
+    },
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at bee 0",
+          "focus on bee 0",
+          "move bee 0 to purple box"
+        ],
+        "imagined_outcome": "Bee 0 is not the focusable animal; focusing fails or moving is impossible, wasting steps.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "ca7e5b813a86f6ba6895717b-h0-a0-j0",
+        "parent_id": "ca7e5b813a86f6ba6895717b-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at bee 1",
+          "focus on bee 1",
+          "move bee 1 to purple box"
+        ],
+        "imagined_outcome": "Bee 1 is not the focusable animal; focusing fails or moving is impossible, wasting steps.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "ca7e5b813a86f6ba6895717b-h0-a1-j0",
+        "parent_id": "ca7e5b813a86f6ba6895717b-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at bee 2",
+          "focus on bee 2",
+          "move bee 2 to purple box"
+        ],
+        "imagined_outcome": "Bee 2 is not the focusable animal; focusing fails or moving is impossible, wasting steps.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "ca7e5b813a86f6ba6895717b-h0-a2-j0",
+        "parent_id": "ca7e5b813a86f6ba6895717b-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at bee 3",
+          "focus on bee 3",
+          "move bee 3 to purple box"
+        ],
+        "imagined_outcome": "Bee 3 is not the focusable animal; focusing fails or moving is impossible, wasting steps.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.05,
+        "sample_id": "ca7e5b813a86f6ba6895717b-h0-a3-j0",
+        "parent_id": "ca7e5b813a86f6ba6895717b-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at bee 0",
+          "focus on bee 0",
+          "move bee 0 to purple box"
+        ],
+        "imagined_outcome": "Bee 0 is focused and then moved toward the purple box in the bathroom, progressing the task.",
+        "predicted_final_score": 0.9,
+        "success_probability": 0.7,
+        "sample_id": "ca7e5b813a86f6ba6895717b-h1-a0-j0",
+        "parent_id": "ca7e5b813a86f6ba6895717b-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at bee 1",
+          "focus on bee 1",
+          "move bee 1 to purple box"
+        ],
+        "imagined_outcome": "Bee 1 is focused and then moved toward the purple box in the bathroom, progressing the task.",
+        "predicted_final_score": 0.9,
+        "success_probability": 0.7,
+        "sample_id": "ca7e5b813a86f6ba6895717b-h1-a1-j0",
+        "parent_id": "ca7e5b813a86f6ba6895717b-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at bee 2",
+          "focus on bee 2",
+          "move bee 2 to purple box"
+        ],
+        "imagined_outcome": "Bee 2 is focused and then moved toward the purple box in the bathroom, progressing the task.",
+        "predicted_final_score": 0.9,
+        "success_probability": 0.7,
+        "sample_id": "ca7e5b813a86f6ba6895717b-h1-a2-j0",
+        "parent_id": "ca7e5b813a86f6ba6895717b-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at bee 3",
+          "focus on bee 3",
+          "move bee 3 to purple box"
+        ],
+        "imagined_outcome": "Bee 3 is focused and then moved toward the purple box in the bathroom, progressing the task.",
+        "predicted_final_score": 0.9,
+        "success_probability": 0.7,
+        "sample_id": "ca7e5b813a86f6ba6895717b-h1-a3-j0",
+        "parent_id": "ca7e5b813a86f6ba6895717b-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  }
+]

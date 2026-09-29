@@ -1,0 +1,26 @@
+{
+  "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "scenario_count": 6,
+  "duplications": [
+    1,
+    4
+  ],
+  "layouts": [
+    "front",
+    "reverse"
+  ],
+  "paraphrase": [
+    false,
+    true
+  ],
+  "prompt_variants": [
+    "neutral",
+    "cautious"
+  ],
+  "fallback": false
+}

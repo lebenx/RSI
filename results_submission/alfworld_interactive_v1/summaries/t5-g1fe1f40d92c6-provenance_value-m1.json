@@ -1,0 +1,22 @@
+{
+  "protocol": "alfworld-textworld-provenance-v1",
+  "task_type": 5,
+  "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Plate-None-Cabinet-27/trial_T20190906_173120_350651/game.tw-pddl",
+  "game_id": "1fe1f40d92c6",
+  "method": "provenance_value",
+  "duplication": 1,
+  "step_limit": 8,
+  "success": 0,
+  "reward": 0.0,
+  "final_score": 0.0,
+  "steps": 8,
+  "unnecessary_actions": 5,
+  "charged_tokens": 15595,
+  "root_confidence_first": 0.5,
+  "root_confidence_last": 1.0,
+  "root_confidence_delta": 0.5,
+  "confidence_steps": 8,
+  "errors": [],
+  "trace_file": "results_submission/alfworld_interactive_v1/traces/t5-g1fe1f40d92c6-provenance_value-m1.jsonl",
+  "runtime_seconds": 9.620157008990645
+}

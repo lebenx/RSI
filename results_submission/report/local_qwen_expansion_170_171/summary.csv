@@ -1,0 +1,9 @@
+task_family,duplication,method,n,success,final_score,reward,steps,tokens,repeated_no_visible_change,initial_success_probability
+find-animal,1,flat,1,0.0,-100.0,-108.0,1.0,3153.0,0.0,0.5
+find-animal,1,provenance_value,1,0.0,-100.0,-108.0,1.0,1628.0,0.0,0.2
+find-animal,4,flat,1,0.0,-100.0,-108.0,1.0,4607.0,0.0,0.5
+find-animal,4,provenance_value,1,0.0,-100.0,-108.0,1.0,1628.0,0.0,0.2
+find-plant,1,flat,1,0.0,8.0,0.0,8.0,50733.0,6.0,0.5
+find-plant,1,provenance_value,1,0.0,8.0,0.0,8.0,29309.0,6.0,0.2
+find-plant,4,flat,1,0.0,8.0,0.0,8.0,62267.0,6.0,0.5
+find-plant,4,provenance_value,1,0.0,8.0,0.0,8.0,29309.0,6.0,0.2

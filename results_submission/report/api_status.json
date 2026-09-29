@@ -1,0 +1,76 @@
+{
+  "generated_by": "connectivity and experiment status log",
+  "utc": "2026-09-28T13:15:00+00:00",
+  "provider": "DeepSeek",
+  "model": "deepseek-chat",
+  "http_status": 200,
+  "status": "ok",
+  "secret_stored": false,
+  "contiguous_extension_http_status": 402,
+  "history": [
+    {
+      "status": 402,
+      "state": "insufficient_balance",
+      "scope": "156--161 contiguous extension",
+      "excluded_from_claims": true
+    },
+    {
+      "status": 200,
+      "state": "available",
+      "scope": "refreshed find-plant 150--155 comparison",
+      "valid_rows": 60
+    },
+    {
+      "status": 200,
+      "state": "available",
+      "scope": "fresh-key v9 find-plant 156--161 flat/provenance_success extension",
+      "valid_rows": 24,
+      "errors": 0,
+      "excluded_from_primary_claims": true
+    },
+    {
+      "status": 200,
+      "state": "available",
+      "scope": "fresh-key v9 find-animal 156--161 flat/provenance_success extension",
+      "valid_rows": 24,
+      "errors": 0,
+      "excluded_from_primary_claims": true
+    },
+    {
+      "status": 200,
+      "state": "available",
+      "scope": "fresh-key v9 find-plant 156--161 fair LLM provenance readout extension",
+      "valid_rows": 24,
+      "new_readout_episode_rows": 12,
+      "errors": 0,
+      "excluded_from_primary_claims": true
+    },
+    {
+      "status": 200,
+      "state": "available",
+      "scope": "fresh-key v9 find-animal 156--161 fair LLM provenance readout extension",
+      "valid_rows": 24,
+      "new_readout_episode_rows": 12,
+      "errors": 0,
+      "excluded_from_primary_claims": true
+    },
+    {
+      "status": 200,
+      "state": "available",
+      "scope": "clean fixed-bank pre-action ScienceWorld readout 12 states x 3 reps x m1/m1-repeat/m2/m4/m8",
+      "planned_api_calls": 180,
+      "valid_readouts": 180,
+      "errors": 0,
+      "candidate_replays": 48,
+      "excluded_from_broad_success_claim": true
+    }
+  ],
+  "interpretation": "refreshed comparison and a separate contiguous extension completed; earlier API-limited extension failures remain retained and excluded.",
+  "latest_clean_fixed_bank": {
+    "status": 200,
+    "valid_readouts": 180,
+    "planned_api_calls": 180,
+    "errors": 0,
+    "secret_stored": false
+  }
+}

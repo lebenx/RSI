@@ -1,0 +1,28 @@
+{
+  "protocol": "alfworld-textworld-provenance-v3",
+  "task_type": 2,
+  "game_file": "external/alfworld_data/json_2.1.1/valid_seen/look_at_obj_in_light-CD-None-DeskLamp-314/trial_T20190907_114323_767231/game.tw-pddl",
+  "game_id": "41ffce5fab56",
+  "method": "flat",
+  "duplication": 4,
+  "step_limit": 15,
+  "success": 0,
+  "reward": 0.0,
+  "final_score": 0.0,
+  "steps": 0,
+  "unnecessary_actions": 0,
+  "charged_tokens": 0,
+  "root_confidence_first": null,
+  "root_confidence_last": null,
+  "root_confidence_delta": null,
+  "confidence_steps": 0,
+  "errors": [
+    {
+      "step": 0,
+      "type": "RuntimeError",
+      "message": "archived request failed: t2-g41ffce5fab56-s13724445f671466288-bank"
+    }
+  ],
+  "trace_file": "results_submission/alfworld_interactive_v3/traces/t2-g41ffce5fab56-flat-m4.jsonl",
+  "runtime_seconds": 0.00036122603341937065
+}

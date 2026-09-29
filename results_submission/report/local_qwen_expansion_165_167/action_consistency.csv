@@ -1,0 +1,12 @@
+task_family,variation,method,steps_m1,steps_m4,aligned_steps,action_flips,action_flip_rate
+find-animal,165,flat,8,8,8,7,0.875
+find-animal,165,provenance_value,8,8,8,0,0.0
+find-animal,166,flat,8,8,8,3,0.375
+find-animal,166,provenance_value,8,8,8,0,0.0
+find-animal,167,flat,8,8,8,0,0.0
+find-animal,167,provenance_value,8,8,8,0,0.0
+find-plant,165,flat,8,8,8,7,0.875
+find-plant,165,provenance_value,8,8,8,0,0.0
+find-plant,166,provenance_value,8,8,8,0,0.0
+find-plant,167,flat,8,8,8,0,0.0
+find-plant,167,provenance_value,6,6,6,0,0.0

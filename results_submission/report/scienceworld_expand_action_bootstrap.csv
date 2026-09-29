@@ -1,0 +1,4 @@
+method,n_episodes,aligned_steps,action_flip_rate,ci95_low,ci95_high,bootstrap_draws
+flat,12,83,0.40963855421686746,0.16666666666666666,0.6373626373626373,20000
+no_imagination,12,84,0.0,0.0,0.0,20000
+provenance,12,89,0.0,0.0,0.0,20000

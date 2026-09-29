@@ -1,0 +1,9 @@
+pilot_stratum,duplication,method,n,success,final_score,reward,steps,tokens,initial_brier,repeated_no_visible_change
+grid,1,flat,2,0.0,75.0,67.0,8.0,59189.5,0.25,0.0
+grid,1,provenance_success,2,1.0,100.0,92.0,5.0,17597.5,0.6400000000000001,0.0
+grid,4,flat,2,0.5,91.5,83.5,8.0,70833.0,0.25,0.5
+grid,4,provenance_success,2,1.0,100.0,92.0,5.0,17597.5,0.6400000000000001,0.0
+v161,1,flat,1,1.0,100.0,92.0,5.0,27869.0,0.25,0.0
+v161,1,provenance_success,1,1.0,100.0,92.0,4.0,11836.0,0.6400000000000001,0.0
+v161,4,flat,1,1.0,100.0,92.0,5.0,35240.0,0.25,0.0
+v161,4,provenance_success,1,1.0,100.0,92.0,4.0,11836.0,0.6400000000000001,0.0

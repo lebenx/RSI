@@ -1,0 +1,17 @@
+duplication,contrast,metric,n_units,estimate,ci95_low,ci95_high,bootstrap_draws
+1,provenance-flat,success,8,0.0,0.0,0.0,20000
+1,provenance-flat,final_score,8,8.375,0.0,25.125,20000
+1,provenance-flat,reward,8,8.375,0.0,25.125,20000
+1,provenance-flat,regret_proxy,8,-8.375,-25.125,0.0,20000
+1,provenance-flat,steps,8,0.0,0.0,0.0,20000
+1,provenance-flat,charged_tokens,8,398.0,-221.5,1094.7562499999995,20000
+1,provenance-flat,repeated_no_visible_change,8,-0.125,-0.75,0.375,20000
+1,provenance-flat,initial_brier,8,-0.12202500000000005,-0.27307500000000007,0.03058749999999999,20000
+4,provenance-flat,success,8,0.0,0.0,0.0,20000
+4,provenance-flat,final_score,8,0.0,0.0,0.0,20000
+4,provenance-flat,reward,8,0.0,0.0,0.0,20000
+4,provenance-flat,regret_proxy,8,0.0,0.0,0.0,20000
+4,provenance-flat,steps,8,0.0,0.0,0.0,20000
+4,provenance-flat,charged_tokens,8,-12601.5,-16850.125,-8476.75,20000
+4,provenance-flat,repeated_no_visible_change,8,0.125,0.0,0.375,20000
+4,provenance-flat,initial_brier,8,-0.07327500000000003,-0.21365000000000006,0.058225,20000

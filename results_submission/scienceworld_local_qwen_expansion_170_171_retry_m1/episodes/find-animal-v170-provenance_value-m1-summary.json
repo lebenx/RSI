@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v9-public-discovery-fair",
+  "task": "find-animal",
+  "variation": 170,
+  "method": "provenance_value",
+  "duplication": 1,
+  "step_limit": 8,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": -100,
+  "reward": -108,
+  "steps": 1,
+  "charged_tokens": 2090,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": 0.2,
+  "initial_state": {
+    "observation": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a black wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a switch, which is off, a violet light bulb, which is off, a yellow wire.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the workshop. In it, you see: \n\tthe agent\n\ta substance called air\n\ta table. On the table is: a battery, a black wire, a green light bulb, which is off, a orange light bulb, which is off, a orange wire, a switch, which is off, a violet light bulb, which is off, a yellow wire.\n\ta ultra low temperature freezer. The ultra low temperature freezer door is closed. \nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the blue box in the bedroom.",
+    "score": 8
+  },
+  "terminal": true,
+  "error": null,
+  "runtime_seconds": 0.05510224821045995,
+  "trace_file": "results_submission/scienceworld_local_qwen_expansion_170_171_retry_m1/episodes/find-animal-v170-provenance_value-m1-trace.jsonl"
+}

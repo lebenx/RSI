@@ -1,0 +1,826 @@
+[
+  {
+    "state_id": "find-plant-174-step0",
+    "error": null,
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-174-step0-h0-a0-j0",
+        "parent_id": "find-plant-174-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-174-step0-h1-a0-j0",
+        "parent_id": "find-plant-174-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "The agent teleports to the greenhouse.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-plant-174-step0-h0-a1-j0",
+        "parent_id": "find-plant-174-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "The agent teleports to the greenhouse.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-plant-174-step0-h1-a1-j0",
+        "parent_id": "find-plant-174-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at agent"
+        ],
+        "imagined_outcome": "The agent is in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 1.0,
+        "sample_id": "find-plant-174-step0-h0-a2-j0",
+        "parent_id": "find-plant-174-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at agent"
+        ],
+        "imagined_outcome": "The agent is in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 1.0,
+        "sample_id": "find-plant-174-step0-h1-a2-j0",
+        "parent_id": "find-plant-174-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at air"
+        ],
+        "imagined_outcome": "The agent looks at the air.",
+        "predicted_final_score": 0.08,
+        "success_probability": 1.0,
+        "sample_id": "find-plant-174-step0-h0-a3-j0",
+        "parent_id": "find-plant-174-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at air"
+        ],
+        "imagined_outcome": "The agent looks at the air.",
+        "predicted_final_score": 0.08,
+        "success_probability": 1.0,
+        "sample_id": "find-plant-174-step0-h1-a3-j0",
+        "parent_id": "find-plant-174-step0-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-plant-174-step1",
+    "error": null,
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-174-step1-h0-a0-j0",
+        "parent_id": "find-plant-174-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-174-step1-h1-a0-j0",
+        "parent_id": "find-plant-174-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "The agent teleports to the greenhouse.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-plant-174-step1-h0-a1-j0",
+        "parent_id": "find-plant-174-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "teleport to greenhouse"
+        ],
+        "imagined_outcome": "The agent teleports to the greenhouse.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-plant-174-step1-h1-a1-j0",
+        "parent_id": "find-plant-174-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look around"
+        ],
+        "imagined_outcome": "The agent looks around in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-174-step1-h0-a2-j0",
+        "parent_id": "find-plant-174-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look around"
+        ],
+        "imagined_outcome": "The agent looks around in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-174-step1-h1-a2-j0",
+        "parent_id": "find-plant-174-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "look at air"
+        ],
+        "imagined_outcome": "The agent looks at the air in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-174-step1-h0-a3-j0",
+        "parent_id": "find-plant-174-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at air"
+        ],
+        "imagined_outcome": "The agent looks at the air in the kitchen.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-174-step1-h1-a3-j0",
+        "parent_id": "find-plant-174-step1-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-plant-175-step0",
+    "error": {
+      "type": "KeyError",
+      "message": "'rollouts'"
+    }
+  },
+  {
+    "state_id": "find-plant-175-step1",
+    "error": null,
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The large cupboard door remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-175-step1-h0-a0-j0",
+        "parent_id": "find-plant-175-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "open the large cupboard"
+        ],
+        "imagined_outcome": "The large cupboard door opens.",
+        "predicted_final_score": 0.09,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-175-step1-h1-a0-j0",
+        "parent_id": "find-plant-175-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The door to the hallway remains open.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-175-step1-h0-a1-j0",
+        "parent_id": "find-plant-175-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The door to the hallway remains open.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-175-step1-h1-a1-j0",
+        "parent_id": "find-plant-175-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The art studio remains unchanged.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-175-step1-h0-a2-j0",
+        "parent_id": "find-plant-175-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at art studio"
+        ],
+        "imagined_outcome": "You see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-175-step1-h1-a2-j0",
+        "parent_id": "find-plant-175-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The table remains unchanged.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-175-step1-h0-a3-j0",
+        "parent_id": "find-plant-175-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "look at table"
+        ],
+        "imagined_outcome": "You see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a glass cup (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-175-step1-h1-a3-j0",
+        "parent_id": "find-plant-175-step1-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-plant-176-step0",
+    "error": null,
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step0-h0-a0-j0",
+        "parent_id": "find-plant-176-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step0-h1-a0-j0",
+        "parent_id": "find-plant-176-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step0-h0-a1-j0",
+        "parent_id": "find-plant-176-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step0-h1-a1-j0",
+        "parent_id": "find-plant-176-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step0-h0-a2-j0",
+        "parent_id": "find-plant-176-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step0-h1-a2-j0",
+        "parent_id": "find-plant-176-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step0-h0-a3-j0",
+        "parent_id": "find-plant-176-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent is still in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step0-h1-a3-j0",
+        "parent_id": "find-plant-176-step0-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-plant-176-step1",
+    "error": null,
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step1-h0-a0-j0",
+        "parent_id": "find-plant-176-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step1-h1-a0-j0",
+        "parent_id": "find-plant-176-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step1-h0-a1-j0",
+        "parent_id": "find-plant-176-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step1-h1-a1-j0",
+        "parent_id": "find-plant-176-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step1-h0-a2-j0",
+        "parent_id": "find-plant-176-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step1-h1-a2-j0",
+        "parent_id": "find-plant-176-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step1-h0-a3-j0",
+        "parent_id": "find-plant-176-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent remains in the bathroom.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-plant-176-step1-h1-a3-j0",
+        "parent_id": "find-plant-176-step1-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-animal-177-step0",
+    "error": null,
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The painting remains unchanged.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-177-step0-h0-a0-j0",
+        "parent_id": "find-animal-177-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The painting remains unchanged.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-177-step0-h1-a0-j0",
+        "parent_id": "find-animal-177-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "go to door to living room"
+        ],
+        "imagined_outcome": "You enter the living room.",
+        "predicted_final_score": 0.09,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-177-step0-h0-a1-j0",
+        "parent_id": "find-animal-177-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "go to door to living room"
+        ],
+        "imagined_outcome": "You enter the living room.",
+        "predicted_final_score": 0.09,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-177-step0-h1-a1-j0",
+        "parent_id": "find-animal-177-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "go to door to greenhouse"
+        ],
+        "imagined_outcome": "You enter the greenhouse.",
+        "predicted_final_score": 0.09,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-177-step0-h0-a2-j0",
+        "parent_id": "find-animal-177-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "go to door to greenhouse"
+        ],
+        "imagined_outcome": "You enter the greenhouse.",
+        "predicted_final_score": 0.09,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-177-step0-h1-a2-j0",
+        "parent_id": "find-animal-177-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [
+          "go to door to living room"
+        ],
+        "imagined_outcome": "You enter the living room.",
+        "predicted_final_score": 0.09,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-177-step0-h0-a3-j0",
+        "parent_id": "find-animal-177-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "go to door to living room"
+        ],
+        "imagined_outcome": "You enter the living room.",
+        "predicted_final_score": 0.09,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-177-step0-h1-a3-j0",
+        "parent_id": "find-animal-177-step0-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-animal-177-step1",
+    "error": {
+      "type": "KeyError",
+      "message": "'rollouts'"
+    }
+  },
+  {
+    "state_id": "find-animal-178-step0",
+    "error": {
+      "type": "KeyError",
+      "message": "'rollouts'"
+    }
+  },
+  {
+    "state_id": "find-animal-178-step1",
+    "error": {
+      "type": "KeyError",
+      "message": "'rollouts'"
+    }
+  },
+  {
+    "state_id": "find-animal-179-step0",
+    "error": null,
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The cupboard remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-179-step0-h0-a0-j0",
+        "parent_id": "find-animal-179-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [
+          "focus on cupboard"
+        ],
+        "imagined_outcome": "The cupboard opens.",
+        "predicted_final_score": 0.09,
+        "success_probability": 0.75,
+        "sample_id": "find-animal-179-step0-h1-a0-j0",
+        "parent_id": "find-animal-179-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent teleports to the greenhouse.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-animal-179-step0-h0-a1-j0",
+        "parent_id": "find-animal-179-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent teleports to the greenhouse.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-animal-179-step0-h1-a1-j0",
+        "parent_id": "find-animal-179-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent teleports to the living room.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-animal-179-step0-h0-a2-j0",
+        "parent_id": "find-animal-179-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent teleports to the living room.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-animal-179-step0-h1-a2-j0",
+        "parent_id": "find-animal-179-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent teleports to the outside.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-animal-179-step0-h0-a3-j0",
+        "parent_id": "find-animal-179-step0-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The agent teleports to the outside.",
+        "predicted_final_score": -1.0,
+        "success_probability": 0.0,
+        "sample_id": "find-animal-179-step0-h1-a3-j0",
+        "parent_id": "find-animal-179-step0-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  },
+  {
+    "state_id": "find-animal-179-step1",
+    "error": null,
+    "bank": [
+      {
+        "action_id": 0,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The large cupboard door remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-179-step1-h0-a0-j0",
+        "parent_id": "find-animal-179-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 0,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The large cupboard door remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-179-step1-h1-a0-j0",
+        "parent_id": "find-animal-179-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The large cupboard door remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-179-step1-h0-a1-j0",
+        "parent_id": "find-animal-179-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 1,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The large cupboard door remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-179-step1-h1-a1-j0",
+        "parent_id": "find-animal-179-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The large cupboard door remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-179-step1-h0-a2-j0",
+        "parent_id": "find-animal-179-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 2,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The large cupboard door remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-179-step1-h1-a2-j0",
+        "parent_id": "find-animal-179-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": false,
+        "imagined_actions": [],
+        "imagined_outcome": "The large cupboard door remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-179-step1-h0-a3-j0",
+        "parent_id": "find-animal-179-step1-premise",
+        "source_type": "imagined_condition"
+      },
+      {
+        "action_id": 3,
+        "hypothesis_value": true,
+        "imagined_actions": [],
+        "imagined_outcome": "The large cupboard door remains closed.",
+        "predicted_final_score": 0.08,
+        "success_probability": 0.5,
+        "sample_id": "find-animal-179-step1-h1-a3-j0",
+        "parent_id": "find-animal-179-step1-premise",
+        "source_type": "imagined_condition"
+      }
+    ]
+  }
+]

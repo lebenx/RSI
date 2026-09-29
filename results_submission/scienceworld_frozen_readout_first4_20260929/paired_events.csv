@@ -1,0 +1,1153 @@
+state_id,task,variation,step,rep,duplication,p_m1,p_m,action_m1,action_m,provenance_action,reward_m1,reward_m,confidence_delta,absolute_confidence_change,confidence_changed,action_flip,repeat_action_flip,repeat_confidence_changed,flip_excess_over_repeat,absolute_drift_excess_over_repeat,reward_change_from_m1,dedup_minus_flat_reward,provenance_value_minus_flat_reward,provenance_success_minus_flat_reward,joint_confidence_and_action_change,harmful_action_flip
+find-plant-v150-s0,find-plant,150,0,0,1,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,0,2,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,0,4,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,0,8,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,1,1,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,1,2,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,1,4,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,1,8,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,2,1,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,2,2,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,2,4,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s0,find-plant,150,0,2,8,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,0,1,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,0,2,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,0,4,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,0,8,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,1,1,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,1,2,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,1,4,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,1,8,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,2,1,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,2,2,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,2,4,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s1,find-plant,150,1,2,8,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,0,1,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,0,2,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,0,4,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,0,8,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,1,1,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,1,2,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,1,4,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,1,8,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,2,1,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,2,2,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,2,4,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s2,find-plant,150,2,2,8,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,0,1,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,0,2,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,0,4,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,0,8,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,1,1,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,1,2,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,1,4,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,1,8,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,2,1,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,2,2,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,2,4,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v150-s3,find-plant,150,3,2,8,0.9,0.9,look at potato,look at potato,look at potato,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s0,find-plant,151,0,0,1,0.1,0.1,teleport to greenhouse,teleport to greenhouse,look in bowl,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v151-s0,find-plant,151,0,0,2,0.1,0.1,teleport to greenhouse,teleport to greenhouse,look in bowl,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v151-s0,find-plant,151,0,0,4,0.1,0.1,teleport to greenhouse,look in bowl,look in bowl,8.0,0.0,0.0,0.0,0,1,0,0,1,0.0,-8.0,8.0,0.0,0.0,0,1
+find-plant-v151-s0,find-plant,151,0,0,8,0.1,0.1,teleport to greenhouse,look in bowl,look in bowl,8.0,0.0,0.0,0.0,0,1,0,0,1,0.0,-8.0,8.0,0.0,0.0,0,1
+find-plant-v151-s0,find-plant,151,0,1,1,0.1,0.1,teleport to greenhouse,teleport to greenhouse,look in bowl,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v151-s0,find-plant,151,0,1,2,0.1,0.1,teleport to greenhouse,teleport to greenhouse,look in bowl,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v151-s0,find-plant,151,0,1,4,0.1,0.1,teleport to greenhouse,look in bowl,look in bowl,8.0,0.0,0.0,0.0,0,1,0,0,1,0.0,-8.0,8.0,0.0,0.0,0,1
+find-plant-v151-s0,find-plant,151,0,1,8,0.1,0.1,teleport to greenhouse,look around,look in bowl,8.0,0.0,0.0,0.0,0,1,0,0,1,0.0,-8.0,8.0,0.0,0.0,0,1
+find-plant-v151-s0,find-plant,151,0,2,1,0.1,0.1,teleport to greenhouse,teleport to greenhouse,look in bowl,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v151-s0,find-plant,151,0,2,2,0.1,0.1,teleport to greenhouse,teleport to greenhouse,look in bowl,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v151-s0,find-plant,151,0,2,4,0.1,0.1,teleport to greenhouse,teleport to greenhouse,look in bowl,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v151-s0,find-plant,151,0,2,8,0.1,0.1,teleport to greenhouse,look around,look in bowl,8.0,0.0,0.0,0.0,0,1,0,0,1,0.0,-8.0,8.0,0.0,0.0,0,1
+find-plant-v151-s1,find-plant,151,1,0,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,0,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,0,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,0,8,0.5,0.8,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,1,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,1,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,1,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,1,8,0.5,0.8,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,2,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,2,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,2,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s1,find-plant,151,1,2,8,0.5,0.8,focus on adult pea plant,focus on adult pea plant,look at adult pea plant,50.0,50.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,-50.0,-50.0,0,0
+find-plant-v151-s2,find-plant,151,2,0,1,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,0,2,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,0,4,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,0,8,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,1,1,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,1,2,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,1,4,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,1,8,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,2,1,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,2,2,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,2,4,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s2,find-plant,151,2,2,8,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,0,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,0,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,0,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,0,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,1,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,1,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,1,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,1,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,2,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,2,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,2,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v151-s3,find-plant,151,3,2,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,0,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,0,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,0,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,0,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,1,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,1,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,1,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,1,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,2,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,2,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,2,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s0,find-plant,152,0,2,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,0,1,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,0,2,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,0,4,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,0,8,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,1,1,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,1,2,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,1,4,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,1,8,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,2,1,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,2,2,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,2,4,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s1,find-plant,152,1,2,8,0.9,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,0,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,0,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,0,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,0,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,1,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,1,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,1,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,1,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,2,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,2,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,2,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s2,find-plant,152,2,2,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,0,1,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,0,2,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,0,4,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,0,8,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,1,1,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,1,2,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,1,4,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,1,8,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,2,1,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,2,2,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,2,4,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v152-s3,find-plant,152,3,2,8,0.9,0.9,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,0,1,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,0,2,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,0,4,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,0,8,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,1,1,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,1,2,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,1,4,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,1,8,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,2,1,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,2,2,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,2,4,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s0,find-plant,153,0,2,8,0.6,0.6,go to greenhouse,go to greenhouse,go to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,0,1,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,0,2,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,0,4,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,0,8,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,1,1,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,1,2,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,1,4,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,1,8,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,2,1,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,2,2,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,2,4,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s1,find-plant,153,1,2,8,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,0,1,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,0,2,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,0,4,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,0,8,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,1,1,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,1,2,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,1,4,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,1,8,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,2,1,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,2,2,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,2,4,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s2,find-plant,153,2,2,8,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,0,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,0,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,0,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,0,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,1,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,1,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,1,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,1,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,2,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,2,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,2,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v153-s3,find-plant,153,3,2,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,0,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,0,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,0,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,0,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,1,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,1,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,1,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,1,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,2,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,2,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,2,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s0,find-plant,154,0,2,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,0,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,0,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,0,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,0,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,1,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,1,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,1,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,1,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,2,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,2,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,2,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s1,find-plant,154,1,2,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,0,1,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,0,2,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,0,4,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,0,8,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,1,1,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,1,2,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,1,4,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,1,8,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,2,1,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,2,2,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,2,4,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s2,find-plant,154,2,2,8,0.0,0.0,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,0,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,0,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,0,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,0,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,1,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,1,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,1,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,1,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,2,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,2,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,2,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v154-s3,find-plant,154,3,2,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,0,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,0,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,0,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,0,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,1,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,1,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,1,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,1,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,2,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,2,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,2,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s0,find-plant,155,0,2,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,0,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,0,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,0,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,0,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,1,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,1,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,1,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,1,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,2,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,2,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,2,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s1,find-plant,155,1,2,8,0.5,0.8,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,0,1,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,0,2,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,0,4,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,0,8,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,1,1,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,1,2,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,1,4,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,1,8,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,2,1,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,2,2,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,2,4,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s2,find-plant,155,2,2,8,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,0,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,0,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,0,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,0,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,1,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,1,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,1,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,1,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,2,1,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,2,2,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,2,4,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v155-s3,find-plant,155,3,2,8,0.9,0.9,teleport to kitchen,teleport to kitchen,teleport to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,0,1,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,0,2,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,0,4,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,0,8,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,1,1,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,1,2,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,1,4,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,1,8,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,2,1,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,2,2,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,2,4,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s0,find-plant,156,0,2,8,0.8,0.8,teleport to greenhouse,teleport to greenhouse,look around,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-9.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,0,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,0,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,0,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,0,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,1,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,1,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,1,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,1,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,2,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,2,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,2,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s1,find-plant,156,1,2,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult apple tree,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,0,1,0.8,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,0,2,0.8,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,0,4,0.8,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.09999999999999998,0.09999999999999998,1,0,0,0,0,0.09999999999999998,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,0,8,0.8,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.09999999999999998,0.09999999999999998,1,0,0,0,0,0.09999999999999998,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,1,1,0.8,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,1,2,0.8,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.09999999999999998,0.09999999999999998,1,0,0,0,0,0.09999999999999998,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,1,4,0.8,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.09999999999999998,0.09999999999999998,1,0,0,0,0,0.09999999999999998,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,1,8,0.8,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.09999999999999998,0.09999999999999998,1,0,0,0,0,0.09999999999999998,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,2,1,0.8,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,2,2,0.8,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.09999999999999998,0.09999999999999998,1,0,0,0,0,0.09999999999999998,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,2,4,0.8,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s2,find-plant,156,2,2,8,0.8,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.09999999999999998,0.09999999999999998,1,0,0,0,0,0.09999999999999998,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,0,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,0,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,0,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,0,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,1,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,1,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,1,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,1,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,2,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,2,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,2,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v156-s3,find-plant,156,3,2,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,0,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,0,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,0,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,0,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,1,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,1,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,1,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,1,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,2,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,2,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,2,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s0,find-plant,157,0,2,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,0,1,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,0,2,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,0,4,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,0,8,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,1,1,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,1,2,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,1,4,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,1,8,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,2,1,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,2,2,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,2,4,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s1,find-plant,157,1,2,8,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,0,1,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,0,2,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,0,4,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,0,8,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,1,1,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,1,2,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,1,4,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,1,8,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,2,1,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,2,2,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,2,4,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s2,find-plant,157,2,2,8,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,0,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,0,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,0,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,0,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,1,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,1,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,1,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,1,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,2,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,2,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,2,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v157-s3,find-plant,157,3,2,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,0,1,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,0,2,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,0,4,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,0,8,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,1,1,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,1,2,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,1,4,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,1,8,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,2,1,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,2,2,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,2,4,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s0,find-plant,158,0,2,8,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,0,1,0.5,0.5,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,0,2,0.5,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,0,4,0.5,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,0,8,0.5,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.4,0.4,1,0,0,0,0,0.4,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,1,1,0.5,0.5,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,1,2,0.5,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,1,4,0.5,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,1,8,0.5,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.4,0.4,1,0,0,0,0,0.4,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,2,1,0.5,0.5,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,2,2,0.5,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,2,4,0.5,0.8,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s1,find-plant,158,1,2,8,0.5,0.9,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.4,0.4,1,0,0,0,0,0.4,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,0,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,0,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,0,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,0,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,1,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,1,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,1,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,1,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,2,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,2,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,2,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s2,find-plant,158,2,2,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,0,1,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,0,2,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,0,4,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,0,8,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,1,1,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,1,2,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,1,4,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,1,8,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,2,1,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,2,2,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,2,4,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v158-s3,find-plant,158,3,2,8,0.95,0.95,move adult pea plant to blue box,move adult pea plant to blue box,move adult pea plant to blue box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,0,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,0,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,0,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,0,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,1,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,1,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,1,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,1,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,2,1,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,2,2,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,2,4,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s0,find-plant,159,0,2,8,0.6,0.6,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,0,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,0,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,0,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,0,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,1,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,1,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,1,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,1,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,2,1,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,2,2,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,2,4,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s1,find-plant,159,1,2,8,0.5,0.5,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s2,find-plant,159,2,0,1,0.1,0.1,teleport to bathroom,teleport to bathroom,inventory,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,0,2,0.1,0.1,teleport to bathroom,teleport to bathroom,inventory,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,0,4,0.1,0.1,teleport to bathroom,teleport to bathroom,inventory,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,0,8,0.1,0.1,teleport to bathroom,pick up adult pea plant,inventory,8.0,8.0,0.0,0.0,0,1,0,0,1,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,1,1,0.1,0.1,teleport to bathroom,teleport to bathroom,inventory,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,1,2,0.1,0.1,teleport to bathroom,teleport to bathroom,inventory,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,1,4,0.1,0.1,teleport to bathroom,pick up adult pea plant,inventory,8.0,8.0,0.0,0.0,0,1,0,0,1,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,1,8,0.1,0.1,teleport to bathroom,pick up adult pea plant,inventory,8.0,8.0,0.0,0.0,0,1,0,0,1,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,2,1,0.1,0.1,teleport to bathroom,teleport to bathroom,inventory,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,2,2,0.1,0.1,teleport to bathroom,inventory,inventory,8.0,0.0,0.0,0.0,0,1,0,0,1,0.0,-8.0,8.0,0.0,0.0,0,1
+find-plant-v159-s2,find-plant,159,2,2,4,0.1,0.1,teleport to bathroom,teleport to bathroom,inventory,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s2,find-plant,159,2,2,8,0.1,0.1,teleport to bathroom,pick up adult pea plant,inventory,8.0,8.0,0.0,0.0,0,1,0,0,1,0.0,0.0,0.0,-8.0,-8.0,0,0
+find-plant-v159-s3,find-plant,159,3,0,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,0,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,0,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,0,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,1,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,1,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,1,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,1,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,2,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,2,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,2,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v159-s3,find-plant,159,3,2,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,0,1,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,0,2,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,0,4,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,0,8,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,1,1,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,1,2,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,1,4,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,1,8,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,2,1,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,2,2,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,2,4,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s0,find-plant,160,0,2,8,0.5,0.5,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,0,1,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,0,2,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,0,4,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,0,8,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,1,1,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,1,2,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,1,4,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,1,8,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,2,1,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,2,2,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,2,4,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s1,find-plant,160,1,2,8,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,0,1,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,0,2,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,0,4,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,0,8,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,1,1,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,1,2,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,1,4,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,1,8,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,2,1,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,2,2,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,2,4,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s2,find-plant,160,2,2,8,0.7,0.7,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,0,1,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,0,2,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,0,4,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,0,8,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,1,1,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,1,2,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,1,4,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,1,8,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,2,1,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,2,2,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,2,4,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v160-s3,find-plant,160,3,2,8,0.9,0.9,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,0,1,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,0,2,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,0,4,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,0,8,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,1,1,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,1,2,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,1,4,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,1,8,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,2,1,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,2,2,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,2,4,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s0,find-plant,161,0,2,8,0.6,0.6,focus on adult pea plant,focus on adult pea plant,focus on adult pea plant,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,0,1,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,0,2,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,0,4,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,0,8,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,1,1,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,1,2,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,1,4,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,1,8,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,2,1,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,2,2,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,2,4,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s1,find-plant,161,1,2,8,0.1,0.1,pick up adult pea plant,pick up adult pea plant,pick up adult pea plant,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,0,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,0,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,0,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,0,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,1,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,1,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,1,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,1,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,2,1,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,2,2,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,2,4,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s2,find-plant,161,2,2,8,0.9,0.9,teleport to bathroom,teleport to bathroom,teleport to bathroom,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,0,1,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,0,2,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,0,4,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,0,8,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,1,1,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,1,2,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,1,4,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,1,8,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,2,1,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,2,2,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,2,4,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-plant-v161-s3,find-plant,161,3,2,8,0.5,0.5,move adult pea plant to purple box,move adult pea plant to purple box,move adult pea plant to purple box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,0,1,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,0,2,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,0,4,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,0,8,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,1,1,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,1,2,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,1,4,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,1,8,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,2,1,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,2,2,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,2,4,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s0,find-animal,150,0,2,8,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,0,1,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,0,2,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,0,4,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,0,8,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,1,1,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,1,2,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,1,4,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,1,8,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,2,1,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,2,2,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,2,4,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s1,find-animal,150,1,2,8,0.1,0.1,look in red box,look in red box,look in red box,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,0,1,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,0,2,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,0,4,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,0,8,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,1,1,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,1,2,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,1,4,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,1,8,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,2,1,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,2,2,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,2,4,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s2,find-animal,150,2,2,8,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,0,1,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,0,2,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,0,4,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,0,8,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,1,1,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,1,2,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,1,4,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,1,8,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,2,1,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,2,2,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,2,4,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v150-s3,find-animal,150,3,2,8,0.5,0.5,look at orange in inventory,look at orange in inventory,look at orange in inventory,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,0,1,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,0,2,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,0,4,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,0,8,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,1,1,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,1,2,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,1,4,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,1,8,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,2,1,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,2,2,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,2,4,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s0,find-animal,151,0,2,8,0.2,0.2,look in bowl,look in bowl,look in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,0,1,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,0,2,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,0,4,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,0,8,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,1,1,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,1,2,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,1,4,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,1,8,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,2,1,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,2,2,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,2,4,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s1,find-animal,151,1,2,8,1.0,1.0,look in green box,look in green box,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,0,1,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,0,2,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,0,4,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,0,8,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,1,1,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,1,2,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,1,4,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,1,8,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,2,1,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,2,2,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,2,4,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s2,find-animal,151,2,2,8,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,0,1,0.25,0.25,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,0,2,0.25,0.25,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,0,4,0.25,0.25,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,0,8,0.25,0.6,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.35,0.35,1,0,0,0,0,0.35,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,1,1,0.25,0.25,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,1,0,-0.35,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,1,2,0.25,0.25,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,1,0,-0.35,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,1,4,0.25,0.25,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,1,0,-0.35,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,1,8,0.25,0.25,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,1,0,-0.35,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,2,1,0.25,0.25,look at potato,look at potato,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,1,0,-1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,2,2,0.25,0.25,look at potato,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,1,1,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,2,4,0.25,0.25,look at potato,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,1,1,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v151-s3,find-animal,151,3,2,8,0.25,0.25,look at potato,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,1,1,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,0,1,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,0,2,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,0,4,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,0,8,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,1,1,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,1,2,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,1,4,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,1,8,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,2,1,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,2,2,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,2,4,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s0,find-animal,152,0,2,8,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,0,1,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,0,2,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,0,4,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,0,8,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,1,1,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,1,2,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,1,4,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,1,8,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,2,1,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,2,2,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,2,4,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s1,find-animal,152,1,2,8,0.8,0.8,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,0,1,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,0,2,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,0,4,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,0,8,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,1,1,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,1,2,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,1,4,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,1,8,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,2,1,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,2,2,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,2,4,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s2,find-animal,152,2,2,8,0.5,0.5,look at adult bee in bee hive,look at adult bee in bee hive,look at adult bee in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,0,1,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,0,2,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,0,4,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,0,8,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,1,1,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,1,2,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,1,4,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,1,8,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,2,1,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,2,2,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,2,4,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v152-s3,find-animal,152,3,2,8,0.9,0.9,focus on adult bee,focus on adult bee,focus on adult bee,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,0,1,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,0,2,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,0,4,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,0,8,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,1,1,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,1,2,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,1,4,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,1,8,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,2,1,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,2,2,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,2,4,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s0,find-animal,153,0,2,8,0.6,0.6,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,0,1,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,0,2,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,0,4,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,0,8,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,1,1,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,1,2,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,1,4,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,1,8,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,2,1,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,2,2,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,2,4,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s1,find-animal,153,1,2,8,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,0,1,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,0,2,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,0,4,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,0,8,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,1,1,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,1,2,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,1,4,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,1,8,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,2,1,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,2,2,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,2,4,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s2,find-animal,153,2,2,8,1.0,1.0,go to kitchen,go to kitchen,go to kitchen,16.0,16.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,0,1,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,0,2,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,0,4,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,0,8,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,1,1,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,1,2,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,1,4,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,1,8,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,2,1,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,2,2,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,2,4,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v153-s3,find-animal,153,3,2,8,0.95,0.95,move baby baby beaver to orange box,move baby baby beaver to orange box,move baby baby beaver to orange box,17.0,17.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,0,1,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,0,2,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,0,4,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,0,8,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,1,1,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,1,2,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,1,4,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,1,8,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,2,1,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,2,2,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,2,4,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s0,find-animal,154,0,2,8,0.6,0.6,go to outside,go to outside,go to outside,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,0,1,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,0,2,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,0,4,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,0,8,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,1,1,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,1,2,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,1,4,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,1,8,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,2,1,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,2,2,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,2,4,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s1,find-animal,154,1,2,8,0.9,0.9,focus on baby baby beaver,focus on baby baby beaver,focus on baby baby beaver,50.0,50.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,0,1,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,0,2,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,0,4,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,0,8,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,1,1,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,1,2,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,1,4,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,1,8,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,2,1,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,2,2,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,2,4,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s2,find-animal,154,2,2,8,0.95,0.95,pick up baby baby beaver,pick up baby baby beaver,pick up baby baby beaver,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,0,1,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,0,2,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,0,4,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,0,8,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,1,1,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,1,2,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,1,4,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,1,8,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,2,1,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,2,2,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,2,4,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v154-s3,find-animal,154,3,2,8,0.5,0.5,go to kitchen,go to kitchen,go to kitchen,8.0,8.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,0,1,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,0,2,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,0,4,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,0,8,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,1,1,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,1,2,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,1,4,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,1,8,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,2,1,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,2,2,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,2,4,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s0,find-animal,155,0,2,8,0.6,0.6,look in hallway,look in hallway,look at hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,0,1,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,0,2,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,0,4,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,0,8,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,1,1,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,1,2,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,1,4,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,1,8,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,2,1,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,2,2,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,2,4,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s1,find-animal,155,1,2,8,0.3,0.3,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,0,1,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,0,2,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,0,4,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,0,8,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,1,1,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,1,2,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,1,4,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,1,8,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,2,1,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,2,2,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,2,4,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s2,find-animal,155,2,2,8,0.5,0.5,look in hallway,look in hallway,teleport to living room,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,0,1,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,0,2,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,0,4,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,0,8,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,1,1,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,1,2,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,1,4,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,1,8,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,2,1,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,2,2,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,2,4,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v155-s3,find-animal,155,3,2,8,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,0,1,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,0,2,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,0,4,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,0,8,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,1,1,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,1,2,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,1,4,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,1,8,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,2,1,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,2,2,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,2,4,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s0,find-animal,156,0,2,8,0.4,0.4,look at hallway,look at hallway,look at door to hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,0,1,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,0,2,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,0,4,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,0,8,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,1,1,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,1,2,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,1,4,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,1,8,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,2,1,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,2,2,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,2,4,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s1,find-animal,156,1,2,8,0.3,0.3,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,0,1,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,0,2,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,0,4,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,0,8,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,1,1,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,1,2,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,1,4,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,1,8,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,2,1,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,2,2,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,2,4,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s2,find-animal,156,2,2,8,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,0,1,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,0,2,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,0,4,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,0,8,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,1,1,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,1,2,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,1,4,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,1,8,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,2,1,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,2,2,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,2,4,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v156-s3,find-animal,156,3,2,8,0.6,0.6,look at bee hive,look at bee hive,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,0,1,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,0,2,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,0,4,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,0,8,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,1,1,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,1,2,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,1,4,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,1,8,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,2,1,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,2,2,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,2,4,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s0,find-animal,157,0,2,8,0.4,0.4,look at cupboard,look at cupboard,look at cupboard,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v157-s1,find-animal,157,1,0,1,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,0,2,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,0,4,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,0,8,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,1,1,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,1,2,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,1,4,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,1,8,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,2,1,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,2,2,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,2,4,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s1,find-animal,157,1,2,8,0.3,0.3,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,0,1,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,0,2,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,0,4,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,0,8,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,1,1,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,1,2,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,1,4,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,1,8,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,2,1,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,2,2,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,2,4,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s2,find-animal,157,2,2,8,0.6,0.6,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,0,1,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,0,2,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,0,4,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,0,8,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,1,1,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,1,2,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,1,4,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,1,8,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,2,1,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,2,2,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,2,4,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v157-s3,find-animal,157,3,2,8,0.35,0.35,look around,look around,teleport to greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,9.0,9.0,0,0
+find-animal-v158-s0,find-animal,158,0,0,1,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,0,2,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,0,4,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,0,8,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,1,1,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,1,2,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,1,4,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,1,8,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,2,1,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,2,2,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,2,4,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s0,find-animal,158,0,2,8,0.8,0.8,open bee hive,open bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,0,1,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,0,2,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,0,4,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,0,8,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,1,1,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,1,2,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,1,4,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,1,8,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,2,1,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,2,2,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,2,4,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s1,find-animal,158,1,2,8,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,0,1,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,0,2,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,0,4,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,0,8,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,1,1,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,1,2,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,1,4,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,1,8,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,2,1,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,2,2,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,2,4,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s2,find-animal,158,2,2,8,0.8,0.8,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,0,1,0.9,0.9,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,0,2,0.9,0.9,look in bee hive,look at bee 0,look in bee hive,0.0,0.0,0.0,0.0,0,1,0,0,1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,0,4,0.9,0.9,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,0,8,0.9,0.9,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,1,1,0.9,0.9,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,1,2,0.9,0.9,look in bee hive,look at bee 0,look in bee hive,0.0,0.0,0.0,0.0,0,1,0,0,1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,1,4,0.9,0.9,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,1,8,0.9,0.9,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,2,1,0.9,0.9,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,1,0,-1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,2,2,0.9,0.9,look in bee hive,look at bee 0,look in bee hive,0.0,0.0,0.0,0.0,0,1,1,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,2,4,0.9,0.9,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,1,0,-1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v158-s3,find-animal,158,3,2,8,0.9,0.9,look in bee hive,look in bee hive,look in bee hive,0.0,0.0,0.0,0.0,0,0,1,0,-1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,0,1,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,0,2,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,0,4,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,0,8,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,1,1,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,1,2,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,1,4,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,1,8,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,2,1,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,2,2,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,2,4,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s0,find-animal,159,0,2,8,0.4,0.4,look in hallway,look in hallway,look in hallway,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,0,1,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,0,2,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,0,4,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,0,8,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,1,1,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,1,2,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,1,4,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,1,8,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,2,1,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,2,2,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,2,4,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s1,find-animal,159,1,2,8,0.4,0.4,teleport to greenhouse,teleport to greenhouse,teleport to greenhouse,9.0,9.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,0,1,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,0,2,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,0,4,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,0,8,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,1,1,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,1,2,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,1,4,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,1,8,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,2,1,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,2,2,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,2,4,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s2,find-animal,159,2,2,8,0.8,0.8,focus on bee 0,focus on bee 0,focus on bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,0,1,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,0,2,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,0,4,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,0,8,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,1,1,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,1,2,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,1,4,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,1,8,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,2,1,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,2,2,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,2,4,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v159-s3,find-animal,159,3,2,8,0.6,0.6,look at bee hive,look at bee hive,look at bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,0,1,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,0,2,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,0,4,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,0,8,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,1,1,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,1,2,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,1,4,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,1,8,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,2,1,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,2,2,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,2,4,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s0,find-animal,160,0,2,8,0.3,0.3,look in bathroom,look in bathroom,look in bathroom,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,0,1,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,0,2,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,0,4,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,0,8,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,1,1,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,1,2,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,1,4,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,1,8,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,2,1,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,2,2,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,2,4,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s1,find-animal,160,1,2,8,0.1,0.1,look around,look around,look around,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,0,1,0.2,0.2,look at fridge,look at fridge,look at bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,0,2,0.2,0.2,look at fridge,look at bowl,look at bowl,0.0,0.0,0.0,0.0,0,1,0,0,1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,0,4,0.2,0.2,look at fridge,look at bowl,look at bowl,0.0,0.0,0.0,0.0,0,1,0,0,1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,0,8,0.2,0.2,look at fridge,look at bowl,look at bowl,0.0,0.0,0.0,0.0,0,1,0,0,1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,1,1,0.2,0.2,look at fridge,look at fridge,look at bowl,0.0,0.0,0.0,0.0,0,0,1,0,-1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,1,2,0.2,0.2,look at fridge,look at counter,look at bowl,0.0,0.0,0.0,0.0,0,1,1,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,1,4,0.2,0.2,look at fridge,look at bowl,look at bowl,0.0,0.0,0.0,0.0,0,1,1,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,1,8,0.2,0.2,look at fridge,look at bowl,look at bowl,0.0,0.0,0.0,0.0,0,1,1,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,2,1,0.2,0.2,look at bowl,look at bowl,look at bowl,0.0,0.0,0.0,0.0,0,0,1,0,-1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,2,2,0.2,0.2,look at bowl,look at counter,look at bowl,0.0,0.0,0.0,0.0,0,1,1,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,2,4,0.2,0.2,look at bowl,look at bowl,look at bowl,0.0,0.0,0.0,0.0,0,0,1,0,-1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s2,find-animal,160,2,2,8,0.2,0.2,look at bowl,look at bowl,look at bowl,0.0,0.0,0.0,0.0,0,0,1,0,-1,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,0,1,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,0,2,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,0,4,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,0,8,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,1,1,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,1,2,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,1,4,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,1,8,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,2,1,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,2,2,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,2,4,0.5,0.5,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v160-s3,find-animal,160,3,2,8,0.5,0.8,look at orange in bowl,look at orange in bowl,look at orange in bowl,0.0,0.0,0.30000000000000004,0.30000000000000004,1,0,0,0,0,0.30000000000000004,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,0,1,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,0,2,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,0,4,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,0,8,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,1,1,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,1,2,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,1,4,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,1,8,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,2,1,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,2,2,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,2,4,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s0,find-animal,161,0,2,8,0.8,0.8,open bee hive,open bee hive,open bee hive,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,0,1,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,0,2,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,0,4,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,0,8,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,1,1,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,1,2,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,1,4,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,1,8,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,2,1,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,2,2,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,2,4,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s1,find-animal,161,1,2,8,0.6,0.6,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,0,1,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,0,2,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,0,4,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,0,8,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,1,1,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,1,2,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,1,4,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,1,8,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,2,1,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,2,2,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,2,4,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s2,find-animal,161,2,2,8,0.5,0.5,look at bee 0,look at bee 0,look at bee 0,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,0,1,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,0,2,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,0,4,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,0,8,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,1,1,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,1,2,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,1,4,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,1,8,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,2,1,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,2,2,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,2,4,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+find-animal-v161-s3,find-animal,161,3,2,8,0.8,0.8,look at adult bee in greenhouse,look at adult bee in greenhouse,look at adult bee in greenhouse,0.0,0.0,0.0,0.0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0,0,0

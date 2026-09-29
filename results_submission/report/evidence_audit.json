@@ -1,0 +1,452 @@
+{
+  "generated_by": "submission.evidence_audit",
+  "checks": [
+    {
+      "requirement": "theory propositions",
+      "status": "verified",
+      "evidence": "paper/theory.md",
+      "note": "seven propositions, aggregation algorithm, corollary, and observability limit present"
+    },
+    {
+      "requirement": "benchmark scale/splits",
+      "status": "verified",
+      "evidence": "results_submission/benchmark/stats.json",
+      "note": "{\"dev\": 723, \"test\": 766, \"train\": 3511}"
+    },
+    {
+      "requirement": "benchmark task families",
+      "status": "verified",
+      "evidence": "results_submission/benchmark/stats.json",
+      "note": ""
+    },
+    {
+      "requirement": "benchmark lineage visualization",
+      "status": "verified",
+      "evidence": "results_submission/benchmark/lineage_example.svg",
+      "note": ""
+    },
+    {
+      "requirement": "benchmark graph and public lineage contract",
+      "status": "verified",
+      "evidence": "results_submission/benchmark/{train,dev,test}{,_public}.jsonl",
+      "note": "full_rows=5000; hidden graph private=True; public_view_filtered=True"
+    },
+    {
+      "requirement": "eleven baselines",
+      "status": "verified",
+      "evidence": "submission/benchmark_eval.py",
+      "note": "no_imagination,flat_rollout,independent_trajectory,mean_pooling,exact_dedup,semantic_dedup,source_grouping,bayesian_mixing,risk_classifier,oracle_provenance,provenance_preserving"
+    },
+    {
+      "requirement": "DeepSeek audit",
+      "status": "verified",
+      "evidence": "results_submission/deepseek_controls/summary.csv",
+      "note": "rows=24; metrics=confidence/action_flip/reward/brier/tokens"
+    },
+    {
+      "requirement": "DeepSeek three-seed MVP",
+      "status": "verified",
+      "evidence": "results_submission/deepseek_mvp_20260929/metadata.json;results_submission/deepseek_mvp_20260929/rows.csv;results_submission/deepseek_mvp_20260929/summary.csv;results_submission/deepseek_mvp_20260929/paired.csv;results_submission/deepseek_mvp_20260929/bootstrap.csv;results_submission/deepseek_mvp_20260929/same_body_control.csv",
+      "note": "valid_rows=60; request_files=30; same_body_identical=True"
+    },
+    {
+      "requirement": "local Qwen audit",
+      "status": "verified",
+      "evidence": "results_submission/local_qwen_controls/summary.csv",
+      "note": "rows=16; metrics=confidence/action_flip/reward/brier"
+    },
+    {
+      "requirement": "scaling 1..64",
+      "status": "verified",
+      "evidence": "results_submission/scaling/baseline_summary.csv",
+      "note": "[1, 2, 4, 8, 16, 32, 64]"
+    },
+    {
+      "requirement": "controlled task-cluster uncertainty",
+      "status": "verified",
+      "evidence": "results_submission/report/controlled_bootstrap.csv",
+      "note": "rows=308; tasks=78; draws=20000"
+    },
+    {
+      "requirement": "controlled uncertainty figure",
+      "status": "verified",
+      "evidence": "results_submission/report/controlled_curves_ci.png",
+      "note": ""
+    },
+    {
+      "requirement": "main table with confidence intervals",
+      "status": "verified",
+      "evidence": "results_submission/report/main_table_ci.csv",
+      "note": "rows=33; budgets=[np.int64(1), np.int64(8), np.int64(64)]"
+    },
+    {
+      "requirement": "independent-rollout value axis",
+      "status": "verified",
+      "evidence": "results_submission/report/independent_scaling.csv;results_submission/report/independent_paired.csv;results_submission/report/independent_scaling.png",
+      "note": "summary_rows=28; paired_rows=42"
+    },
+    {
+      "requirement": "conditional-value variance reduction",
+      "status": "verified",
+      "evidence": "results_submission/report/value_estimation_mse.csv;results_submission/report/value_estimation_mse.png",
+      "note": "groups=624; conditions=independent_rollout,pure_duplication"
+    },
+    {
+      "requirement": "ablation methods",
+      "status": "verified",
+      "evidence": "results_submission/ablations/ablation_summary.csv",
+      "note": "attention_only,oracle_grouping,random_grouping,remove_belief_separation,remove_provenance,remove_sample_identity,simple_dedup"
+    },
+    {
+      "requirement": "learned provenance lexical audit",
+      "status": "verified",
+      "evidence": "results_submission/provenance/metadata.json",
+      "note": "lexical upper bound"
+    },
+    {
+      "requirement": "learned provenance semantic-hard audit",
+      "status": "verified",
+      "evidence": "results_submission/provenance_semantic_hard_final/summary.json",
+      "note": "premise_f1=0.652; source_f1=0.392"
+    },
+    {
+      "requirement": "learned provenance identifiability null",
+      "status": "verified",
+      "evidence": "results_submission/provenance_semantic_hard_final/identifiability_null.csv",
+      "note": "targets=premise,source; draws=2000"
+    },
+    {
+      "requirement": "provenance recovery margin diagnostic",
+      "status": "verified",
+      "evidence": "results_submission/provenance_semantic_hard_final/margin_analysis.csv",
+      "note": "rows=20; learned_bins=8"
+    },
+    {
+      "requirement": "provenance recovery breakdown/curve",
+      "status": "verified",
+      "evidence": "results_submission/report/provenance_edge_breakdown.csv;provenance_noise_curve.csv;provenance_noise_curve.png",
+      "note": ""
+    },
+    {
+      "requirement": "interactive metric coverage",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_v7_dev8_summary.csv",
+      "note": "action_flip_rate,calibration_brier,regret_proxy,reward,steps,success,tokens"
+    },
+    {
+      "requirement": "local Qwen interactive schema smoke",
+      "status": "partial",
+      "evidence": "results_submission/report/scienceworld_local_qwen_compact_summary.csv; results_submission/report/scienceworld_local_qwen_compact_grid_summary.csv",
+      "note": "valid_rows=2; methods=flat,provenance; planner_claim=False; grid_rows=6; grid_schema=ok"
+    },
+    {
+      "requirement": "ScienceWorld local Qwen short-horizon smoke",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_local_qwen_mvp/metadata.json;results_submission/report/scienceworld_local_qwen_mvp/rows.csv;results_submission/report/scienceworld_local_qwen_mvp/summary.csv;results_submission/report/scienceworld_local_qwen_mvp/paired.csv",
+      "note": "valid_rows=4; errors=0; step_limit=2; device=cuda:0; planner_claim=False"
+    },
+    {
+      "requirement": "local Qwen full-episode interactive pilot",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_episode_pilot/metadata.json;results_submission/report/local_qwen_episode_pilot/rows.csv;results_submission/report/local_qwen_episode_pilot/summary.csv;results_submission/report/local_qwen_episode_pilot/paired.csv;results_submission/report/local_qwen_episode_pilot/bootstrap.csv",
+      "note": "valid_rows=12; paired_episodes=3; planner_claim=False"
+    },
+    {
+      "requirement": "local Qwen expanded full-episode interactive pilot",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_expanded_pilot/metadata.json;results_submission/report/local_qwen_expanded_pilot/rows.csv;results_submission/report/local_qwen_expanded_pilot/summary.csv;results_submission/report/local_qwen_expanded_pilot/paired.csv;results_submission/report/local_qwen_expanded_pilot/bootstrap.csv;results_submission/report/local_qwen_expanded_pilot/raw_errors.csv;results_submission/report/local_qwen_expanded_pilot/curve.png",
+      "note": "valid_rows=20; paired_episodes=5; planner_claim=False"
+    },
+    {
+      "requirement": "local Qwen cached provenance-value replay",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_value_replay/metadata.json;results_submission/report/local_qwen_value_replay/rows.csv;results_submission/report/local_qwen_value_replay/summary.csv;results_submission/report/local_qwen_value_replay/paired.csv;results_submission/report/local_qwen_value_replay/bootstrap.csv;results_submission/report/local_qwen_value_replay/cache_audit.json",
+      "note": "valid_rows=20; paired_episodes=5; new_model_requests=0"
+    },
+    {
+      "requirement": "local Qwen second-task-family value control",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_animal_value_replay/metadata.json;results_submission/report/local_qwen_animal_value_replay/rows.csv;results_submission/report/local_qwen_animal_value_replay/summary.csv;results_submission/report/local_qwen_animal_value_replay/paired.csv;results_submission/report/local_qwen_animal_value_replay/bootstrap.csv",
+      "note": "valid_rows=4; paired_episodes=1; planner_claim=False"
+    },
+    {
+      "requirement": "local Qwen expanded second-task-family pilot",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_animal_expanded_pilot/metadata.json;results_submission/report/local_qwen_animal_expanded_pilot/rows.csv;results_submission/report/local_qwen_animal_expanded_pilot/summary.csv;results_submission/report/local_qwen_animal_expanded_pilot/paired.csv;results_submission/report/local_qwen_animal_expanded_pilot/bootstrap.csv;results_submission/report/local_qwen_animal_expanded_pilot/raw_errors.csv",
+      "note": "valid_rows=17; errors=7; paired_episodes=3"
+    },
+    {
+      "requirement": "local Qwen interactive main table",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_interactive_main_table/metadata.json;results_submission/report/local_qwen_interactive_main_table/rows.csv;results_submission/report/local_qwen_interactive_main_table/summary.csv;results_submission/report/local_qwen_interactive_main_table/paired.csv;results_submission/report/local_qwen_interactive_main_table/contrasts.csv;results_submission/report/local_qwen_interactive_main_table/curve.png",
+      "note": "valid_rows=32; paired_episodes=8; families=find-animal,find-plant"
+    },
+    {
+      "requirement": "local Qwen fresh CUDA paired expansion",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_expansion_162_164/metadata.json;results_submission/report/local_qwen_expansion_162_164/rows.csv;results_submission/report/local_qwen_expansion_162_164/summary.csv;results_submission/report/local_qwen_expansion_162_164/paired.csv;results_submission/report/local_qwen_expansion_162_164/bootstrap.csv;results_submission/report/local_qwen_expansion_162_164/action_consistency.csv;results_submission/report/local_qwen_expansion_162_164/action_bootstrap.csv;results_submission/report/local_qwen_expansion_162_164/curve.png",
+      "note": "valid_rows=24; paired_episodes=6; errors=0; episode_success_claim=False"
+    },
+    {
+      "requirement": "local Qwen second fresh CUDA paired expansion",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_expansion_165_167/metadata.json;results_submission/report/local_qwen_expansion_165_167/rows.csv;results_submission/report/local_qwen_expansion_165_167/summary.csv;results_submission/report/local_qwen_expansion_165_167/paired.csv;results_submission/report/local_qwen_expansion_165_167/bootstrap.csv;results_submission/report/local_qwen_expansion_165_167/raw_errors.csv;results_submission/report/local_qwen_expansion_165_167/action_consistency.csv;results_submission/report/local_qwen_expansion_165_167/action_bootstrap.csv;results_submission/report/local_qwen_expansion_165_167/curve.png",
+      "note": "valid_rows=23; paired_episodes=5; errors=1; provenance_flip_zero=True"
+    },
+    {
+      "requirement": "local Qwen fair algorithmic flat-value control",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_fair_flatvalue_168_169/metadata.json;results_submission/report/local_qwen_fair_flatvalue_168_169/rows.csv;results_submission/report/local_qwen_fair_flatvalue_168_169/summary.csv;results_submission/report/local_qwen_fair_flatvalue_168_169/paired.csv;results_submission/report/local_qwen_fair_flatvalue_168_169/bootstrap.csv;results_submission/report/local_qwen_fair_flatvalue_168_169/raw_errors.csv;results_submission/report/local_qwen_fair_flatvalue_168_169/action_consistency.csv;results_submission/report/local_qwen_fair_flatvalue_168_169/action_bootstrap.csv;results_submission/report/local_qwen_fair_flatvalue_168_169/curve.png",
+      "note": "valid_rows=16; paired_episodes=4; errors=0; methods=flat_value,provenance_value"
+    },
+    {
+      "requirement": "local Qwen retry-validated held-out expansion",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_expansion_170_171_retry/metadata.json;results_submission/report/local_qwen_expansion_170_171_retry/rows.csv;results_submission/report/local_qwen_expansion_170_171_retry/summary.csv;results_submission/report/local_qwen_expansion_170_171_retry/paired.csv;results_submission/report/local_qwen_expansion_170_171_retry/bootstrap.csv;results_submission/report/local_qwen_expansion_170_171_retry/raw_errors.csv;results_submission/report/local_qwen_expansion_170_171_retry/action_consistency.csv;results_submission/report/local_qwen_expansion_170_171_retry/action_bootstrap.csv;results_submission/report/local_qwen_expansion_170_171_retry/curve.png",
+      "note": "valid_rows=16; paired_episodes=4; errors=0; candidate_retry=True"
+    },
+    {
+      "requirement": "local Qwen consolidated 23-pair table",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_interactive_expanded_table_v3/metadata.json;results_submission/report/local_qwen_interactive_expanded_table_v3/rows.csv;results_submission/report/local_qwen_interactive_expanded_table_v3/summary.csv;results_submission/report/local_qwen_interactive_expanded_table_v3/paired.csv;results_submission/report/local_qwen_interactive_expanded_table_v3/contrasts.csv;results_submission/report/local_qwen_interactive_expanded_table_v3/curve.png",
+      "note": "valid_rows=95; paired_episodes=23; plant_pairs=12; animal_pairs=11"
+    },
+    {
+      "requirement": "local Qwen consolidated 27-pair table",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_interactive_expanded_table_v4/metadata.json;results_submission/report/local_qwen_interactive_expanded_table_v4/rows.csv;results_submission/report/local_qwen_interactive_expanded_table_v4/summary.csv;results_submission/report/local_qwen_interactive_expanded_table_v4/paired.csv;results_submission/report/local_qwen_interactive_expanded_table_v4/contrasts.csv;results_submission/report/local_qwen_interactive_expanded_table_v4/curve.png",
+      "note": "valid_rows=111; paired_episodes=27; plant_pairs=14; animal_pairs=13"
+    },
+    {
+      "requirement": "local Qwen fourth fresh CUDA expansion",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_expansion_172_173/metadata.json;results_submission/report/local_qwen_expansion_172_173/rows.csv;results_submission/report/local_qwen_expansion_172_173/summary.csv;results_submission/report/local_qwen_expansion_172_173/paired.csv;results_submission/report/local_qwen_expansion_172_173/bootstrap.csv;results_submission/report/local_qwen_expansion_172_173/raw_errors.csv;results_submission/report/local_qwen_expansion_172_173/action_consistency.csv;results_submission/report/local_qwen_expansion_172_173/action_bootstrap.csv;results_submission/report/local_qwen_expansion_172_173/curve.png",
+      "note": "valid_rows=16; paired_episodes=4; errors=0; candidate_retry=True"
+    },
+    {
+      "requirement": "local Qwen independent held-out null expansion",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_heldout174_176/metadata.json;results_submission/report/local_qwen_heldout174_176/rows.csv;results_submission/report/local_qwen_heldout174_176/summary.csv;results_submission/report/local_qwen_heldout174_176/paired.csv;results_submission/report/local_qwen_heldout174_176/bootstrap.csv;results_submission/report/local_qwen_heldout174_176/action_consistency.csv;results_submission/report/local_qwen_heldout174_176/action_bootstrap.csv;results_submission/report/local_qwen_heldout174_176/curve.png",
+      "note": "valid_rows=12; paired_episodes=3; errors=0; baseline=flat_value"
+    },
+    {
+      "requirement": "local Qwen independent held-out animal null expansion",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_heldout177_179/metadata.json;results_submission/report/local_qwen_heldout177_179/rows.csv;results_submission/report/local_qwen_heldout177_179/summary.csv;results_submission/report/local_qwen_heldout177_179/paired.csv;results_submission/report/local_qwen_heldout177_179/bootstrap.csv;results_submission/report/local_qwen_heldout177_179/action_consistency.csv;results_submission/report/local_qwen_heldout177_179/action_bootstrap.csv;results_submission/report/local_qwen_heldout177_179/curve.png",
+      "note": "valid_rows=12; paired_episodes=3; errors=0; baseline=flat_value"
+    },
+    {
+      "requirement": "local Qwen semantic bank prompt intervention",
+      "status": "verified",
+      "evidence": "results_submission/qwen_semantic_bank_probe/protocol.json;results_submission/qwen_semantic_bank_probe/states.json;results_submission/qwen_semantic_bank_probe/results.json;results_submission/qwen_semantic_bank_probe/rows.csv;results_submission/qwen_semantic_bank_probe/summary.csv;results_submission/qwen_semantic_bank_probe/ANALYSIS.md",
+      "note": "planned=12; valid_semantic=8; compact_constant=1.0; semantic_constant=0.375; semantic_template=0.0"
+    },
+    {
+      "requirement": "local Qwen effect heterogeneity",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_effect_heterogeneity/metadata.json;results_submission/report/local_qwen_effect_heterogeneity/heterogeneity.csv;results_submission/report/local_qwen_effect_heterogeneity/forest.png",
+      "note": "rows=48; reward_rows=16; pooled=False"
+    },
+    {
+      "requirement": "cross-model interactive stratified table",
+      "status": "verified",
+      "evidence": "results_submission/report/cross_model_interactive_table/metadata.json;results_submission/report/cross_model_interactive_table/strata.csv;results_submission/report/cross_model_interactive_table/ranges.csv",
+      "note": "rows=104; pooled=False; models=DeepSeek,Qwen2.5-Coder-3B"
+    },
+    {
+      "requirement": "local Qwen CUDA inference probe",
+      "status": "verified",
+      "evidence": "results_submission/report/local_qwen_gpu_probe.json",
+      "note": "device=cuda:0; gpu=NVIDIA GeForce RTX 4090; generated_tokens=4"
+    },
+    {
+      "requirement": "ScienceWorld paired traces",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_v7_method_bootstrap.csv",
+      "note": "reward contrast dup1=8.375; dup4=0.000"
+    },
+    {
+      "requirement": "ScienceWorld fixed-grid expansion",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_expand_summary.csv;results_submission/report/scienceworld_expand_method_bootstrap.csv;results_submission/report/scienceworld_expand_action_bootstrap.csv;results_submission/report/scienceworld_expand_metadata.json",
+      "note": "episodes=72; valid=66; errors=6"
+    },
+    {
+      "requirement": "ScienceWorld fixed-grid grouped-value null check",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_expand_value_summary.csv;results_submission/report/scienceworld_expand_value_paired.csv;results_submission/report/scienceworld_expand_value_metadata.json",
+      "note": "episodes=46; readout=algorithmic unique-sample conditional-value mixture"
+    },
+    {
+      "requirement": "ScienceWorld fixed-grid success-aware provenance ablation",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_expand_success_summary.csv;results_submission/report/scienceworld_expand_success_paired.csv;results_submission/report/scienceworld_expand_success_metadata.json",
+      "note": "valid_rows=46; matched=11"
+    },
+    {
+      "requirement": "ScienceWorld contiguous extension",
+      "status": "partial",
+      "evidence": "results_submission/scienceworld_expand2_m1/summaries.json;results_submission/scienceworld_expand2_success_m4/summaries.json",
+      "note": "valid_rows=20; retained_api_errors=10; excluded_from_claims=True"
+    },
+    {
+      "requirement": "ScienceWorld refreshed DeepSeek comparison",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_recharged_summary.csv;results_submission/report/scienceworld_recharged_paired.csv;results_submission/report/scienceworld_recharged_action_consistency.csv;results_submission/report/scienceworld_recharged_action_bootstrap.csv;results_submission/report/scienceworld_recharged_metadata.json;results_submission/report/scienceworld_recharged_curves.png",
+      "note": "valid_rows=60; api_status=200; broad_success_claim=False"
+    },
+    {
+      "requirement": "ScienceWorld refreshed state-replay counterfactual",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_recharged_counterfactual/summary.csv",
+      "note": "rows=18; grouped_success=1.000; flat_m4_success=0.833"
+    },
+    {
+      "requirement": "ScienceWorld refreshed second-task-family check",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_recharged_animal/scienceworld_recharged_summary.csv;results_submission/report/scienceworld_recharged_animal/scienceworld_recharged_metadata.json;results_submission/report/scienceworld_recharged_animal/scienceworld_recharged_action_bootstrap.csv;results_submission/report/scienceworld_recharged_animal/scienceworld_recharged_curves.png",
+      "note": "valid_rows=36; transient_retry_archived=True; broad_success_claim=False"
+    },
+    {
+      "requirement": "ScienceWorld refreshed comparison table",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_recharged_comparison_all.csv",
+      "note": "rows=16; metrics=confidence/action_flip/reward"
+    },
+    {
+      "requirement": "ScienceWorld expanded fresh-state replay",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_recharged_counterfactual_all/summary.csv;results_submission/report/scienceworld_recharged_counterfactual_all/paired.csv;results_submission/report/scienceworld_recharged_counterfactual_all/bootstrap.csv;results_submission/report/scienceworld_recharged_counterfactual_all/metadata.json",
+      "note": "states=12; rows=36; new_api_calls=0"
+    },
+    {
+      "requirement": "ScienceWorld fresh-key extension",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_recharged_extension/summary.csv;results_submission/report/scienceworld_recharged_extension/paired.csv;results_submission/report/scienceworld_recharged_extension/paired_bootstrap.csv;results_submission/report/scienceworld_recharged_extension/action_consistency.csv;results_submission/report/scienceworld_recharged_extension/action_bootstrap.csv;results_submission/report/scienceworld_recharged_extension/metadata.json",
+      "note": "valid_rows=24; errors=0; api_status=200"
+    },
+    {
+      "requirement": "ScienceWorld fresh-key second-task extension",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_recharged_animal_extension/summary.csv;results_submission/report/scienceworld_recharged_animal_extension/paired.csv;results_submission/report/scienceworld_recharged_animal_extension/paired_bootstrap.csv;results_submission/report/scienceworld_recharged_animal_extension/action_consistency.csv;results_submission/report/scienceworld_recharged_animal_extension/action_bootstrap.csv;results_submission/report/scienceworld_recharged_animal_extension/metadata.json",
+      "note": "valid_rows=24; errors=0; api_status=200"
+    },
+    {
+      "requirement": "ScienceWorld fresh-key fair LLM extension",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_recharged_llm_extension/summary.csv;results_submission/report/scienceworld_recharged_llm_extension/rows.csv;results_submission/report/scienceworld_recharged_llm_extension/confidence.csv;results_submission/report/scienceworld_recharged_llm_extension/paired.csv;results_submission/report/scienceworld_recharged_llm_extension/paired_bootstrap.csv;results_submission/report/scienceworld_recharged_llm_extension/action_consistency.csv;results_submission/report/scienceworld_recharged_llm_extension/action_bootstrap.csv;results_submission/report/scienceworld_recharged_llm_extension/metadata.json",
+      "note": "valid_rows=24; errors=0; api_status=200"
+    },
+    {
+      "requirement": "ScienceWorld fresh-key fair LLM second-task extension",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_recharged_animal_llm_extension/summary.csv;results_submission/report/scienceworld_recharged_animal_llm_extension/rows.csv;results_submission/report/scienceworld_recharged_animal_llm_extension/confidence.csv;results_submission/report/scienceworld_recharged_animal_llm_extension/paired.csv;results_submission/report/scienceworld_recharged_animal_llm_extension/paired_bootstrap.csv;results_submission/report/scienceworld_recharged_animal_llm_extension/action_consistency.csv;results_submission/report/scienceworld_recharged_animal_llm_extension/action_bootstrap.csv;results_submission/report/scienceworld_recharged_animal_llm_extension/metadata.json",
+      "note": "valid_rows=24; errors=0; api_status=200"
+    },
+    {
+      "requirement": "ScienceWorld consolidated interactive ledger",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_interactive_aggregate/summary.csv;results_submission/report/scienceworld_interactive_aggregate/episodes.csv;results_submission/report/scienceworld_interactive_aggregate/confidence.csv;results_submission/report/scienceworld_interactive_aggregate/action_consistency.csv;results_submission/report/scienceworld_interactive_aggregate/paired.csv;results_submission/report/scienceworld_interactive_aggregate/paired_bootstrap.csv;results_submission/report/scienceworld_interactive_aggregate/metadata.json",
+      "note": "valid_rows=96; protocols=refreshed_llm,fresh_key_success; api_calls=0"
+    },
+    {
+      "requirement": "ScienceWorld interactive main table",
+      "status": "verified",
+      "evidence": "results_submission/report/interactive_main_table/summary.csv;results_submission/report/interactive_main_table/contrasts.csv;results_submission/report/interactive_main_table/metadata.json",
+      "note": "summary_rows=32; contrast_rows=56; protocols=refreshed_llm,fresh_key_success,fresh_key_llm"
+    },
+    {
+      "requirement": "real-environment duplication counterfactual",
+      "status": "partial",
+      "evidence": "results_submission/report/scienceworld_interactive_counterfactual.csv;results_submission/report/scienceworld_input_integrity/summary.json",
+      "note": "legacy trace-derived replay retained for auditability; serialized-input audit found post-action mutable history, so clean causal claim is withdrawn"
+    },
+    {
+      "requirement": "grouped-value interactive exploratory run",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_value_summary.csv;results_submission/report/scienceworld_value_paired.csv;results_submission/report/scienceworld_value_curve.png",
+      "note": "four find-plant variations; grouped-value readout"
+    },
+    {
+      "requirement": "second-task-family grouped-value check",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_value_animal_summary.csv;results_submission/report/scienceworld_value_animal_paired.csv;results_submission/report/scienceworld_value_animal_curve.png",
+      "note": "one find-animal variation; null control"
+    },
+    {
+      "requirement": "ALFWorld TextWorld paired interactive comparison",
+      "status": "verified",
+      "evidence": "results_submission/report/alfworld_interactive/metadata.json;results_submission/report/alfworld_interactive/rows.csv;results_submission/report/alfworld_interactive/summary.csv;results_submission/report/alfworld_interactive/paired.csv;results_submission/report/alfworld_interactive/paired_algorithmic.csv;results_submission/report/alfworld_interactive/paired_objectives.csv;results_submission/report/alfworld_interactive/action_consistency.csv;results_submission/report/alfworld_interactive/bootstrap.csv;results_submission/report/alfworld_interactive/action_bootstrap.csv;results_submission/report/alfworld_interactive/curve.png",
+      "note": "valid_rows=132; models=DeepSeek,Qwen2.5-Coder-3B; broad_success_claim=False"
+    },
+    {
+      "requirement": "ALFWorld fair algorithmic flat-value control",
+      "status": "verified",
+      "evidence": "results_submission/report/alfworld_interactive/paired_algorithmic.csv",
+      "note": "paired_rows=6; reward_success_null=True; flat_value_rows=6"
+    },
+    {
+      "requirement": "broad interactive success gain",
+      "status": "not_established",
+      "evidence": "results_submission/report/scienceworld_v7_dev8_summary.csv;results_submission/report/scienceworld_expand_summary.csv",
+      "note": "primary v7 flat/provenance success tied at 0.5; fixed-grid expansion has mixed task-family changes"
+    },
+    {
+      "requirement": "fixed snapshot state replay",
+      "status": "verified",
+      "evidence": "results_submission/scienceworld_snapshot_audit_v5/snapshot_summary.csv",
+      "note": ""
+    },
+    {
+      "requirement": "ScienceWorld clean fixed-bank readout intervention",
+      "status": "verified",
+      "evidence": "results_submission/scienceworld_frozen_readout_clean_20260929/manifest.json;results_submission/scienceworld_frozen_readout_clean_20260929/states.json;results_submission/scienceworld_frozen_readout_clean_20260929/summary.csv;results_submission/scienceworld_frozen_readout_clean_20260929/paired.csv;results_submission/scienceworld_frozen_readout_clean_20260929/bootstrap.csv;results_submission/scienceworld_frozen_readout_clean_20260929/audit.json",
+      "note": "valid_readouts=180; states=12; candidate_replays=48; identical_input_blocks=36; episode_success_claim=False"
+    },
+    {
+      "requirement": "ScienceWorld expanded four-step fixed-bank intervention",
+      "status": "verified",
+      "evidence": "results_submission/scienceworld_frozen_readout_first4_20260929/manifest.json;results_submission/scienceworld_frozen_readout_first4_20260929/states.json;results_submission/scienceworld_frozen_readout_first4_20260929/summary.csv;results_submission/scienceworld_frozen_readout_first4_20260929/paired.csv;results_submission/scienceworld_frozen_readout_first4_20260929/bootstrap.csv;results_submission/scienceworld_frozen_readout_first4_20260929/audit.json;results_submission/scienceworld_frozen_readout_first4_20260929/curve.png",
+      "note": "valid_readouts=1440; states=96; candidate_replays=384; errors=0; episode_success_claim=False"
+    },
+    {
+      "requirement": "ScienceWorld fixed-bank episode-cluster analysis",
+      "status": "verified",
+      "evidence": "results_submission/scienceworld_frozen_readout_first4_20260929/ANALYSIS.md;results_submission/scienceworld_frozen_readout_first4_20260929/episode_bootstrap.csv;results_submission/scienceworld_frozen_readout_first4_20260929/episode_units.csv;results_submission/scienceworld_frozen_readout_first4_20260929/paired_events.csv;results_submission/scienceworld_frozen_readout_first4_20260929/joint_events.csv;results_submission/scienceworld_frozen_readout_first4_20260929/verified_analysis.json;results_submission/scienceworld_frozen_readout_first4_20260929/episode_curves.png;results_submission/scienceworld_frozen_readout_first4_20260929/qualitative_events.md",
+      "note": "episodes=24; paired_comparisons=864; joint_changes=0; confidence_mediated_claim=False"
+    },
+    {
+      "requirement": "ScienceWorld serialized-input integrity audit",
+      "status": "verified",
+      "evidence": "results_submission/report/scienceworld_input_integrity/summary.json",
+      "note": "clean_requests=180; clean_future_outcomes=0; expanded_requests=1440; expanded_future_outcomes=0; legacy_trace_rows_with_post_action_history=4991"
+    },
+    {
+      "requirement": "paper outputs",
+      "status": "verified",
+      "evidence": "paper/draft.md;paper/experiments_draft.md;paper/submission_checklist.md;paper/tables.md;paper/figure_manifest.md;results_submission/report/REPORT.md;results_submission/report/main_table.csv;results_submission/report/main_table_ci.csv;results_submission/report/ablation_endpoint.csv;results_submission/report/qualitative_examples.md",
+      "note": ""
+    },
+    {
+      "requirement": "reproducibility manifest",
+      "status": "verified",
+      "evidence": "results_submission/reproducibility_manifest.json;paper/reproducibility.md",
+      "note": "hashes=331; missing=0; commands=75"
+    },
+    {
+      "requirement": "reviewer evidence matrix",
+      "status": "verified",
+      "evidence": "paper/evidence_matrix.md",
+      "note": ""
+    },
+    {
+      "requirement": "secret hygiene",
+      "status": "verified",
+      "evidence": "submission/ and paper/",
+      "note": "[]"
+    }
+  ],
+  "verified_count": 70,
+  "partial_count": 3,
+  "not_established_count": 1
+}

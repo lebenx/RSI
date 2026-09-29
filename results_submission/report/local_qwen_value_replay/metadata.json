@@ -1,0 +1,27 @@
+{
+  "protocol": "local-qwen-cached-provenance-value-replay-v1",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "task": "find-plant",
+  "variations": [
+    152,
+    153,
+    154,
+    158,
+    161
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "valid_rows": 20,
+  "paired_episodes": 5,
+  "new_model_requests": 0,
+  "cache_audit": "cache_audit.json",
+  "planner_claim": false,
+  "interpretation": "same cached candidate/bank, deterministic provenance-value objective; exploratory second-model replay",
+  "cuda_run_policy": "LOCAL_QWEN_DEVICE=cuda; runner loaded on CUDA while all model requests were cache hits"
+}

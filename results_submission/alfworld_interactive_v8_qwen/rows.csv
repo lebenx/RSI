@@ -1,0 +1,9 @@
+task_type,game_id,method,duplication,success,reward,final_score,steps,unnecessary_actions,charged_tokens,root_confidence_first,root_confidence_last,mean_belief_drift,initial_success_probability,calibration_brier,confidence_steps,errors,trace_file
+2,952d1970902c,flat,1,0,0.0,0.0,10,7,50115,0.9,0.9,-0.39999999999999997,0.5,0.25,10,[],results_submission/alfworld_interactive_v8_qwen/traces/t2-g952d1970902c-flat-m1.jsonl
+2,952d1970902c,flat,4,0,0.0,0.0,10,7,66156,0.9,0.9,-0.39999999999999997,0.5,0.25,10,[],results_submission/alfworld_interactive_v8_qwen/traces/t2-g952d1970902c-flat-m4.jsonl
+2,952d1970902c,provenance_value,1,0,0.0,0.0,10,7,28585,0.9,0.9,0.0,0.2,0.04000000000000001,10,[],results_submission/alfworld_interactive_v8_qwen/traces/t2-g952d1970902c-provenance_value-m1.jsonl
+2,952d1970902c,provenance_value,4,0,0.0,0.0,10,7,28585,0.9,0.9,0.0,0.2,0.04000000000000001,10,[],results_submission/alfworld_interactive_v8_qwen/traces/t2-g952d1970902c-provenance_value-m4.jsonl
+6,dd291172bb96,flat,1,0,0.0,0.0,10,2,39652,0.9,0.9,-0.38999999999999996,0.5,0.25,10,[],results_submission/alfworld_interactive_v8_qwen/traces/t6-gdd291172bb96-flat-m1.jsonl
+6,dd291172bb96,flat,4,0,0.0,0.0,10,4,55393,0.9,0.9,-0.38999999999999996,0.5,0.25,10,[],results_submission/alfworld_interactive_v8_qwen/traces/t6-gdd291172bb96-flat-m4.jsonl
+6,dd291172bb96,provenance_value,1,0,0.0,0.0,10,4,21912,0.9,0.9,0.0,0.0,0.0,10,[],results_submission/alfworld_interactive_v8_qwen/traces/t6-gdd291172bb96-provenance_value-m1.jsonl
+6,dd291172bb96,provenance_value,4,0,0.0,0.0,10,4,21912,0.9,0.9,0.0,0.0,0.0,10,[],results_submission/alfworld_interactive_v8_qwen/traces/t6-gdd291172bb96-provenance_value-m4.jsonl

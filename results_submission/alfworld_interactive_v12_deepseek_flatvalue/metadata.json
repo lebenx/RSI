@@ -1,0 +1,30 @@
+{
+  "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+  "model": "deepseek-chat",
+  "backend": "deepseek",
+  "task_types": [
+    1,
+    2,
+    3
+  ],
+  "games_per_type": 1,
+  "game_offset": 0,
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat_value",
+    "provenance_value",
+    "no_imagination"
+  ],
+  "episodes": 3,
+  "valid_rows": 18,
+  "api_network_calls": 60,
+  "api_network_retries": 0,
+  "cache_hits": 230,
+  "inference": null,
+  "uses_hidden_state_in_prompt": false,
+  "uses_gold_plan": false,
+  "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+}

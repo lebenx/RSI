@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v9-public-discovery-fair",
+  "task": "find-plant",
+  "variation": 159,
+  "method": "flat",
+  "duplication": 4,
+  "step_limit": 2,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 8,
+  "reward": 0,
+  "steps": 2,
+  "charged_tokens": 9419,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": 0.5,
+  "initial_state": {
+    "observation": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the living room. In it, you see: \n\tthe agent\n\ta substance called air\n\ta chair. On the chair is: nothing.\n\ta couch. On the couch is: a white pillow.\n\ta finger painting\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) plant. First, focus on the thing. Then, move it to the orange box in the bathroom.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": null,
+  "runtime_seconds": 43.95309305982664,
+  "trace_file": "results_submission/scienceworld_local_qwen_mvp_v159_m4/episodes/find-plant-v159-flat-m4-trace.jsonl"
+}

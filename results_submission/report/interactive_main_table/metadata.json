@@ -1,0 +1,22 @@
+{
+  "generated_by": "submission.interactive_main_table",
+  "protocols": [
+    "refreshed_llm",
+    "fresh_key_success",
+    "fresh_key_llm"
+  ],
+  "task_families": [
+    "find-plant",
+    "find-animal"
+  ],
+  "summary_rows": 32,
+  "contrast_rows": 56,
+  "methods": [
+    "flat",
+    "no_imagination",
+    "provenance",
+    "provenance_success",
+    "provenance_value"
+  ],
+  "interpretation": "machine-generated real-environment main table; planner readouts remain stratified and broad success gain is not asserted"
+}

@@ -1,0 +1,33 @@
+{
+  "inputs": [
+    "results_submission/scienceworld_expand_m1",
+    "results_submission/scienceworld_expand_m4"
+  ],
+  "tasks": [
+    "find-animal",
+    "find-plant"
+  ],
+  "variations": [
+    150,
+    151,
+    152,
+    153,
+    154,
+    155
+  ],
+  "methods": [
+    "flat",
+    "no_imagination",
+    "provenance"
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "episodes": 72,
+  "valid_episodes": 66,
+  "error_episodes": 6,
+  "selection_rule": "fixed task/variation grid: find-plant and find-animal IDs 150--155",
+  "gold_path": false,
+  "hidden_state": false
+}

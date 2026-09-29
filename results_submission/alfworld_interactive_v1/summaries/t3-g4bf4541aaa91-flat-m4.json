@@ -1,0 +1,22 @@
+{
+  "protocol": "alfworld-textworld-provenance-v1",
+  "task_type": 3,
+  "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Tomato-None-CounterTop-25/trial_T20190909_012550_586494/game.tw-pddl",
+  "game_id": "4bf4541aaa91",
+  "method": "flat",
+  "duplication": 4,
+  "step_limit": 8,
+  "success": 0,
+  "reward": 0.0,
+  "final_score": 0.0,
+  "steps": 8,
+  "unnecessary_actions": 0,
+  "charged_tokens": 38656,
+  "root_confidence_first": 0.3,
+  "root_confidence_last": 1.0,
+  "root_confidence_delta": 0.7,
+  "confidence_steps": 8,
+  "errors": [],
+  "trace_file": "results_submission/alfworld_interactive_v1/traces/t3-g4bf4541aaa91-flat-m4.jsonl",
+  "runtime_seconds": 38.10597331030294
+}

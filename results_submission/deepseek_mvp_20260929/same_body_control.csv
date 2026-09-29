@@ -1,0 +1,13 @@
+seed,duplication,byte_identical_request_body,flat_action,trajectory_average_action,action_disagreement,flat_p_true,trajectory_average_p_true
+0,1,True,0,0,0,0.3,0.3
+0,2,True,0,0,0,0.3,0.3
+0,4,True,0,0,0,0.3,0.3
+0,8,True,0,0,0,0.3,0.3
+1,1,True,1,0,1,0.583333,0.7
+1,2,True,1,0,1,0.583333,0.8
+1,4,True,0,0,0,0.777778,0.583333
+1,8,True,0,1,1,0.823529,0.823529
+2,1,True,1,0,1,0.444444,0.555556
+2,2,True,1,1,0,0.444444,0.444444
+2,4,True,1,1,0,0.444444,0.444444
+2,8,True,1,1,0,0.444444,0.444444

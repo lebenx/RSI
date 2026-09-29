@@ -1,0 +1,505 @@
+seed,scenario_id,truth,duplication,method,confidence,action,raw,reward,baseline_action,flip_from_dup1
+11,seed11-0,True,1,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values in both scenarios, making it the better choice.""
+}
+```",1.8,commit,0
+11,seed11-0,True,1,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The source_id and premise groups have equal counts for both H=true and H=false, but the commit action has higher expected values in both cases.""
+}
+```",1.8,commit,0
+11,seed11-0,True,2,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value in both scenarios (H=true and H=false), making it the optimal choice.""
+}
+```",1.8,commit,0
+11,seed11-0,True,2,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",1.8,commit,0
+11,seed11-0,True,4,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both premises.""
+}
+```",1.8,commit,0
+11,seed11-0,True,4,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values for both H=true and H=false scenarios.""
+}
+```",1.8,commit,0
+11,seed11-0,True,8,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",1.8,commit,0
+11,seed11-0,True,8,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both premises.""
+}
+```",1.8,commit,0
+11,seed11-1,False,1,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values in both scenarios, making it the better choice.""
+}
+```",-1.4,commit,0
+11,seed11-1,False,1,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The source_id and premise groups have equal counts for both H=true and H=false. The commit action has higher expected values for both scenarios.""
+}
+```",-1.4,commit,0
+11,seed11-1,False,2,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value in both scenarios (H=true and H=false), making it the optimal choice.""
+}
+```",-1.4,commit,0
+11,seed11-1,False,2,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",-1.4,commit,0
+11,seed11-1,False,4,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",-1.4,commit,0
+11,seed11-1,False,4,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",-1.4,commit,0
+11,seed11-1,False,8,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",-1.4,commit,0
+11,seed11-1,False,8,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",-1.4,commit,0
+11,seed11-2,True,1,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values in both scenarios, leading to a higher overall probability of H being true.""
+}
+```",1.8,commit,0
+11,seed11-2,True,1,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The source_id and premise groups have equal counts for both H=true and H=false, but the commit action has higher predicted values in both cases.""
+}
+```",1.8,commit,0
+11,seed11-2,True,2,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value in both scenarios (H=true and H=false), making it the optimal choice.""
+}
+```",1.8,commit,0
+11,seed11-2,True,2,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values for both true and false premises.""
+}
+```",1.8,commit,0
+11,seed11-2,True,4,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",1.8,commit,0
+11,seed11-2,True,4,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values for both H=true and H=false scenarios.""
+}
+```",1.8,commit,0
+11,seed11-2,True,8,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",1.8,commit,0
+11,seed11-2,True,8,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values than safe for both H=true and H=false.""
+}
+```",1.8,commit,0
+29,seed29-0,True,1,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values in both scenarios, making it the better choice.""
+}
+```",1.8,commit,0
+29,seed29-0,True,1,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The source_id and premise groups have equal counts for both H=true and H=false, but the commit action has higher expected values in both cases.""
+}
+```",1.8,commit,0
+29,seed29-0,True,2,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value in both scenarios (H=true and H=false), making it the optimal choice.""
+}
+```",1.8,commit,0
+29,seed29-0,True,2,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",1.8,commit,0
+29,seed29-0,True,4,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both premises.""
+}
+```",1.8,commit,0
+29,seed29-0,True,4,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values for both H=true and H=false scenarios.""
+}
+```",1.8,commit,0
+29,seed29-0,True,8,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",1.8,commit,0
+29,seed29-0,True,8,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both premises.""
+}
+```",1.8,commit,0
+29,seed29-1,False,1,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values in both scenarios, making it the better choice.""
+}
+```",-1.4,commit,0
+29,seed29-1,False,1,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The source_id and premise groups have equal counts for both H=true and H=false. The commit action has higher expected values for both scenarios.""
+}
+```",-1.4,commit,0
+29,seed29-1,False,2,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value in both scenarios (H=true and H=false), making it the optimal choice.""
+}
+```",-1.4,commit,0
+29,seed29-1,False,2,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",-1.4,commit,0
+29,seed29-1,False,4,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",-1.4,commit,0
+29,seed29-1,False,4,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",-1.4,commit,0
+29,seed29-1,False,8,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",-1.4,commit,0
+29,seed29-1,False,8,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",-1.4,commit,0
+29,seed29-2,True,1,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values in both scenarios, leading to a higher overall probability of H being true.""
+}
+```",1.8,commit,0
+29,seed29-2,True,1,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The source_id and premise groups have equal counts for both H=true and H=false, but the commit action has higher predicted values in both cases.""
+}
+```",1.8,commit,0
+29,seed29-2,True,2,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value in both scenarios (H=true and H=false), making it the optimal choice.""
+}
+```",1.8,commit,0
+29,seed29-2,True,2,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values for both true and false premises.""
+}
+```",1.8,commit,0
+29,seed29-2,True,4,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",1.8,commit,0
+29,seed29-2,True,4,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values for both H=true and H=false scenarios.""
+}
+```",1.8,commit,0
+29,seed29-2,True,8,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",1.8,commit,0
+29,seed29-2,True,8,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values than safe for both H=true and H=false.""
+}
+```",1.8,commit,0
+47,seed47-0,True,1,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values in both scenarios, making it the better choice.""
+}
+```",1.8,commit,0
+47,seed47-0,True,1,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The source_id and premise groups have equal counts for both H=true and H=false, but the commit action has higher expected values in both cases.""
+}
+```",1.8,commit,0
+47,seed47-0,True,2,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value in both scenarios (H=true and H=false), making it the optimal choice.""
+}
+```",1.8,commit,0
+47,seed47-0,True,2,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",1.8,commit,0
+47,seed47-0,True,4,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both premises.""
+}
+```",1.8,commit,0
+47,seed47-0,True,4,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values for both H=true and H=false scenarios.""
+}
+```",1.8,commit,0
+47,seed47-0,True,8,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",1.8,commit,0
+47,seed47-0,True,8,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both premises.""
+}
+```",1.8,commit,0
+47,seed47-1,False,1,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values in both scenarios, making it the better choice.""
+}
+```",-1.4,commit,0
+47,seed47-1,False,1,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The source_id and premise groups have equal counts for both H=true and H=false. The commit action has higher expected values for both scenarios.""
+}
+```",-1.4,commit,0
+47,seed47-1,False,2,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value in both scenarios (H=true and H=false), making it the optimal choice.""
+}
+```",-1.4,commit,0
+47,seed47-1,False,2,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",-1.4,commit,0
+47,seed47-1,False,4,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",-1.4,commit,0
+47,seed47-1,False,4,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",-1.4,commit,0
+47,seed47-1,False,8,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",-1.4,commit,0
+47,seed47-1,False,8,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action for both H=true and H=false.""
+}
+```",-1.4,commit,0
+47,seed47-2,True,1,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values in both scenarios, leading to a higher overall probability of H being true.""
+}
+```",1.8,commit,0
+47,seed47-2,True,1,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The source_id and premise groups have equal counts for both H=true and H=false, but the commit action has higher predicted values in both cases.""
+}
+```",1.8,commit,0
+47,seed47-2,True,2,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value in both scenarios (H=true and H=false), making it the optimal choice.""
+}
+```",1.8,commit,0
+47,seed47-2,True,2,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values for both true and false premises.""
+}
+```",1.8,commit,0
+47,seed47-2,True,4,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",1.8,commit,0
+47,seed47-2,True,4,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values for both H=true and H=false scenarios.""
+}
+```",1.8,commit,0
+47,seed47-2,True,8,flat,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has a higher expected value than the safe action in all scenarios.""
+}
+```",1.8,commit,0
+47,seed47-2,True,8,provenance,0.9,commit,"```json
+{
+  ""confidence"": 0.9,
+  ""action"": ""commit"",
+  ""rationale"": ""The commit action has higher expected values than safe for both H=true and H=false.""
+}
+```",1.8,commit,0

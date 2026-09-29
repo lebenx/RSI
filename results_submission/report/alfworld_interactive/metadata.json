@@ -1,0 +1,277 @@
+{
+  "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+  "valid_rows": 132,
+  "models": [
+    "DeepSeek",
+    "Qwen2.5-Coder-3B"
+  ],
+  "runs": {
+    "alfworld_interactive_v10_deepseek": {
+      "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+      "backend": "deepseek",
+      "task_types": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "games_per_type": 1,
+      "game_offset": 1,
+      "duplications": [
+        1,
+        4
+      ],
+      "methods": [
+        "no_imagination",
+        "flat",
+        "provenance_value"
+      ],
+      "episodes": 6,
+      "valid_rows": 36,
+      "api_network_calls": 131,
+      "api_network_retries": 0,
+      "cache_hits": 271,
+      "inference": null,
+      "uses_hidden_state_in_prompt": false,
+      "uses_gold_plan": false,
+      "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+    },
+    "alfworld_interactive_v12_deepseek_flatvalue": {
+      "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+      "backend": "deepseek",
+      "task_types": [
+        1,
+        2,
+        3
+      ],
+      "games_per_type": 1,
+      "game_offset": 0,
+      "duplications": [
+        1,
+        4
+      ],
+      "methods": [
+        "flat_value",
+        "provenance_value",
+        "no_imagination"
+      ],
+      "episodes": 3,
+      "valid_rows": 18,
+      "api_network_calls": 60,
+      "api_network_retries": 0,
+      "cache_hits": 230,
+      "inference": null,
+      "uses_hidden_state_in_prompt": false,
+      "uses_gold_plan": false,
+      "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+    },
+    "alfworld_interactive_v4_deepseek": {
+      "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+      "backend": "deepseek",
+      "task_types": [
+        1,
+        2,
+        3
+      ],
+      "duplications": [
+        1,
+        4
+      ],
+      "methods": [
+        "no_imagination",
+        "flat",
+        "provenance_value"
+      ],
+      "episodes": 3,
+      "valid_rows": 18,
+      "api_network_calls": 152,
+      "cache_hits": 230,
+      "inference": null,
+      "uses_hidden_state_in_prompt": false,
+      "uses_gold_plan": false,
+      "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+    },
+    "alfworld_interactive_v6_qwen": {
+      "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+      "backend": "cuda_worker",
+      "task_types": [
+        1
+      ],
+      "duplications": [
+        1,
+        4
+      ],
+      "methods": [
+        "flat",
+        "provenance_value"
+      ],
+      "episodes": 1,
+      "valid_rows": 4,
+      "api_network_calls": 0,
+      "cache_hits": 42,
+      "inference": {
+        "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+        "device": "cuda:0",
+        "dtype": "torch.float16",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "torch_version": "2.13.0+cu130",
+        "cuda_version": "13.0"
+      },
+      "uses_hidden_state_in_prompt": false,
+      "uses_gold_plan": false,
+      "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+    },
+    "alfworld_interactive_v7_deepseek": {
+      "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+      "backend": "deepseek",
+      "task_types": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "games_per_type": 1,
+      "game_offset": 0,
+      "duplications": [
+        1,
+        4
+      ],
+      "methods": [
+        "no_imagination",
+        "flat",
+        "provenance_value"
+      ],
+      "episodes": 6,
+      "valid_rows": 36,
+      "api_network_calls": 326,
+      "api_network_retries": 0,
+      "cache_hits": 508,
+      "inference": null,
+      "uses_hidden_state_in_prompt": false,
+      "uses_gold_plan": false,
+      "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+    },
+    "alfworld_interactive_v8_qwen": {
+      "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+      "backend": "cuda_worker",
+      "task_types": [
+        2,
+        6
+      ],
+      "games_per_type": 1,
+      "game_offset": 0,
+      "duplications": [
+        1,
+        4
+      ],
+      "methods": [
+        "flat",
+        "provenance_value"
+      ],
+      "episodes": 2,
+      "valid_rows": 8,
+      "api_network_calls": 0,
+      "api_network_retries": 0,
+      "cache_hits": 121,
+      "inference": {
+        "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+        "device": "cuda:0",
+        "dtype": "torch.float16",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "torch_version": "2.13.0+cu130",
+        "cuda_version": "13.0"
+      },
+      "uses_hidden_state_in_prompt": false,
+      "uses_gold_plan": false,
+      "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+    },
+    "alfworld_interactive_v9_deepseek_success": {
+      "protocol": "alfworld-textworld-provenance-v4-task-persistent",
+      "backend": "deepseek",
+      "task_types": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "games_per_type": 1,
+      "game_offset": 0,
+      "duplications": [
+        1,
+        4
+      ],
+      "methods": [
+        "provenance_success"
+      ],
+      "episodes": 6,
+      "valid_rows": 12,
+      "api_network_calls": 0,
+      "api_network_retries": 0,
+      "cache_hits": 280,
+      "inference": null,
+      "uses_hidden_state_in_prompt": false,
+      "uses_gold_plan": false,
+      "interpretation": "small exploratory ALFWorld TextWorld paired evaluation; no universal LLM claim"
+    }
+  },
+  "deepseek_valid_rows": 120,
+  "deepseek_base_valid_rows": 108,
+  "deepseek_success_ablation_rows": 12,
+  "flat_value_valid_rows": 6,
+  "algorithmic_control": "v12 compares flat_value and provenance_value on identical conditional banks; duplicate-sensitive flat posterior uses logit increment (m-1)log(1.5)",
+  "deepseek_episode_count": 24,
+  "qwen_episode_count": 3,
+  "qwen_cuda_valid_rows": 12,
+  "qwen_cuda_inference": {
+    "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+    "device": "cuda:0",
+    "dtype": "torch.float16",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "torch_version": "2.13.0+cu130",
+    "cuda_version": "13.0"
+  },
+  "qwen_cuda_inference_by_run": {
+    "alfworld_interactive_v6_qwen": {
+      "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+      "device": "cuda:0",
+      "dtype": "torch.float16",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "torch_version": "2.13.0+cu130",
+      "cuda_version": "13.0"
+    },
+    "alfworld_interactive_v8_qwen": {
+      "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+      "device": "cuda:0",
+      "dtype": "torch.float16",
+      "gpu": "NVIDIA GeForce RTX 4090",
+      "torch_version": "2.13.0+cu130",
+      "cuda_version": "13.0"
+    }
+  },
+  "bootstrap_draws": 20000,
+  "figure": "curve.png",
+  "uses_hidden_state_in_prompt": false,
+  "uses_gold_plan": false,
+  "included_runs": [
+    "alfworld_interactive_v10_deepseek",
+    "alfworld_interactive_v12_deepseek_flatvalue",
+    "alfworld_interactive_v4_deepseek",
+    "alfworld_interactive_v6_qwen",
+    "alfworld_interactive_v7_deepseek",
+    "alfworld_interactive_v8_qwen",
+    "alfworld_interactive_v9_deepseek_success"
+  ],
+  "invalid_runs_excluded": [
+    "alfworld_interactive_v1",
+    "alfworld_interactive_v2",
+    "alfworld_interactive_v3",
+    "alfworld_interactive_v5_qwen"
+  ],
+  "interpretation": "exploratory public-observation smoke; models and task families are not pooled for a broad interactive-success claim"
+}

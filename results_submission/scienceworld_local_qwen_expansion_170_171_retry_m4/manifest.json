@@ -1,0 +1,49 @@
+{
+  "output": "results_submission/scienceworld_local_qwen_expansion_170_171_retry_m4",
+  "tasks": [
+    "find-plant",
+    "find-animal"
+  ],
+  "split": "dev",
+  "variations": 1,
+  "steps": 8,
+  "workers": 1,
+  "methods": [
+    "flat",
+    "provenance_value"
+  ],
+  "duplication": 4,
+  "simplification": "easy",
+  "variation_ids": "find-plant:170,find-plant:171,find-animal:170,find-animal:171",
+  "backend": "local_qwen",
+  "model": "/home/xhj/.cache/huggingface/hub/models--Qwen--Qwen2.5-Coder-3B-Instruct/snapshots/488639f1ff808d1d3d0ba301aef8c11461451ec5",
+  "scienceworld_commit": "e8216d6044e8e39be9fcb185e3b2dfb602584b52",
+  "version": "sw-llm-v9-public-discovery-fair",
+  "episodes": [
+    {
+      "task": "find-plant",
+      "variation": 170,
+      "split": "dev"
+    },
+    {
+      "task": "find-plant",
+      "variation": 171,
+      "split": "dev"
+    },
+    {
+      "task": "find-animal",
+      "variation": 170,
+      "split": "dev"
+    },
+    {
+      "task": "find-animal",
+      "variation": 171,
+      "split": "dev"
+    }
+  ],
+  "uses_gold_path": false,
+  "uses_hidden_state": false,
+  "independent_rollout_claim": false,
+  "budget_note": "shared generation budget; flat uses one extra API readout; report native cost",
+  "candidate_policy": "deterministic public task-phase/action shortlist; invalid model action repaired to first unused admissible shortlist entry"
+}

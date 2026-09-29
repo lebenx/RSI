@@ -1,0 +1,3 @@
+target,actual_f1,test_pairs,test_positive_rate,null_f1_mean,null_f1_ci95_low,null_f1_ci95_high,permutation_draws,interpretation
+premise,0.6521739130434783,18352,0.4838709677419355,0.6521739130434784,0.6521739130434783,0.6521739130434783,2000,label-permutation null; not a semantic oracle
+source,0.3922812857588682,18352,0.22580645161290322,0.35417309892853427,0.34983615936752316,0.35847550192447725,2000,label-permutation null; not a semantic oracle

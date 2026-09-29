@@ -1,0 +1,25 @@
+{
+  "protocol": "scienceworld-local-qwen-cuda-expansion-v1",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "valid_rows": 12,
+  "raw_error_rows": 0,
+  "paired_episodes": 3,
+  "task_families": [
+    "find-plant"
+  ],
+  "duplications": [
+    1,
+    4
+  ],
+  "methods": [
+    "flat_value",
+    "provenance_value"
+  ],
+  "baseline_method": "flat_value",
+  "step_limit": 8,
+  "gpu_probe": "results_submission/report/local_qwen_gpu_probe.json",
+  "cuda_policy": "CUDA required; CPU fallback disabled",
+  "episode_success_claim": false,
+  "candidate_schema_retry": "one explicit local-CUDA retry after preserving the first malformed completion; no API repair",
+  "interpretation": "fresh paired CUDA-Qwen exploratory expansion; task-family strata remain separate"
+}

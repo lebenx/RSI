@@ -1,0 +1,30 @@
+{
+  "version": "sw-llm-v8-public-discovery-fair",
+  "task": "find-animal",
+  "variation": 164,
+  "method": "flat",
+  "duplication": 4,
+  "step_limit": 12,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 25,
+  "reward": 17,
+  "steps": 2,
+  "charged_tokens": 14270,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": 0.7,
+  "initial_state": {
+    "observation": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta picture\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)",
+    "look": "This room is called the bathroom. In it, you see: \n\tthe agent\n\ta substance called air\n\ta bathtub, which is turned off. In the bathtub is: nothing.\n\ta glass cup (containing nothing)\n\ta picture\n\ta sink, which is turned off. In the sink is: nothing.\n\ta toilet. In the toilet is: A drain, which is open, a substance called water.\nYou also see:\n\tA door to the kitchen (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the blue box in the living room.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": {
+    "type": "RuntimeError",
+    "message": "API failure fb8aa3cfd52955f5d3b45052-bank: ReadTimeout"
+  },
+  "runtime_seconds": 78.97763887792826,
+  "trace_file": "results_submission/scienceworld_v9_discovery_extra_m4/episodes/find-animal-v164-flat-m4-trace.jsonl"
+}

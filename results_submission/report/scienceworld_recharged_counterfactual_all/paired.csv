@@ -1,0 +1,13 @@
+task,variation,flat_m1_success,flat_m1_reward,flat_m1_final_score,flat_m1_action,flat_m4_success,flat_m4_reward,flat_m4_final_score,flat_m4_action,provenance_grouped_success,provenance_grouped_reward,provenance_grouped_final_score,provenance_grouped_action,grouped_minus_flat_m4_success,grouped_minus_flat_m4_reward,flat_m4_minus_flat_m1_success,flat_m4_minus_flat_m1_reward
+find-animal,150,0,0.0,17,look in bathroom,0,0.0,17,look in bowl,0,0.0,17,look in bathroom,0,0.0,0,0.0
+find-animal,151,0,0.0,17,look in bowl,0,0.0,17,look in bowl,0,0.0,17,look in bowl,0,0.0,0,0.0
+find-animal,152,1,92.0,100,open bee hive,1,92.0,100,open bee hive,1,92.0,100,open bee hive,0,0.0,0,0.0
+find-animal,153,1,92.0,100,focus on baby baby beaver,1,92.0,100,focus on baby baby beaver,1,92.0,100,focus on baby baby beaver,0,0.0,0,0.0
+find-animal,154,1,92.0,100,go to outside,1,92.0,100,go to outside,1,92.0,100,go to outside,0,0.0,0,0.0
+find-animal,155,0,9.0,17,look in hallway,0,9.0,17,look in hallway,0,9.0,17,look at hallway,0,0.0,0,0.0
+find-plant,150,1,83.0,100,look in bowl,1,83.0,100,look around,1,83.0,100,look around,0,0.0,0,0.0
+find-plant,151,1,83.0,100,teleport to greenhouse,1,83.0,100,look around,1,83.0,100,look in bowl,0,0.0,0,0.0
+find-plant,152,1,92.0,100,focus on adult pea plant,1,92.0,100,focus on adult pea plant,1,92.0,100,focus on adult pea plant,0,0.0,0,0.0
+find-plant,153,1,92.0,100,go to greenhouse,1,92.0,100,go to greenhouse,1,92.0,100,go to greenhouse,0,0.0,0,0.0
+find-plant,154,1,92.0,100,teleport to greenhouse,1,92.0,100,teleport to greenhouse,1,92.0,100,teleport to greenhouse,0,0.0,0,0.0
+find-plant,155,1,92.0,100,teleport to greenhouse,0,17.0,25,look at door to hallway,1,92.0,100,teleport to greenhouse,1,75.0,-1,-75.0

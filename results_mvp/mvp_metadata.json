@@ -1,0 +1,70 @@
+{
+  "model": "deepseek-chat",
+  "api_requested": true,
+  "api_success_by_seed": {
+    "0": true,
+    "1": true,
+    "2": true
+  },
+  "true_state": "RIGHT",
+  "root_hypothesis": "LEFT is safer",
+  "prior_and_rollouts": {
+    "0": {
+      "prior_h_left": 0.25,
+      "rollouts": [
+        {
+          "seed": 0,
+          "source_id": "source_A",
+          "evidence_signature": "left_safer_shared_assumption_v1",
+          "likelihood_ratio": 1.2610942657080226,
+          "model_note": "LEFT is safer, but this rollout repeats the same world-model assumption without any new real observation, so it is not independent evidence."
+        },
+        {
+          "seed": 0,
+          "source_id": "source_B",
+          "evidence_signature": "left_safer_shared_assumption_v1",
+          "likelihood_ratio": 1.8084912779779625,
+          "model_note": "LEFT is safer, but this rollout repeats the same world-model assumption without any new real observation, so it is not independent evidence."
+        }
+      ]
+    },
+    "1": {
+      "prior_h_left": 0.255,
+      "rollouts": [
+        {
+          "seed": 1,
+          "source_id": "source_A",
+          "evidence_signature": "left_safer_shared_assumption_v1",
+          "likelihood_ratio": 1.2618660387183989,
+          "model_note": "LEFT appears safer, but this rollout repeats the same world-model assumption without any new real observation, so it is not independent evidence."
+        },
+        {
+          "seed": 1,
+          "source_id": "source_B",
+          "evidence_signature": "left_safer_shared_assumption_v1",
+          "likelihood_ratio": 1.7779313116374018,
+          "model_note": "LEFT appears safer, but this rollout repeats the same world-model assumption without any new real observation, so it is not independent evidence."
+        }
+      ]
+    },
+    "2": {
+      "prior_h_left": 0.245,
+      "rollouts": [
+        {
+          "seed": 2,
+          "source_id": "source_A",
+          "evidence_signature": "left_safer_shared_assumption_v1",
+          "likelihood_ratio": 1.2508379362808764,
+          "model_note": "LEFT is safer, but this rollout merely repeats the same world-model assumption; no new real observation was made."
+        },
+        {
+          "seed": 2,
+          "source_id": "source_B",
+          "evidence_signature": "left_safer_shared_assumption_v1",
+          "likelihood_ratio": 1.7960625100505736,
+          "model_note": "LEFT is safer, but this rollout merely repeats the same world-model assumption; no new real observation was made."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+duplication,layout,paraphrase,prompt_variant,n,confidence,confidence_delta,action_flip,reward,brier
+1,front,False,cautious,6,0.9,0.0,0.0,0.20000000000000007,0.41
+1,front,False,neutral,6,0.9,0.0,0.0,0.20000000000000007,0.41
+1,front,True,cautious,6,0.9,0.0,0.0,0.20000000000000007,0.41
+1,front,True,neutral,6,0.9,0.0,0.0,0.20000000000000007,0.41
+1,reverse,False,cautious,6,0.9,0.0,0.0,0.20000000000000007,0.41
+1,reverse,False,neutral,6,0.9,0.0,0.0,0.20000000000000007,0.41
+1,reverse,True,cautious,6,0.9,0.0,0.0,0.20000000000000007,0.41
+1,reverse,True,neutral,6,0.9,0.0,0.0,0.20000000000000007,0.41
+4,front,False,cautious,6,0.55,-0.35000000000000003,1.0,0.75,0.1625
+4,front,False,neutral,6,0.9,0.0,0.0,0.20000000000000007,0.41
+4,front,True,cautious,6,0.55,-0.35000000000000003,1.0,0.75,0.1625
+4,front,True,neutral,6,0.9,0.0,0.0,0.20000000000000007,0.41
+4,reverse,False,cautious,6,0.775,-0.125,0.5,-0.3499999999999999,0.46625
+4,reverse,False,neutral,6,0.9,0.0,0.0,0.20000000000000007,0.41
+4,reverse,True,cautious,6,0.55,-0.35000000000000003,1.0,0.75,0.1625
+4,reverse,True,neutral,6,0.775,-0.125,0.5,-0.3499999999999999,0.46625

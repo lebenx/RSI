@@ -1,0 +1,22 @@
+{
+  "protocol": "alfworld-textworld-provenance-v1",
+  "task_type": 6,
+  "game_file": "external/alfworld_data/json_2.1.1/valid_seen/pick_two_obj_and_place-TissueBox-None-Toilet-426/trial_T20190909_044602_338962/game.tw-pddl",
+  "game_id": "5873882cc901",
+  "method": "provenance_value",
+  "duplication": 4,
+  "step_limit": 8,
+  "success": 0,
+  "reward": 0.0,
+  "final_score": 0.0,
+  "steps": 8,
+  "unnecessary_actions": 0,
+  "charged_tokens": 12697,
+  "root_confidence_first": 0.5,
+  "root_confidence_last": 0.5,
+  "root_confidence_delta": 0.0,
+  "confidence_steps": 8,
+  "errors": [],
+  "trace_file": "results_submission/alfworld_interactive_v1/traces/t6-g5873882cc901-provenance_value-m4.jsonl",
+  "runtime_seconds": 0.40153914503753185
+}

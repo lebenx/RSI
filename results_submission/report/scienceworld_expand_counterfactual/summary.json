@@ -1,0 +1,2126 @@
+[
+  {
+    "task": "find-animal",
+    "variation": 150,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "look in bathroom",
+    "p_true": 0.4,
+    "common_suffix_steps": 9,
+    "history": [
+      {
+        "action": "look in bathroom",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look around",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "go to door to outside",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to red box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 10,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 150,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "look in bathroom",
+    "p_true": 0.4,
+    "common_suffix_steps": 9,
+    "history": [
+      {
+        "action": "look in bathroom",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look around",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "go to door to outside",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to red box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 10,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 150,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "look in kitchen",
+    "p_true": 0.4,
+    "common_suffix_steps": 9,
+    "history": [
+      {
+        "action": "look in kitchen",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look around",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "go to door to outside",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to red box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 10,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 151,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "look in bathroom",
+    "p_true": 0.3,
+    "common_suffix_steps": 11,
+    "history": [
+      {
+        "action": "look in bathroom",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "go to door to outside",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to green box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 12,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 151,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "look in kitchen",
+    "p_true": 0.3,
+    "common_suffix_steps": 11,
+    "history": [
+      {
+        "action": "look in kitchen",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "go to door to outside",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to green box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 12,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 151,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "look in kitchen",
+    "p_true": 0.3,
+    "common_suffix_steps": 11,
+    "history": [
+      {
+        "action": "look in kitchen",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at orange in inventory",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "go to door to outside",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to green box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 12,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 152,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "open bee hive",
+    "p_true": 0.6,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "open bee hive",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "look at bee hive",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "look at adult bee in bee hive",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "focus on adult bee",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult bee",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      }
+    ],
+    "final_score": 67,
+    "success": 0,
+    "reward": 59.0,
+    "steps": 5,
+    "terminal": false
+  },
+  {
+    "task": "find-animal",
+    "variation": 152,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "open bee hive",
+    "p_true": 0.6,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "open bee hive",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "look at bee hive",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "look at adult bee in bee hive",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "focus on adult bee",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult bee",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      }
+    ],
+    "final_score": 67,
+    "success": 0,
+    "reward": 59.0,
+    "steps": 5,
+    "terminal": false
+  },
+  {
+    "task": "find-animal",
+    "variation": 152,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "look at bee hive",
+    "p_true": 0.6,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "look at bee hive",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "look at bee hive",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "look at adult bee in bee hive",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "focus on adult bee",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "pick up adult bee",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      }
+    ],
+    "final_score": 8,
+    "success": 0,
+    "reward": 0.0,
+    "steps": 5,
+    "terminal": false
+  },
+  {
+    "task": "find-animal",
+    "variation": 153,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "focus on baby baby beaver",
+    "p_true": 0.6,
+    "common_suffix_steps": 3,
+    "history": [
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to orange box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 153,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "focus on baby baby beaver",
+    "p_true": 0.6,
+    "common_suffix_steps": 3,
+    "history": [
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to orange box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 153,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "focus on baby baby beaver",
+    "p_true": 0.6,
+    "common_suffix_steps": 3,
+    "history": [
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to orange box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 154,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "go to outside",
+    "p_true": 0.6,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "go to outside",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to yellow box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 5,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 154,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "go to outside",
+    "p_true": 0.6,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "go to outside",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to yellow box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 5,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 154,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "go to door to outside",
+    "p_true": 0.6,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "go to door to outside",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on baby baby beaver",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up baby baby beaver",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "go to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move baby baby beaver to yellow box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 5,
+    "terminal": true
+  },
+  {
+    "task": "find-animal",
+    "variation": 155,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "look in hallway",
+    "p_true": 0.4,
+    "common_suffix_steps": 11,
+    "history": [
+      {
+        "action": "look in hallway",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at bee hive",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      }
+    ],
+    "final_score": 17,
+    "success": 0,
+    "reward": 9.0,
+    "steps": 12,
+    "terminal": false
+  },
+  {
+    "task": "find-animal",
+    "variation": 155,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "look in hallway",
+    "p_true": 0.4,
+    "common_suffix_steps": 11,
+    "history": [
+      {
+        "action": "look in hallway",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at bee hive",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      }
+    ],
+    "final_score": 17,
+    "success": 0,
+    "reward": 9.0,
+    "steps": 12,
+    "terminal": false
+  },
+  {
+    "task": "find-animal",
+    "variation": 155,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "look at hallway",
+    "p_true": 0.4,
+    "common_suffix_steps": 11,
+    "history": [
+      {
+        "action": "look at hallway",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at bee hive",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "pick up bee 0",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      }
+    ],
+    "final_score": 17,
+    "success": 0,
+    "reward": 9.0,
+    "steps": 12,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 150,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "look in bowl",
+    "p_true": 0.1,
+    "common_suffix_steps": 7,
+    "history": [
+      {
+        "action": "look in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at red box",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at apple",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to red box",
+        "reward": 0,
+        "score": 75,
+        "done": false
+      }
+    ],
+    "final_score": 75,
+    "success": 0,
+    "reward": 58.0,
+    "steps": 8,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 150,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "look around",
+    "p_true": 0.1,
+    "common_suffix_steps": 7,
+    "history": [
+      {
+        "action": "look around",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at red box",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at apple",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to red box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 8,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 150,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "look around",
+    "p_true": 0.1,
+    "common_suffix_steps": 7,
+    "history": [
+      {
+        "action": "look around",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at red box",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at apple",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to red box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 8,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 151,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "look around",
+    "p_true": 0.2,
+    "common_suffix_steps": 7,
+    "history": [
+      {
+        "action": "look around",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at potato",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to green box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 8,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 151,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "look around",
+    "p_true": 0.2,
+    "common_suffix_steps": 7,
+    "history": [
+      {
+        "action": "look around",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at potato",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to green box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 8,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 151,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "look around",
+    "p_true": 0.2,
+    "common_suffix_steps": 7,
+    "history": [
+      {
+        "action": "look around",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look in bowl",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "look at potato",
+        "reward": 0,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 8,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 0,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to green box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 83.0,
+    "steps": 8,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 152,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "focus on adult pea plant",
+    "p_true": 0.5,
+    "common_suffix_steps": 3,
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 152,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "focus on adult pea plant",
+    "p_true": 0.8,
+    "common_suffix_steps": 3,
+    "history": [
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 58,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 9,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 16,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 4,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 152,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "look at flower pot 4",
+    "p_true": 0.5,
+    "common_suffix_steps": 3,
+    "history": [
+      {
+        "action": "look at flower pot 4",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 17,
+        "score": 25,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to blue box",
+        "reward": 0,
+        "score": 25,
+        "done": false
+      }
+    ],
+    "final_score": 25,
+    "success": 0,
+    "reward": 17.0,
+    "steps": 4,
+    "terminal": false
+  },
+  {
+    "task": "find-plant",
+    "variation": 153,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "go to greenhouse",
+    "p_true": 0.7,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "go to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to orange box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 5,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 153,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "go to greenhouse",
+    "p_true": 0.7,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "go to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to orange box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 5,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 153,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "go to greenhouse",
+    "p_true": 0.7,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "go to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to orange box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 5,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 154,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "teleport to greenhouse",
+    "p_true": 0.6,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "teleport to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to yellow box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 5,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 154,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "teleport to greenhouse",
+    "p_true": 0.6,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "teleport to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to yellow box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 5,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 154,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "teleport to greenhouse",
+    "p_true": 0.6,
+    "common_suffix_steps": 4,
+    "history": [
+      {
+        "action": "teleport to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to yellow box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 5,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 155,
+    "step": 0,
+    "method": "flat",
+    "duplication": 1,
+    "action": "look at hallway",
+    "p_true": 0.6,
+    "common_suffix_steps": 5,
+    "history": [
+      {
+        "action": "look at hallway",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to purple box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 6,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 155,
+    "step": 0,
+    "method": "flat",
+    "duplication": 4,
+    "action": "look in hallway",
+    "p_true": 0.6,
+    "common_suffix_steps": 5,
+    "history": [
+      {
+        "action": "look in hallway",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to purple box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 6,
+    "terminal": true
+  },
+  {
+    "task": "find-plant",
+    "variation": 155,
+    "step": 0,
+    "method": "provenance_grouped",
+    "duplication": 1,
+    "action": "look at hallway",
+    "p_true": 0.6,
+    "common_suffix_steps": 5,
+    "history": [
+      {
+        "action": "look at hallway",
+        "reward": 0,
+        "score": 8,
+        "done": false
+      },
+      {
+        "action": "teleport to greenhouse",
+        "reward": 9,
+        "score": 17,
+        "done": false
+      },
+      {
+        "action": "focus on adult pea plant",
+        "reward": 50,
+        "score": 67,
+        "done": false
+      },
+      {
+        "action": "pick up adult pea plant",
+        "reward": 8,
+        "score": 75,
+        "done": false
+      },
+      {
+        "action": "teleport to kitchen",
+        "reward": 8,
+        "score": 83,
+        "done": false
+      },
+      {
+        "action": "move adult pea plant to purple box",
+        "reward": 17,
+        "score": 100,
+        "done": true
+      }
+    ],
+    "final_score": 100,
+    "success": 1,
+    "reward": 92.0,
+    "steps": 6,
+    "terminal": true
+  }
+]

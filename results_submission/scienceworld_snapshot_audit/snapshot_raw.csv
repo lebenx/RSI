@@ -1,0 +1,19 @@
+task,variation,snapshot_id,duplication,method,action,p_true,success_probability,score_before,score_after,immediate_reward,done,tokens,action_m1,action_flip_from_m1
+find-animal,153,19d98b14de336a8f5ea03641,1,flat,focus on baby baby beaver,0.9,0.9,8,58,50,0,2347,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,1,provenance,focus on baby baby beaver,0.9,0.81,8,58,50,0,0,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,1,no_imagination,focus on baby baby beaver,0.9,0.9,8,58,50,0,0,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,4,flat,focus on baby baby beaver,0.9,0.9,8,58,50,0,4149,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,4,provenance,focus on baby baby beaver,0.9,0.81,8,58,50,0,0,focus on baby baby beaver,0
+find-animal,153,19d98b14de336a8f5ea03641,4,no_imagination,focus on baby baby beaver,0.9,0.9,8,58,50,0,0,focus on baby baby beaver,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,1,flat,focus on adult pea plant,0.9,0.9,8,58,50,0,2706,focus on adult pea plant,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,1,provenance,focus on adult cherry tree,0.5,0.8500000000000001,8,58,50,0,0,focus on adult cherry tree,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,1,no_imagination,focus on adult pea plant,0.5,0.5,8,58,50,0,0,focus on adult pea plant,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,4,flat,focus on adult pea plant,0.9,0.9,8,58,50,0,4503,focus on adult pea plant,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,4,provenance,focus on adult cherry tree,0.5,0.8500000000000001,8,58,50,0,0,focus on adult cherry tree,0
+find-plant,161,bc078fe747799a1bcf0ba1e2,4,no_imagination,focus on adult pea plant,0.5,0.5,8,58,50,0,0,focus on adult pea plant,0
+find-plant,162,db3e30ef43d15894304b868e,1,flat,focus on adult pea plant,0.5,0.9,8,58,50,0,2712,focus on adult pea plant,0
+find-plant,162,db3e30ef43d15894304b868e,1,provenance,focus on adult apple tree,0.5,0.8500000000000001,8,58,50,0,0,focus on adult apple tree,0
+find-plant,162,db3e30ef43d15894304b868e,1,no_imagination,focus on adult pea plant,0.5,0.5,8,58,50,0,0,focus on adult pea plant,0
+find-plant,162,db3e30ef43d15894304b868e,4,flat,focus on adult pea plant,0.9,0.9,8,58,50,0,4444,focus on adult pea plant,0
+find-plant,162,db3e30ef43d15894304b868e,4,provenance,focus on adult apple tree,0.5,0.8500000000000001,8,58,50,0,0,focus on adult apple tree,0
+find-plant,162,db3e30ef43d15894304b868e,4,no_imagination,focus on adult pea plant,0.5,0.5,8,58,50,0,0,focus on adult pea plant,0

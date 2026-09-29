@@ -1,0 +1,27 @@
+{
+  "version": "sw-llm-v9-public-discovery-fair",
+  "task": "find-animal",
+  "variation": 154,
+  "method": "no_imagination",
+  "duplication": 4,
+  "step_limit": 8,
+  "simplification": "easy",
+  "success": 1,
+  "final_score": 100,
+  "reward": 92,
+  "steps": 5,
+  "charged_tokens": 6904,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": 0.4,
+  "initial_state": {
+    "observation": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)",
+    "look": "This room is called the foundry. In it, you see: \n\tthe agent\n\ta substance called air\n\ta blast furnace, which is turned off. The blast furnace door is closed. \n\ta sink, which is turned off. In the sink is: nothing.\n\ta table. On the table is: nothing.\nYou also see:\n\tA door to the outside (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the yellow box in the kitchen.",
+    "score": 8
+  },
+  "terminal": true,
+  "error": null,
+  "runtime_seconds": 11.288473774213344,
+  "trace_file": "results_submission/scienceworld_recharged_v9_findanimal_m4/episodes/find-animal-v154-no_imagination-m4-trace.jsonl"
+}

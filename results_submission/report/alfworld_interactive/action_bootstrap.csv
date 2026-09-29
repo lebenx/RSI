@@ -1,0 +1,7 @@
+model,method,n_episodes,estimate,ci95_low,ci95_high,bootstrap_draws
+DeepSeek,flat,15,0.09333333333333332,0.0,0.21,20000
+DeepSeek,flat_value,3,0.0,0.0,0.0,20000
+DeepSeek,provenance_success,6,0.0,0.0,0.0,20000
+DeepSeek,provenance_value,18,0.0,0.0,0.0,20000
+Qwen2.5-Coder-3B,flat,3,0.2333333333333333,0.0,0.5,20000
+Qwen2.5-Coder-3B,provenance_value,3,0.0,0.0,0.0,20000

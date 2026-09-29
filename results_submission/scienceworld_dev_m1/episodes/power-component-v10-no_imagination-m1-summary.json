@@ -1,0 +1,30 @@
+{
+  "version": "sw-llm-v1",
+  "task": "power-component",
+  "variation": 10,
+  "method": "no_imagination",
+  "duplication": 1,
+  "step_limit": 5,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 0,
+  "reward": 0,
+  "steps": 0,
+  "charged_tokens": 0,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": null,
+  "initial_state": {
+    "observation": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)",
+    "look": "This room is called the art studio. In it, you see: \n\tthe agent\n\ta substance called air\n\ta large cupboard. The large cupboard door is closed. \n\ta table. On the table is: a bowl (containing nothing).\n\ta wood cup (containing red paint)\n\ta wood cup (containing blue paint)\n\ta wood cup (containing yellow paint)\nYou also see:\n\tA door to the hallway (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to turn on the blue light bulb. First, focus on the blue light bulb. Then, create an electrical circuit that powers it on.",
+    "score": 0
+  },
+  "terminal": false,
+  "error": {
+    "type": "ValueError",
+    "message": "non-admissible candidate action"
+  },
+  "runtime_seconds": 2.4526898157782853,
+  "trace_file": "results_submission/scienceworld_dev_m1/episodes/power-component-v10-no_imagination-m1-trace.jsonl"
+}

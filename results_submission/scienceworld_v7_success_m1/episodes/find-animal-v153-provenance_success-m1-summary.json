@@ -1,0 +1,30 @@
+{
+  "version": "sw-llm-v8-public-discovery-fair",
+  "task": "find-animal",
+  "variation": 153,
+  "method": "provenance_success",
+  "duplication": 1,
+  "step_limit": 40,
+  "simplification": "easy",
+  "success": 0,
+  "final_score": 8,
+  "reward": 0,
+  "steps": 0,
+  "charged_tokens": 0,
+  "repeated_no_visible_change": 0,
+  "initial_success_probability": null,
+  "initial_state": {
+    "observation": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta baby beaver\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\ta giant tortoise egg\n\tthe ground\n\ta parrot egg\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)",
+    "look": "This outside location is called the outside. Here you see: \n\tthe agent\n\ta substance called air\n\tan axe\n\ta baby beaver\n\ta fire pit (containing nothing)\n\ta fountain (containing nothing)\n\ta giant tortoise egg\n\tthe ground\n\ta parrot egg\n\ta substance called wood\nYou also see:\n\tA door to the foundry (that is open)\n\tA door to the greenhouse (that is open)\n\tA door to the kitchen (that is open)\n",
+    "inventory": "In your inventory, you see:\n\tan orange\n",
+    "task": "Task Description:\nYour task is to find a(n) animal. First, focus on the thing. Then, move it to the orange box in the kitchen.",
+    "score": 8
+  },
+  "terminal": false,
+  "error": {
+    "type": "RuntimeError",
+    "message": "DEEPSEEK_API_KEY required for uncached request"
+  },
+  "runtime_seconds": 0.0033383979462087154,
+  "trace_file": "results_submission/scienceworld_v7_success_m1/episodes/find-animal-v153-provenance_success-m1-trace.jsonl"
+}
